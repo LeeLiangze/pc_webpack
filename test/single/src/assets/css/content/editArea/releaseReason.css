@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+div#release_reason_container {
+	width:100%;
+	height:290px;
+}
+div#release_reason_all {
+	height:240px; 
+	text-align:left;
+}
+div#release_reason_btn {
+	height:30px;
+	text-align:center;
+}
+div#release_reason_btn .btn {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+    margin-right: 10px;
+    border: 1px solid #DDD;
+    padding: 0 14px;
+    background: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    white-space: nowrap;
+    color: #333;
+}
+div#release_reason_btn .btn:hover {
+    background: #F9F9F9;
+    border-color: #CCC;
+    color: #333;
+}
+div#release_reason_btn .btn-blue {
+    background: #339dd9;
+    border-color: #208bc8;
+    color: #fff !important;
+}
+div#release_reason_btn .btn-blue:hover {
+    border-color: #208bc8;
+    background: #2c91ca;
+    color: #fff;
+}

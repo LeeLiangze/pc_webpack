@@ -1,0 +1,53 @@
+{
+  "busiCode": null,
+  "opId": null,
+  "phone": null,
+  "returnCode": "0",
+  "returnMessage": "服务调用成功!",
+  "bean": {
+    "customerName": "广*********58",
+    "telNumStar": "三星级",
+    "customerNameCode": "2038946158",
+    "enterDate": "20100714",
+    "customerAssignment": "南宁",
+    "telNumState": "在用",
+    "paymentMethodCode": "0",
+    "numAssignment": "郑州市",
+    "brandId": "261000000004",
+    "brandName": "动感地带",
+    "lineOfCredit": "0",
+    "tariffPackagesCode": "211071106816",
+    "telNumStarCode": "3",
+    "telNumStateCode": "1",
+    "customerAssignmentCode": "771",
+    "stopBootTelCode": "0000000000000000000000000000000000000000000000000000000000000000",
+    "numLevel": "3星客户",
+    "numAssignmentCode": "410100",
+    "tariffPackages": "动感地带拇指套餐（南宁）_市区",
+    "stopBootTel": "开机",
+    "paymentMethod": "现金",
+    "customerNameList": ""
+  },
+  "beans": [
+    {
+      "userBegin": "20100714",
+      "curPlanName": "动感地带拇指套餐（南宁）_市区",
+      "customerAssignment": "南宁",
+      "oweFee": "0",
+      "brandId": "261000000004",
+      "brandName": "动感地带",
+      "provNm": "郑州市",
+      "starLevel": "三星级",
+      "res_specidname": null,
+      "telNumStarCode": "3",
+      "userStatus": "在用",
+      "userLevel": "3星客户",
+      "userName": "广*********58",
+      "numAssignmentCode": "410100",
+      "paymentMethod": "现金",
+      "stopBootTel": "开机",
+      "customerNameList": ""
+    }
+  ],
+  "object": null
+}

@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+/* 2016 12 12 by xuexiangqian*/
+ * {margin: 0;padding: 0;}
+ /* .out3{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='src/assets/img/login/loading.gif',sizingMethod='scale');-ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='src/assets/img/login/loading.gif',sizingMethod='scale')";} */
+ .out1{background-color: #f0f6fa;min-width: 1280px;}
+ .out {margin: auto;width: 1280px;background: url(../../img/login/back.png);background-size: 100% 100%;position: relative;}
+ .out{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='src/assets/img/login/back.png',sizingMethod='scale');-ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='src/assets/img/login/back.png',sizingMethod='scale')";}
+ .content{width: 1280px;height:567px;background: url(../../img/login/content.png);background-size: 100% 100%;position: absolute;top:40px;bottom:0;margin:auto;display:none}
+.info h2{letter-spacing: 3px;width: 180px;margin:auto;font-size:26px; color:#222;margin-top: 14%;}
+.info{width: 440px;height: 567px;margin-left: 738px;position:relative;}
+.infoIn{width: 320px;height:80%;margin: auto;position:absolute;top:0;bottom:0;left:0;right:0;}
+			/*锟斤拷图选锟斤拷*/
+.titlev{display: block;margin-top: 5%;width: 90px;height:16px;background-image: url(../../img/login/view-icon.png);background-repeat: no-repeat;text-align: right;font-size: 12px;font-weight:bold; color:#222;}
+.views , .menus{margin-top: 5px;}
+.views1 .floatA{display:none;width: 250px;height: 35px;background: url(../../img/login/infofloat.png);position: absolute;top: -30px;font-size: 12px;text-align: center;line-height: 35px;color: #222222;font-weight: bold;}
+.views1:hover .floatA{display:block}
+.floatB{display:none;width: 250px;height: 35px;background: url(../../img/login/infofloat.png);position: absolute;top: -30px;font-size: 12px;text-align: center;line-height: 35px;color: #222222;font-weight: bold;}	
+.views2:hover .floatB{display:block}
+.views3 .floatWeb{display:none;width: 250px;height: 35px;background: url(../../img/login/infofloat.png);position: absolute;top: -30px;font-size: 12px;text-align: center;line-height: 35px;color: #222222;font-weight: bold;}
+.views3:hover .floatWeb{display:block}
+.views4 .floatManager{display:none;width: 250px;height: 35px;background: url(../../img/login/infofloat.png);position: absolute;top: -30px;font-size: 12px;text-align: center;line-height: 35px;color: #222222;font-weight: bold;}
+.views4:hover .floatManager{display:block}
+.views1,.views2,.views3,.views4 ,.menus1,.menus2{width: 72px;height:82px;float:left;margin-right:8px;cursor: pointer;position: relative;}
+.menus1:hover .floatB{display:block;}
+.menus2:hover .floatB{display:block;}	
+.views span , .menus span{display: inline-block;width: 65px;height:16px;font-size: 12px;color: #222;margin-top: 5px;text-align: center;color: #666;position: absolute;bottom: 0;left: 0;}
+.views img, .menus img{position: absolute;bottom: 21px;left: 0;}
+.views .color, .menus .color{color: #222;font-weight:bold;}
+			/*锟斤拷锟斤拷说锟窖★拷锟�*/ 
+.titleM{display: block;width: 110px;height:16px;margin-top: 5%;background-image: url(../../img/login/nexticon@2x.png);background-repeat: no-repeat;text-align: right;font-weight:bold; font-size: 12px;color: #222;}
+.point{font-size: 12px;color: #999999;margin: 5% 0;}		
+			/*button锟斤拷锟斤拷*/
+.btn span{display: inline-block;margin-top: 0;line-height: 40px;border-radius: 5px;cursor: pointer;font-size: 14px;}
+.bs1{background:url(../../img/login/button.png);width: 300px;height: 40px;text-align: center;color: white;}
+/*CTI选锟斤拷页锟斤拷*/		
+.content2{width: 1280px;height:567px;background: url(../../img/login/content.png);background-size: 100% 100%;position: absolute;top:40px;bottom:0;margin:auto;display:none;}
+.info2{cursor:pointer;width: 440px;height: 567px;margin-left: 738px;position:relative;}
+.info2In{width: 300px;height: 80%;margin: auto;position:absolute;top:0;bottom:0;right:0;left:0;}
+.info2 h2{letter-spacing: 3px;width: 180px;height:30px;margin:auto;margin-top:9%;margin-bottom:6.5%;font-size:26px; color:#222;}
+/*锟斤拷一锟斤拷*/
+.info2 .sel1, .info2 .sel2{width: 300px;}
+.info2 .sel1s, .info2 .sel2s{text-indent: 1em;cursor:pointer;width:296px;height: 35px;border: 2px solid #d0d6d9;margin-bottom: 3.7%;background: url(../../img/login/xl-34.png) no-repeat 275px center;line-height: 35px;font-size: 12px;}
+.info2 .sel1, .info2 .sel2, .info2 .sel3, .info2 .sel4{position: relative}
+.info2 .sel1info{text-indent: 1em;position: absolute;top: 38px;z-index: 1;background: white;font-size: 12px;display: none;}
+.info2 .sel1info span{display: block;height: 30px;color: #222222;width: 298px;border: 1px solid #d0d6d9;line-height: 30px;}
+.info2 .sel1info span:hover{background: #0085d0;color: white;}
+.selColor{background: #0085d0;color: white;}
+.unColor{background: white;}
+/*锟节讹拷锟斤拷*/
+.info2 .sel2info{text-indent: 1em;position: absolute;top: 38px;z-index: 1;background: white;font-size: 12px;display: none;}
+.info2 .sel2info span{display: block;height: 30px;color: #222222;width: 298px;border: 1px solid #d0d6d9;line-height: 30px;}
+.info2 .sel2info span:hover{background: #0085d0;color: white;}
+/*锟斤拷锟斤拷锟斤拷*/
+.info2 .sel3{font-size: 12px;width:300px;margin-bottom:3.7%;position: relative;}
+.info2 .sel3s{text-indent: 1em;background: url(../../img/login/xl-34.png) no-repeat 276px center;line-height: 35px;}
+.info2 .sel3 .sel3s, .info2  #num{cursor:pointer;width: 296px;height: 35px;border: 2px solid #d0d6d9;}
+ #num{text-indent: 1em;display:none;line-height: 35px;color:#999;}
+.info2 .sel3info{text-indent: 1em;position: absolute;top: 38px;z-index: 2;background: white;display: none;}
+.info2 .sel3info span{display: block;height: 30px;width: 298px;border: 1px solid #d0d6d9;line-height: 30px;}
+.info2 .sel3info span:hover{background: #0085d0;color: white;}
+/*selectAudioType*/
+.info2 .selectAudioType{font-size: 12px;width:300px;margin-bottom:3.7%;position: relative;display:none;}
+.info2 .selectAudioTypes{text-indent: 1em;background: url(../../img/login/xl-34.png) no-repeat 276px center;line-height: 35px;}
+.info2 .selectAudioType .selectAudioTypes{cursor:pointer;width: 296px;height: 35px;border: 2px solid #d0d6d9;}
+.info2 .selectAudioTypeinfo{text-indent: 1em;position: absolute;top: 38px;z-index: 2;background: white;display: none;}
+.info2 .selectAudioTypeinfo span{display: block;height: 30px;width: 298px;border: 1px solid #d0d6d9;line-height: 30px;}
+.info2 .selectAudioTypeinfo span:hover{background: #0085d0;color: white;}
+/*锟斤拷锟斤拷锟斤拷*/
+.info2 .sel4s{cursor:pointer;width: 146px;height: 35px;border: 2px solid #d0d6d9;}
+.info2 .sel4{margin-top:3.7%;width:300px;position: relative;text-indent: 1em;}
+.info2 .sel4s{font-size: 12px;background: url(../../img/login/xl-34.png) no-repeat 128px center;line-height: 35px;}
+.info2 .sel4info {font-size: 12px;position: absolute;top: 38px;left:150px;z-index: 2;background: white;display: none;}
+.info2 .sel4info span{display: block;height: 30px;width: 148px;border: 1px solid #d0d6d9;line-height: 30px;}
+.info2 .sel4info span:hover{background: #0085d0;color: white;}
+
+.info2 #sel4r{cursor:pointer;width: 130px;height: 35px;line-height: 35px;font-size: 12px;}
+#sing {margin-top:11px;cursor:pointer;outline: none;}
+/*button锟斤拷锟斤拷*/
+.info2 .btnCTI span{width:304px;display: inline-block;cursor: pointer;font-size: 14px;}
+.info2 .bs1CTI{background:url(../../img/login/newdl.png);height: 45px;line-height:40px;text-align: center;color: #CCCCCC;margin-top: 5%;letter-spacing: 1em;}
+ /*.info2 .bs1CTI:hover{background: url(../../img/login/button.png) no-repeat;color: white;} */
+           /*锟截硷拷锟斤拷锟斤拷*/
+.login_bottom{width: 1280px;height: 60px;position: absolute;bottom: 20px;left: 50%;margin-left: -640px;}
+#download{width: 90px;margin: auto;text-align: right;background: url(../../img/login/xz-icon.png) no-repeat;color: #78909c;font-size: 14px;cursor: pointer;}
+/* #download a{text-decoration: none;color: #ccc;} */
+.login_bottom p{width: 600px;margin: auto;color: #cccccc;font-size: 14px;margin-top: 10px;text-align:center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,370 @@
+@CHARSET "UTF-8";
+ .jobNumMainDiv .list{
+	height:280px; 
+	overflow:auto;
+	width: 92%;
+	padding: 0 4%;
+	padding-top: 14px;
+}
+.jobNumMainDiv select{
+	text-indent: 12px;
+	font-size: 12px;
+	border:1px solid #D0D6D9;
+}
+#orgId_transfer .sn-selectTree > .has-formlayer> .formlayer.formlayer-has-btns > .formlayer-btns a{
+	background-color: #0085D0;
+	color:white;
+}
+.jobNumMainDiv .text{
+	padding: 3px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.jobNumMainDiv .transferRadio{
+	text-align:right;
+	width:95%;
+    font-size :12px;
+    color: #333;
+}
+.jobNumMainDiv .statusSelect{
+	height:26px;
+}
+.jobNumMainDiv .accountCSS{
+	width: 112px;
+	height:22px;
+}
+.jobNumMainDiv .refreshTime{
+	width: 50%;
+	height:22px;
+	border: 1px solid #DDD;
+}
+.jobNumMainDiv .upAndDown{
+	width: 8%;
+	height:22px;
+	color:#fff;
+	border-color: #66ccff;
+	background: #66ccff;
+}
+.jobNumMainDiv .liCenter{
+	text-align:center;
+}
+.jobNumMainDiv .liRight{
+	text-align:right;
+}
+.jobNumMainDiv .leftWidth{
+	width:2%;
+	padding-top:10px;
+}
+.jobNumMainDiv .boxes{
+	font-size:12px;
+	-webkit-text-size-adjust:none;
+	color: #333;
+	overflow:hidden;
+	 }
+.jobNumMainDiv .label{
+	display: block;
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    color: #666;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.jobNumMainDiv .jf-right-wrap-bak{
+    position: relative;
+    background: #FFF;
+}
+.jobNumMainDiv .jf-form-bak{
+    margin-bottom: 20px;
+}
+.jobNumMainDiv .radio_transfer{
+    min-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.jobNumMainDiv .refreshTimeFont{
+	margin-left:15px;
+}
+.jobNumMainDiv .padding{
+	padding-bottom: 50px;
+}
+.jobNumMainDiv .input{
+	height: 26px;
+/* 	position: absolute; */
+	left: 0;
+	top: 5px;
+	z-index: 2;
+	background: transparent;
+	line-height: 26px;
+}
+.jobNumMainDiv .div{
+	padding: 3px;
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid #DDD;
+}
+.jobNumMainDiv .jf-form-item li a:hover {
+	color: #FFFFFF; 
+	}
+.jobNumMainDiv .textarea_transfer {
+	height: 26px; 
+	}
+.jobNumMainDiv .select_transfer{
+	margin-top:7px;
+	height:27px;
+	padding: 3px;
+/*     width:60%; */
+    box-sizing: border-box;
+    border: 1px solid #DDD;
+    margin-left: 2%;
+	}
+.jobNumMainDiv .text_transfer{
+	height: 26px;
+/*     position: absolute; */
+    left: 0;
+    top: 5px;
+    z-index: 2;
+    background: transparent;
+    border: 1px solid #DDD;
+    line-height: 26px;
+}
+.jobNumMainDiv .jf-form-item > li > div input {
+	height: 26px;
+/* 	position: absolute; */
+	left: 0; top: 5px;
+	z-index: 2;
+	background: transparent;
+	border: 1px solid #DDD;
+	line-height: 26px;
+	}
+.group_skillQue1{ height:415px;}
+.jobNumMainDiv .rightDown{ bottom:0; right:3px; margin-bottom:20px; padding-bottom:0px;}	
+
+.proAndCityUl {
+	overflow:hidden;
+	padding-top:10px;
+	padding-left:7px;	
+}
+
+.proAndCityUl > li {
+	float:left;
+	display:block;
+}
+
+.proAndCityUl #provinceId_transfer {
+	width:37%;
+}
+
+.proAndCityUl .cityUitwo {
+	width:3%;
+	margin-left:5px;
+	padding-top:5px
+}
+
+.proAndCityUl #cityId_transfer {
+	width:51%;
+}
+
+.proAndCityUl #cityId_transfer div {
+	width:160px;
+}
+
+.departAndSearchUl {
+	margin-top:5px;
+	float:left;
+	width:78%;
+}
+
+.departAndSearchUl .searchOne {
+	width:52%;
+	float:left;
+/* 	margin-top:10px; */
+	margin-left:7px;
+}
+
+.departAndSearchUl .searchTwo {
+	width:23%;
+	float:right;
+	margin-right:17px;
+}
+
+.departAndSearchUl select {
+	width:100%;
+	height:27px;
+	border-radius:4px;
+}
+
+.departAndSearchUl li a {
+	height:25px;
+	line-height:27px;
+	border-radius:4px;
+}
+
+
+.buttonUl {
+	text-align:center;
+	overflow : hidden;
+}
+
+.buttonUl > li.liShow {
+	display:inline;	
+}
+
+.buttonUl > li.liHide {
+	display:inline;
+	position:relative;
+	top:0;
+}
+
+.jobNumNotifyDiv {
+	display:none;
+}
+
+.buttonDivs {
+	margin-top:2%;
+}
+
+.divCenterStyle {
+	width:95%;
+	padding-left:2.5%;
+}
+
+#cityId_transfer > select {
+	margin-top:0;
+}
+
+.leftWidthAccount {
+	width:2%;
+}
+
+.leftWidthAccount input {
+	border-radius: 4px;
+}
+
+.commentDivJob {
+	height:130px;
+	overflow:hidden;
+	margin-top:20px;
+	margin-left: 1.5%;
+}
+
+.commentDivJob > ul {
+	overflow:hidden;
+}
+
+.commentDivJob > ul > li {
+	width:50%;
+	float:left;
+	display:block;
+}
+
+.commentDivJob  ul  #transferId_transfer {
+	width:40%;
+}
+
+.commentDivJob > ul > li > label {
+	float:left;
+	margin-top:10px;
+	margin-right:5px;
+}
+
+.commentDivJob > ul > li > div {
+	float:left;
+	width:86%;
+	margin-top:10px;
+}
+
+.commentDivJob > ul > li > div > textarea {
+	width : 100%;
+}
+
+#notesId_transfer {
+	resize:none;
+	width: 100%;
+    height: 76px;
+    margin-left: 2%;
+}
+.jobNumMainDiv .has-formlayer .formlayer{
+	display:block;
+	width:100%;
+}
+.buttonDivs .buttonUl .enable input{
+	background: #0085D0;
+    color: white;
+    cursor:hand;
+}
+.buttonDivs .buttonUl .disabled input{
+	background: #fff;
+    color: gray;
+    border: 1px solid lightgray;
+	cursor:auto;
+}
+
+.jobNumMainDiv #searchId_transfer {
+	background: #0085D0;
+    color: white;
+    width: 54%;
+    text-align: center;
+}
+
+.orgId_transfer input {
+	border-radius: 4px;
+	border: 1px solid #D0D6D9;
+}
+
+#skillId_transfer select {
+	border-radius: 4px;
+	height: 27px;
+	border: 1px solid #D0D6D9;
+} 
+
+#provinceId_transfer select {
+	height:27px;
+	border-radius:4px;
+	border: 1px solid #D0D6D9;
+}
+
+#cityId_transfer select {
+	height: 27px;
+	width: 100%;
+    border-radius: 4px;
+    border: 1px solid #D0D6D9;
+}
+
+#skillId_transfer .select_transfer {
+	width:76%;
+} 
+
+.jobNumMainDiv .t-columns-group li label {
+	width : 17%;
+}
+
+.jobNumMainDiv .t-columns-group > li > div {
+	width:76%;
+}	
+.jobNumMainDiv .t-columns-3 .t-columns-group  li .leftWidth .ms-parent .ms-drop ul li label{
+	text-align: left;
+	padding-left: 13%;
+}
+.jobNumMainDiv .t-columns-3 .t-columns-group  li .leftWidth .ms-parent .ms-drop ul li label input{
+	margin-right:12px ;
+}
+#orgId_transfer .has-formlayer input{
+	height: 27px;
+}
+#skillId_transfer {
+	height: 42px;
+	line-height: 42px;
+}
+.jobNumMainDiv  li label{
+	font-size: 12px;
+	color: #333;
+}
+.jobNumMainDiv .leftWidth .ms-parent  button{
+  border: 1px solid #D0D6D9;
+}

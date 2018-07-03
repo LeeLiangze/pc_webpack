@@ -1,0 +1,65 @@
+
+@charset "UTF-8";
+
+#add_sipServer_title {
+	width: 100%;
+	margin-bottom: 20px;
+	font-size: 12px;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#add_sipServer_title tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+.sipServerIP,.sipServerPort{
+    background: transparent;
+	border: 1px solid #DDD;
+	height: 25px;	
+}
+#add_sipServer_title tr td {
+	height: 40px;
+}
+
+
+.delSipServer {
+	display: inline-block;
+	border-radius: 3px;
+	border: 1px solid #DDD;
+	padding: 0 14px;
+	cursor: pointer;
+	position: relative;
+	white-space: nowrap;
+	height: 26px;
+	font-size: 12px;
+	line-height: 26px;
+}
+
+.delSipServer:HOVER {
+	background: #F9F9F9;
+    border-color: #CCC;
+    color: #333;
+}
+
+.jf-right-wrap has-ctrl-bar{
+	margin-left:10px;
+}
+.ui-dialog-content{
+	padding: 0 15px;
+}
+
+#add_ip_port{
+	background: #3A8BE0;
+    border-color: #4A81C4;
+    color: #fff;
+}
+
+#saveSipServer{
+	background: #3A8BE0;
+    border-color: #4A81C4;
+    color: #fff;
+}

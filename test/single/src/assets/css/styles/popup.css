@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* 弹出 */
+.t-popup { z-index: 1110; }
+
+/* 半透明覆盖层，如不需要可样式隐藏其显示，或删除该DOM节点 */
+.t-popup-overlay { z-index: 1100; background-color: #000; opacity: 0.5; filter: alpha(opacity=50); }
+.t-popup, .t-popup-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; }
+
+/* 包装容器 */
+.t-popup-container { position: absolute; top: 50%; left: 50%; z-index: 1105; background-color: #fff; -webkit-box-shadow: 1px 1px 3px #666; -moz-box-shadow: 1px 1px 3px #666; box-shadow: 1px 1px 3px #666; border-radius: 5px; }
+.t-popup-content, .t-popup-bottom { box-sizing: content-box; padding: 0 15px; }
+.t-popup-title { height: 40px; background: #f5f5f5; border-bottom: 1px solid #E8E8E8; padding: 0 10px 0 15px; border-top-left-radius: 5px; border-top-right-radius: 5px; }
+.t-popup-title h3 { float: left; display: inline; line-height: 40px; font-weight: normal; color: #333; font-size: 14px; padding: 0; margin: 0; }
+.t-popup-title a { float: right; display: inline; display: block; height: 40px; line-height: 40px; padding: 0 6px; font-size: 16px; color: #999; text-align: center; text-decoration: none; }
+.t-popup-title a:hover { color: #333; }
+.t-popup-bottom { height: 50px; text-align: center; }
+.t-popup-bottom .t-btn { margin-top:4px; margin-left: 5px; margin-right: 5px; padding-left: 30px; padding-right: 30px; }
+
+/* 弹出层，默认宽度600px 高度320px */
+.t-popup-layer .t-popup-container { width: 600px; height: 320px; margin-left: -300px; margin-top: -160px; }
+.t-popup-layer .t-popup-content { height: 210px; padding-top: 10px; padding-bottom: 10px; font-size: 12px; overflow-x: hidden; overflow-y: auto; }
+
+/* 弹出对话框，默认宽度380px 高度200px */
+.t-popup-alert .t-popup-title { display: none; }
+.t-popup-alert .t-popup-container { width: 380px; height: 200px; margin-left: -190px; margin-top: -110px;}
+.t-popup-alert .t-popup-content { height: 130px; margin-top: 20px; font-size: 12px; text-align: center; }
+.t-popup-alert .t-popup-content i { font-size: 60px; line-height: 1; color: #ff9628; }
+.t-popup-alert .t-popup-content p { padding-top: 10px; font-size: 12px; color: #333; line-height: 22px; }
+.t-popup-alert .t-popup-bottom { border-top: 1px solid #E8E8E8; background: #f5f5f5; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; }
+.t-popup-alert .t-btn { margin-top: 8px; }

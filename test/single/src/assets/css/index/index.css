@@ -1,0 +1,435 @@
+@charset "UTF-8";
+
+
+html,body {
+    height: 100%;
+}
+body {  overflow:hidden; background: #e8e8e8;}
+body>div {
+    position: absolute;
+    color: black;
+    text-align: center;
+    /*font-size: 20px;*/
+}
+.newJZ{min-width:1280px;background-color: #f0f6fa;display: none;z-index:10000;width:100%;}
+.out2{width:1280px;height:100%;margin: auto;background:url(../../img/login/new2.png) no-repeat;}
+.out3{width: 1280px;height:100%;margin: auto;background:url(../../img/login/new1.gif) no-repeat;}
+.topMenu{
+    height: 22px;
+    top: 0px;
+    right: 0px;
+    left: 0;
+}
+.communication{
+    height: 50px;
+    top: 22px;
+    right: 0px;
+    left: 0;
+}
+.menu{
+    height: 35px;
+    top: 72px;
+    right: 0px;
+    left: 0;
+}
+.clientInfo{
+    height: 43px;
+    top: 107px;
+    right: 0px;
+    left: 0;
+}
+.queue{
+    width: 199px;
+    top: 150px;
+    left: 0px;
+    bottom: 0px;
+}
+.main{
+    top: 150px;
+    right: 0px;
+    left: 200px;
+    bottom: 0px;
+    background-color: #ebeff2;
+}
+body.yyA-hor .topMenu {
+    height: 22px;
+    top: 0px;
+    right: 0px;
+    left: 0;
+}
+body.yyA-hor .communication {
+    height: 50px;
+    top: 22px;
+    right: 0px;
+    left: 0;
+}
+body.yyA-hor .menu {
+    height: 35px;
+    top: 72px;
+    right: 0px;
+    left: 0;
+}
+body.yyA-hor .clientInfo {
+    display: block;
+    width: 198px;
+    top: 107px;
+    bottom: 0px;
+    left: 0px;
+    height: 892px;
+    background: white;
+}
+body.yyA-hor .main {
+    top: 107px;
+    left: 200px;
+    right: 0px;
+    bottom: 0px;
+}
+body.yyA-hor .queue{  display: none;}
+body.yyA-ver .topMenu {
+    height: 22px;
+    top: 0px;
+    right: 0px;
+    left: 64px;
+}
+body.yyA-ver .communication {
+    width: 64px;
+    height: inherit;
+    top: 0;
+    bottom: 0px;
+    left: 0;
+}
+body.yyA-ver .menu {
+    height: 35px;
+    top: 22px;
+    right: 0px;
+    left: 64px;
+}
+body.yyA-ver .clientInfo {
+    display: block;
+    width: 200px;
+    top: 57px;
+    bottom: 0px;
+    left: 64px;
+    height: inherit;
+    background: white;
+}
+body.yyA-ver .main {
+    top: 57px;
+    left: 264px;
+    right: 0px;
+    bottom: 0px;
+}
+body.yyA-ver .queue{  display: none;}
+body.yyB-hor .topMenu {
+    height: 22px;
+    top: 0px;
+    right: 0px;
+    left: 0;
+}
+body.yyB-hor .communication {
+    height: 50px;
+    top: 22px;
+    right: 0px;
+    left: 0;
+}
+body.yyB-hor .menu {
+    height: 35px;
+    top: 72px;
+    right: 0px;
+    left: 0;
+}
+body.yyB-hor .clientInfo {
+    display: block;
+    height: 43px;
+    top: 107px;
+    right: 0px;
+    left: 0px;
+    /*height: inherit;*/
+    background: white;
+}
+body.yyB-hor .main {
+    top: 150px;
+    left: 0;
+    right: 0px;
+    bottom: 0px;
+}
+body.yyB-hor .queue{  display: none;}
+body.yyB-ver .topMenu {
+    height: 22px;
+    top: 0px;
+    right: 0px;
+    left: 64px;
+}
+body.yyB-ver .communication {
+    height: inherit;
+    width: 64px;
+    top: 0;
+    bottom: 0px;
+    left: 0;
+}
+body.yyB-ver .menu {
+    height: 35px;
+    top: 22px;
+    right: 0px;
+    left: 64px;
+}
+body.yyB-ver .clientInfo {
+    display: block;
+    height: 43px;
+    top: 57px;
+    right: 0px;
+    left: 64px;
+    background: white;
+}
+body.yyB-ver .main {
+    top: 100px;
+    left: 64px;
+    right: 0px;
+    bottom: 0px;
+}
+body.yyB-ver .queue{  display: none;}
+body.internet-hor .topMenu {
+    height: 22px;
+    top: 0px;
+    right: 0px;
+    left: 0;
+}
+body.internet-hor .communication {
+    height: 50px;
+    top: 22px;
+    right: 0px;
+    left: 0;
+}
+body.internet-hor .menu {
+    height: 35px;
+    top: 72px;
+    right: 0px;
+    left: 0;
+}
+body.internet-hor .clientInfo {
+    display: block;
+    height: 43px;
+    top: 107px;
+    right: 0px;
+    left: 0px;
+    background: white;
+}
+body.internet-hor .main {
+    top: 150px;
+    left: 200px;
+    right: 0px;
+    bottom: 0px;
+}
+body.internet-hor .queue{
+    width: 199px;
+    top: 150px;
+    left: 0px;
+    bottom: 0px;
+}
+body.internet-ver .topMenu {
+    height: 22px;
+    top: 0px;
+    right: 0px;
+    left: 64px;
+}
+body.internet-ver .communication {
+    height: inherit;
+    width: 64px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+body.internet-ver .menu {
+    height: 35px;
+    top: 22px;
+    right: 0px;
+    left: 64px;
+}
+body.internet-ver .clientInfo {
+    display: block;
+    height: 43px;
+    top: 57px;
+    right: 0px;
+    left: 64px;
+    background: white;
+}
+body.internet-ver .queue{
+    width: 199px;
+    top: 100px;
+    left: 64px;
+    bottom: 0px;
+}
+body.internet-ver .main {
+    top: 100px;
+    left: 264px;
+    right: 0px;
+    bottom: 0px;
+}
+body.admin .topMenu {
+    height: 22px;
+    top: 0px;
+    right: 0px;
+    left: 0;
+}
+body.admin .communication {
+    height: 50px;
+    top: 22px;
+    left: 0;
+}
+body.admin .menu {
+    height: 35px;
+    top: 72px;
+    right: 0px;
+    left: 0;
+}
+body.admin .clientInfo {
+    display: none;
+}
+body.admin .queue{
+    display: none;
+}
+body.admin .main {
+    top: 107px;
+    left: 0;
+    right: 0px;
+}
+
+/* maskloading */
+.maskloading {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 99999;
+    text-align: center;
+    /*background: #FFF url("../img/appNew/loading_bg01.png") repeat-x left top;*/
+}
+
+.maskloading .pic {
+    width: 640px;
+    height: 260px;
+    margin: 40px auto 60px auto;
+    position: relative;
+    /*background: url("../img/appNew/loading_bg02.png") no-repeat center center;*/
+}
+
+.maskloading .pic span {
+    display: block;
+    width: 392px;
+    height: 10px;
+    position: absolute;
+    left: 120px;
+    top: 170px;
+    /*background: url("../img/appNew/loading_bg03.gif") no-repeat center center;*/
+}
+
+.maskloading .txt {
+    width: 240px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 14px;
+}
+
+.maskloading .txt li {
+    list-style: none;
+    line-height: 30px;
+    color: #999;
+    position: relative;
+}
+
+.maskloading .txt li span {
+    padding-right: 20px;
+    color: #555;
+    position: absolute;
+    left: 90px;
+}
+
+.pop-alert-warp{position: fixed;bottom: 0;left: 50%;z-index: 9999999;}
+.pop-alert{position: absolute;z-index: 9999999;left: 405px;bottom: 0;width: 230px; overflow: hidden;}
+.pop-alert-warp .pop-alert-list{ height: 157px; overflow: hidden}
+.pop-alert-warp .pop-alert-box{position:relative;padding: 0 10px 10px 0;top: 160px;}
+.pop-alert-warp .pop-alert-content{border: 1px solid #339dd9;}
+.pop-alert-warp .pop-alert-title{padding-left: 10px;text-align: left;line-height: 25px;color: #fff;background: #339dd9;}
+.pop-alert-warp .list-content{position: absolute;left: 0;right: 0;bottom: 0;}
+.pop-alert-warp .pop-alert-text{position:relative;text-align: left;background: #fff;height: 120px;font-size: 14px;}
+.pop-alert-warp .pop-alert-text p{position: absolute;left: 10px;right: 10px;top: 20px;}
+.pop-alert-warp .popBotL{    position: absolute;bottom: 3px;left: 0;right: 3px;}
+.pop-alert-warp .popContRight{position: absolute;top: 15px;bottom: 10px;right: -2px; width: 12px;padding: 0;background-position: 0 0;}
+
+/* screen_loading */
+.screen_loading { width:100%;height:100%;position:fixed;left:0;bottom:0;z-index:99999}
+.screen_loading .screen_mask { width:100%;height:100%;background:#000;filter:alpha(opacity=50);opacity:.5;position:absolute;left:0;bottom:0;z-index:99990}
+.screen_loading .screen_content { background:#FFF;position:absolute;left:50%;top:50%;width:160px;height:60px;border-radius:6px;margin-left:-80px;margin-top:-30px;z-index:99999;-webkit-box-shadow:1px 1px 3px #666;-moz-box-shadow:1px 1px 3px #666;box-shadow:1px 1px 3px #666}
+.screen_content img { float:left;margin:14px 6px auto 30px}
+.screen_content span { display:block;float:left;line-height:60px;font-size:15px;color:#888}
+.screen_content:after { content:" ";display:block;height:0;clear:both;visibility:hidden}
+
+/*Util.tips*/
+.popLayoutWaep{
+    position:absolute;
+    z-index:9999;
+    display:none;
+    background:transparent;
+}
+.popLayoutWaep.rightPos{margin-left:6px;}
+.popContRight{
+    /*background:url(../img/appNew/bg_sprite01.png) right top no-repeat;*/
+    padding-right:6px}
+.popBotL{
+    /*background:url(../img/appNew/bg_sprite01.png) left -3000px no-repeat;*/
+    padding-left:6px;}
+.popBotC{
+    /*background:url(../img/appNew/bg_sprite01.png) left -2000px repeat-x;*/
+    padding-top:7px}
+.popBotR{
+    /*background:url(../img/appNew/bg_sprite01.png) right -4000px no-repeat;*/
+    padding-right:6px;}
+.popLayout{
+    border:1px #8fc500 solid;
+    background:#fff;
+    position:relative;
+    z-index:9999
+}
+
+body .main .chatWarp {
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    width: 100%;
+}
+body .main .chatWarp .tabsCont,
+body .main .chatWarp .tabsCont .tabs,
+body .main .chatWarp .tabsCont .tabs .uiTab,
+body .main .chatWarp .tabsCont .tabs .uiTab .uiTabBody .uiTabItemBody
+{
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    width: 100%;
+    background:white;
+}
+body .main .chatWarp .tabsCont .tabs .uiTab .uiTabBody .uiTabItemBody iframe
+{
+    height:100%;
+    width: 100%;
+}
+body .main .chatWarp .tabsCont .tabs .uiTab .uiTabBody {
+    position: absolute;
+    bottom: 0px;
+    top: 42px;
+    width: 100%;
+    height:auto;
+    background: url(../../img/main/kftp.png) no-repeat;
+    background-position-x: 47%;
+    background-position-y: 40%;
+    background-color: #EEE;
+}
+body .main .tab {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+body{
+    position:fixed; width:100%; height:100%;
+}

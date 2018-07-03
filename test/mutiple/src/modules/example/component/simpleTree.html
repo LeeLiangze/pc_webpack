@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>前端基础框架</title>
+    <link rel="stylesheet" href="/css/style.min.css" />
+</head>
+<body>
+<ul id="container1" class="ztree"></ul>
+<ul id="container2" class="ztree"></ul>
+<ul id="container3" class="ztree"></ul>
+<ul id="container4" class="ztree"></ul>
+<input type="button" value="销毁第一个树" class="btndestory" />
+<input type="button" value="第二个树全部展开" class="btnset" />
+<script>
+    //解决ie下console.log()报错问题
+    window.console = window.console || (function(){
+                var c = {};
+                c.log = c.warn = c.debug = c.info = c.error = c.time = c.dir = c.profile = c.clear = c.exception = c.trace = c.assert = function(){};
+                return c;
+            })();
+</script>
+</body>
+</html>

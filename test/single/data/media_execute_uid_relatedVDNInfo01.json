@@ -1,0 +1,10 @@
+{"busiCode":null,"opId":null,
+"phone":null,"returnCode":"0",
+"returnMessage":null,"bean":{},
+"beans":[
+{"id":"1","SipServerIP":"192.168.100.90",
+"CTIId":"1","VDNName":"微博坐席","SipServerPort":"5060","VDNId":"1"},
+{"id":"1","SipServerIP":"192.168.100.90",
+"CTIId":"2","VDNName":"电话坐席","SipServerPort":"5060","VDNId":"2"}
+],
+"object":null}

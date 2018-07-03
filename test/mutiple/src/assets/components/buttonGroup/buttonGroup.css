@@ -1,0 +1,130 @@
+.buttonGroup-list,
+.buttonGroup-list > li,
+.buttonGroup-list > li > button{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+  /* // 按钮 */
+.sn-buttonGroup-list> li > .t-btnGroup {
+   padding: 6px 14px;
+   margin-right: 12px;
+   font-size: 12px;
+   line-height: 1;
+   border-radius: 3px;
+   border: 1px solid #DDD;
+   background: #fff;
+   text-decoration: none;
+   cursor: pointer;
+   position: relative;
+   white-space: nowrap;
+   outline: none;
+   color: #333;
+}
+
+.sn-buttonGroup-list > li > .t-btnGroup:hover {
+   background: #F9F9F9;
+   border-color: #CCC;
+   color: #333;
+}
+
+.sn-buttonGroup-list > li > .t-btnGroup:active {
+   background: #EEE;
+   border-color: #CCC;
+   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+}
+
+
+/* // 蓝色按钮 */
+.sn-buttonGroup-list> li > .t-btnGroup-blue {
+   background: #339dd9;
+   border-color: #2690cc;
+   color: #fff;
+}
+
+.sn-buttonGroup-list > li > .t-btnGroup-blue:hover {
+   background: #48a7dd;
+   border-color: #339dd9;
+   color: #fff;
+}
+
+.sn-buttonGroup-list > li > .t-btnGroup-blue:active {
+   background: #2690cc;
+   border-color: #2281b7;
+   color: #fff;
+   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+}
+
+
+/* // 绿色按钮 */
+.sn-buttonGroup-list > li > .t-btnGroup-green {
+   background: #51B148;
+   border-color: #499f41;
+   color: #fff;
+}
+
+.sn-buttonGroup-list > li > .t-btnGroup-green:hover {
+   background: #60bb58;
+   border-color: #51B148;
+   color: #fff;
+}
+
+.sn-buttonGroup-list > li > .t-btnGroup-green:active {
+   background: #499f41;
+   border-color: #408d39;
+   color: #fff;
+}
+
+
+/* //禁用按钮 */
+.sn-buttonGroup-list> li > .t-btnGroup-disabled {
+   background: #F9F9F9;
+   border-color: #E6E6E6;
+   color: #AAA;
+   cursor: not-allowed;
+}
+
+.sn-buttonGroup-list > li > .t-btnGroup-disabled:hover {
+   background: #F9F9F9;
+   border-color: #E6E6E6;
+   color: #AAA;
+}
+
+.sn-buttonGroup-list> li > .t-btnGroup-disabled:active {
+   box-shadow: none;
+}
+/* 横向按钮 */
+.sn-buttonGroup-list > .t-btnGroup-h {
+	display: inline-block;
+}
+/* 纵向按钮 */
+.sn-buttonGroup-list> li > .t-btnGroup-v {
+	padding: 8px 0;
+}
+
+/* // 尺寸及链接样式 */
+/* .buttonGroup-list > li > .t-btnGroup-sm {
+   padding: 4px 5px;
+}
+
+.buttonGroup-list > li > .t-btnGroup-lg {
+   font-size: 14px;
+   padding: 12px 30px;
+   padding: 13px 30px 11px 30px\9;
+}
+
+.buttonGroup-list > li > .t-btnGroup-link {
+   padding: 0px;
+   border: none;
+   text-decoration: none;
+   cursor: pointer;
+   position: relative;
+   white-space: nowrap;
+   outline: none;
+   font-size: 12px;
+   color: #347AC7;
+}   */
+
+
+ 

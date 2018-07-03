@@ -1,0 +1,31 @@
+{
+    "busiCode": null,
+    "opId": null,
+    "phone": null,
+    "returnCode": "0",
+    "returnMessage": null,
+    "bean": 
+    		{
+
+        		 "content":"你好",
+				 "msgType":"001",
+			     "messageId":"",
+				 "senderFlag":"0",
+			     "url":"",
+				 "contactId":"6",
+			     "logTime":"",
+			     "mediaTypeId":"01",
+			     "nickName":"张三",
+			     "channelID":"",
+			     "originalCreateTime":"",
+			     "mSeriaNo":"",
+			     "audioTimeLength":"",
+			     "phoneNo":"183 3987 2537"
+    			
+			},
+		
+    "beans": [
+    	
+	],
+    "object": null
+}

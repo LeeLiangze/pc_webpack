@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+.cust-info table {
+    width:100%;
+    padding-right: 50px;
+}
+
+.cust-info .tag {
+    width:100px;
+    font-size: 12px;
+    color: #999;
+    text-align: right;
+    padding-left: 30px;
+}
+
+.cust-info .value {
+    font-size: 12px;
+    color: #222;
+    padding-left: 16px;
+    text-align: left;
+}
+
+.cust-info tr {
+    height: 30px;
+}
+
+/*.cust-info .starLevel-value {
+    color: #FFD700;
+}*/
+
+/*.cust-info .callsfee p {
+    font-size: 12px;
+    color: #222;
+    padding-top: 16px;
+    padding-left: 36px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+.cust-info .callsfee .fee-item {
+    width: 100%;
+    float: left;
+    margin-left: 36px;
+    border-bottom: 2px solid #eaeef1;
+    border-top: 2px solid #eaeef1;
+}
+
+.cust-info .callsfee .fee-item li {
+    list-style: none;
+    float: left;
+    font-size: 14px;
+    color: #707070;
+    padding-top: 12px;
+}
+
+.cust-info .callsfee .fee-item li a {
+    height: 30px;
+    width: 50px;
+    float: left;
+    font-size: 14px;
+    color: #707070;
+    text-decoration: blink
+}*/

@@ -1,0 +1,13 @@
+.querySendNotesClass .searchContainer {
+	margin : 2%;
+}
+
+.querySendNotesClass .listContainer {
+	margin-left : 2%;
+	margin-right : 2%;
+} 
+
+.querySendNotesClass li.btnLi > input {
+	float : right;
+	margin-right : 4%;
+}

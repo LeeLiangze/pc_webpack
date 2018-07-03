@@ -1,0 +1,17 @@
+{
+    "returnCode":"",     
+    "returnMessage":"",
+    "bean":{ 
+			},
+    "beans":[  
+        {
+            "serviceTypeId":"1",  
+            "serviceTypeName":"广西同步",   
+            "optionResult":"请开始同步" 
+        },{
+            "serviceTypeId":"2",  
+            "serviceTypeName":"河北同步",   
+            "optionResult":"请开始同步" 
+        }
+    ]
+}

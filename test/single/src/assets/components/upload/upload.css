@@ -1,0 +1,102 @@
+/*.sn-upload {
+    display: inline-block;
+    position: relative;
+}
+.sn-upload a{
+    text-decoration: none;
+}
+.sn-upload .files>div>div {
+    display: inline-block;
+}
+
+.sn-upload .fileInput {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 30px;
+}
+
+.sn-upload .fileInput a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 30px;
+}
+
+.sn-upload .fileInput input {
+    position: absolute;
+    opacity: 0;
+    -moz-opacity: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+}
+
+.sn-upload .files .upload-progress {
+    display: none;
+    height: 15px;
+    width: 150px;
+    border: 1px solid #bbb;
+    color: #222;
+}
+
+.sn-upload .upload-progress .bar {
+    display: inline-block;
+    background-color: #6CAF00;
+    height: 15px;
+    width: 20;
+}
+
+.sn-upload .upload-btns button{
+    display: inline-block;
+    padding: 5px;
+}
+.sn-upload .upload-btns .cancel { display: none; }
+
+.sn-upload .sn-upload-progress .delete { display: none; }
+.sn-upload .sn-upload-progress .cancel { display: inline-block; }
+.sn-upload .sn-upload-progress .upload-progress { display:inline-block; }
+*/
+/* upload */
+  .sn-upload .files { margin-bottom: 6px; width: 100%; float: left; }
+  .sn-upload .template-upload:after { clear: both; display:block; visibility: hidden; height: 0; content: " "; }
+  .sn-upload .template-upload { width: 100%; }
+  .sn-upload .template-upload div { height: 28px; line-height: 28px; float: left; }
+  .sn-upload .template-upload { font-size: 12px; color: #222; }
+  .sn-upload .template-upload .upload-filename a { color: #222; text-decoration: none; }
+  .sn-upload .template-upload .upload-byte { color: #999; padding: 0 6px; }
+  .sn-upload .template-upload .upload-btns a { cursor: pointer; padding: 0 6px; color: #ee0000; text-decoration: none; }
+  .sn-upload .template-upload .upload-btns a:hover { color: #222; }
+  .sn-upload .template-upload .upload-progress { display: none; width: 200px; margin-top: 10px; box-sizing: border-box; height: 6px; font-size: 0; line-height: 0; background: #e7eff2; overflow: hidden; box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.07), inset 0 2px 2px rgba(0, 0, 0, 0.07); *zoom: 1; }
+  .sn-upload .template-upload .upload-progress:before,
+  .sn-upload .template-upload .upload-progress:after { content: ""; display: table; }
+  .sn-upload .template-upload .upload-progress:after { clear: both; overflow: hidden; }
+  .sn-upload .template-upload .upload-progress > span { display: block; height: 100%; height: 6px; font-size: 0; line-height: 0; background: #8ec500; float: left; box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(0, 0, 0, 0.1); text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);}
+  .sn-upload .fileInput { width: 100%; height: 30px; float: left; position: relative; overflow: hidden; }
+  .sn-upload .fileInput > a { display: inline-block; height: 26px; line-height: 26px; padding: 0 20px; font-size: 12px; background: #FFF; text-decoration: none; cursor: pointer; outline: none; color: #008ace; position: absolute; left: 0; top: 0; background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NENCM0ZERjMwODVCMTFFNzg1NEQ4OUJEMEFFQTg1OEYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NENCM0ZERjQwODVCMTFFNzg1NEQ4OUJEMEFFQTg1OEYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0Q0IzRkRGMTA4NUIxMUU3ODU0RDg5QkQwQUVBODU4RiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0Q0IzRkRGMjA4NUIxMUU3ODU0RDg5QkQwQUVBODU4RiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pko65TQAAAFrSURBVDjLpZI9SwNBFEV3DYraxCCCENEYBAsFAwpKbAP+AbESREglCDaCP2HXIlpYWFgqIqYypgpW2ohNYqPid6KQSitBbNbzZCKL+xZBi8N9M7tz586bsTzPs/7DdzHilK2UUwkodFHvom/oDaxQ2wGDxiI/zHWi5ym3so8OM56CW+pl1eBHgih6BnkMIr5EGbj77QjtcAKHjFtgAjLm2xBaDz0C2oYeoSVohTTjF5imbkJ3YE9NILsRt4geg6QYh1fqebBhi/EV2q0ZyDnz/HAKUeoxkMVZ6TpswjXEJa1msMjul3yMwShI7AWz84ZcIXM90BxmcAEz0gOow5JZvC5dR3vRAbQqTdUMPiAJCXg3SXLwAAlIQg0cNQGTT9Jxc9fbmHjSMLOwn/Ejutq4bi1BDg7og22uVJ5whLoP7r/SuOaqXd0gBtLEAjqJDsIsVGHN9xKtsCOISQcqTXsG6UkZnVOeedDgr3wCMLFA8LK6ugMAAAAASUVORK5CYII="); background-repeat: no-repeat; background-position: left 4px;}
+  .sn-upload .fileInput input { height: 28px; width: 200px; position: absolute; left: 0; top: 0; background: #F00; position: absolute; left: -130px; opacity: 0; filter:alpha(opacity=0);}
+
+  /* 高清屏支持 */
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+         only screen and (-moz-min-device-pixel-ratio: 1.5),
+         only screen and (-o-min-device-pixel-ratio: 3/2),
+         only screen and (min-device-pixel-ratio: 1.5) {
+      .sn-upload .fileInput > a  {
+          background-image: url("data:image/png;base64,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");
+          -webkit-background-size: 16px 16px;
+          background-size: 16px 16px;
+      }
+  }
+
+/*This style for javascript program, don't rewrite or moving*/
+.sn-upload .sn-upload-fileResult { display:none; }
+.sn-upload .sn-upload-uploading .delete { display: none; }
+.sn-upload .sn-upload-uploading .upload-progress { display: inline-block; }
+.sn-upload .sn-upload-fail .sn-upload-fileResult { display: inline-block; }
+
+

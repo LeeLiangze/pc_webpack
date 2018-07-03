@@ -1,0 +1,13 @@
+.sn-timer {
+    width: 66px;
+    height: 22px;
+    background: #75BCE5;
+    line-height: 22px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -o-border-radius: 12px;
+    border-radius: 4px;
+}

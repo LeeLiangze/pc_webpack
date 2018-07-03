@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>前端基础框架</title>
+    <link rel="stylesheet" href="/css/style.min.css" />
+</head>
+<body>
+<button class="code0">returnCode:0</button>
+<button class="code1">returnCode:1</button>
+<button class="err">数据接口错误</button>
+<button class="btnGetCheckedRows">获取所有选中行</button>
+<button class="btnGetSelected">获取单选行</button>
+<button class="btnLoad">加载数据</button>
+<button class="btnLoadMuch">加载很多数据</button>
+<button class="btnLoadLess">加载少量数据</button>
+<button class="btnLoadEmpty">直接加载空数据</button>
+<button class="btnLoadError">直接加载错误数据</button>
+<button class="btnSearch">搜索</button>
+
+<ul>
+    <li><input type="checkbox" class="boxLoadEmpty" value="1"><label>加载空列表</label></li>
+    <li><input type="checkbox" class="boxAutoLoad" value="1"><label>自动加载</label></li>
+</ul>
+
+<div class="searchResult"></div>
+<script>
+    //解决ie下console.log()报错问题
+    window.console = window.console || (function(){
+                var c = {};
+                c.log = c.warn = c.debug = c.info = c.error = c.time = c.dir = c.profile = c.clear = c.exception = c.trace = c.assert = function(){};
+                return c;
+            })();
+</script>
+</body>
+</html>

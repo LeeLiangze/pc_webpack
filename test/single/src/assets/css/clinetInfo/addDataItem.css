@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.addDataItem .aDItem_submit {
+	float: right;
+    width: 40px;
+    text-align: center;
+    background-color: #3A8BE0;
+	margin-top: 40px;   
+}
+.addDataItem .aDItem_reset {
+	float: right;
+    width: 40px;
+    text-align: center;
+    background-color: #3A8BE0;
+	margin-top: 40px;   
+}
+.addDataItem span {
+	margin-left: 60px;
+	margin-top: 20px;
+}
+.addDataItem input {
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.addDataItem .aDItem_serviceURL {
+    width: 340px;
+}
+.addDataItem .aDItem_serviceTypeName {
+    width: 220px;
+}

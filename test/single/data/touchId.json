@@ -1,0 +1,79 @@
+{
+        "returnCode":"0",
+        "returnMessage":"",
+        "beans":
+        	[
+                 {
+                	 "contactId":"1",
+                	 "serivalNo":"10",
+                	 "toUserName":"微信公众号",
+                	 "toUserId":"10086",
+                	 "contactStartTime":"2016.10.12 09:30:15",
+                	"callerNo":"Lee",
+                	"channelId":"1",
+                	"callType":"0",
+                	"mediaTypeId":"WEIXIN_TYPE",
+                	"logo":"src/assets/img/queue/weixinIcon.png"
+                 },
+                 {
+                	 "contactId":"1",
+                	 "serivalNo":"11",
+                	 "toUserName":"新浪微博",
+                	 "toUserId":"10086",
+                	 "contactStartTime":"2016.10.12 09:30:15",
+                	 "callerNo":"13265415451",
+                	 "channelId":"2",
+                	 "callType":"0",
+                	 "mediaTypeId":"MICROBLOGGING_TYPE",
+                	 "logo":"src/assets/img/queue/weiboIcon.png"
+                 },
+                 { 
+                	 "contactId":"1",
+                	 "serivalNo":"12",
+                	 "toUserName":"139邮箱",
+                	 "toUserId":"139",
+                	 "contactStartTime":"2016.10.12 09:30:15",
+                	 "calledNo":"18768867695",
+                	 "channelId":"0",
+                	 "callType":"1",
+                	 "mediaTypeId":"EMAIL_139",
+                	 "logo":"src/assets/img/queue/duanxinIcon.png"
+                 },
+                 {
+                	 "contactId":"1",
+                	 "serivalNo":"13",
+                	 "toUserName":"微信公众号",
+                	 "toUserId":"10086",
+                	 "contactStartTime":"2016.10.12 09:30:15",
+                	 "callerNo":"13265412331",
+                	 "channelId":"1",
+                	 "callType":"0",
+                	 "mediaTypeId":"WEIXIN_TYPE",
+                	 "logo":"src/assets/img/queue/weixinIcon.png"
+                 },
+                 {
+                	 "contactId":"1",
+                	 "serivalNo":"14",
+                	 "toUserName":"新浪微博",
+                	 "toUserId":"10086",
+                	 "contactStartTime":"2016.10.12 09:30:15",
+                	 "callerNo":"13265412311",
+                	 "channelId":"2",
+                	 "callType":"0",
+                	 "mediaTypeId":"MICROBLOGGING_TYPE",
+                	 "logo":"src/assets/img/queue/weiboIcon.png"
+                 },
+                 {
+                	 "contactId":"1",
+                	 "serivalNo":"15",
+                	 "toUserName":"微信公众号",
+                	 "toUserId":"10086",
+                	 "contactStartTime":"2016.10.12 09:30:15",
+                	 "callerNo":"13265412331",
+                	 "channelId":"1",
+                	 "callType":"0",
+                	 "mediaTypeId":"WEIXIN_TYPE",
+                	 "logo":"src/assets/img/queue/weixinIcon.png"
+                 }
+              ]
+    }

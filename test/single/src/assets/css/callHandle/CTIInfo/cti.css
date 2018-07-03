@@ -1,0 +1,43 @@
+
+@charset "UTF-8";
+
+.jf-search-btns{
+	padding: 10px;
+	margin-top: 20px;
+	background: rgb(237,246,251);
+	overflow: hidden;
+}
+.jf-search-btns>.fl{
+	float: left;
+}
+.jf-search-btns>.fr{
+	float: right;
+}
+.jf-search-result{
+	clear: both;
+}
+.jf-form-item{
+	overflow:hidden;
+	height:150px;
+}
+.jf-form-item li{
+	width:25%;
+	height:35px;
+	display:inline-block;
+	float:left;
+	text-align:center;
+	line-height:35px;
+	margin:10px 0;
+}
+.jf-form-item li .inputSel{
+	width:210px;
+	height:28px;
+}
+
+
+
+
+
+
+
+

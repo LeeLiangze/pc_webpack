@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/* t-tabs */
+.t-tabs { }
+.t-tabs .t-tabs-items { margin:0; padding:0; border-bottom:1px solid #DDD; font-size:12px; }
+.t-tabs .t-tabs-items:after { clear:both; display:block; visibility:hidden; height:0; content:" "; }
+.t-tabs .t-tabs-items li { float:left; margin-bottom:-1px; margin-right:4px; border-bottom:1px solid #E3E3E3; list-style:none; }
+.t-tabs .t-tabs-items li a { display:block; padding:0 20px; height:30px; border:1px solid transparent; border-color:#E3E3E3; border-bottom:none; border-radius:4px 4px 0 0; background:#EEE; color:#666; text-decoration:none; outline: none; line-height:30px; transition:background-color .4s ease-out,color .4s ease-out;}
+.t-tabs .t-tabs-items li a:active,.t-tabs .t-tabs-items li a:hover{ background:#FFF; color:#333;}
+.t-tabs .t-tabs-items li.active { border-bottom:1px solid #FFF;}
+.t-tabs .t-tabs-items li.active a { background:#fff; color:#333; font-weight:700;}
+.t-tabs .t-tabs-wrap { margin:0; padding:10px; font-size: 12px;}
+.t-tabs .t-tabs-wrap li { display: none;}
+.t-tabs .t-tabs-wrap li.selected { display: block;}

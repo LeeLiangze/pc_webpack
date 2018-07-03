@@ -1,0 +1,102 @@
+/*-------------------------------------
+zTree Style
+
+version:	3.5.19
+author:		Hunter.z
+email:		hunter.z@263.net
+website:	http://code.google.com/p/jquerytree/
+
+
+修改记录：
+
+根据中移在线UI规范对ztree样式进行了修改 20170111
+
+-------------------------------------*/
+
+.ztree * {padding:0; margin:0; font-size:12px;}
+.ztree {margin:0; padding:5px; color:#333;}
+.ztree li{padding:0; margin:0; list-style:none; line-height:22px; text-align:left; white-space:nowrap; outline:0;}
+.ztree li ul{ margin:0; padding:0 0 0 18px;}
+.ztree li ul.line{ /*UI规范不再显示竖向虚线*/}
+
+.ztree li a {padding:0 3px 0 0; margin:0; margin-top: 2px; cursor:pointer; height:17px; color:#333; background-color: transparent;
+	text-decoration:none; vertical-align:top; display: inline-block;}
+.ztree li a:hover {text-decoration:underline;}
+.ztree li a.curSelectedNode {padding-top:0px; background-color:#c4e4f5; color:black; height:16px; }
+.ztree li a.curSelectedNode_Edit {padding-top:0px; background-color:#c4e4f5; color:black; height:16px; }
+.ztree li a.tmpTargetNode_inner {padding-top:0px; background-color:#c4e4f5; color:white; height:16px; }
+.ztree li a.tmpTargetNode_prev {}
+.ztree li a.tmpTargetNode_next {}
+.ztree li a input.rename {height:14px; width:80px; padding:0; margin:0;
+	font-size:12px; border:1px #7EC4CC solid; *border:0px}
+.ztree li span {line-height:16px; margin-right:2px}
+.ztree li span.button {line-height:0; margin:0; width:16px; height:16px; display: inline-block; vertical-align:middle;
+	border:0 none; cursor: pointer;outline:none;
+	background-color:transparent; background-repeat:no-repeat; background-attachment: scroll;
+	background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAAyCAYAAACNm/9WAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2xpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpDQTNCQzM3RUNGMjYxMUU2OUJEMUYyMjU3NjIwNDlFRCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFNTVFNEM3OUNGNEMxMUU2OUJEMUYyMjU3NjIwNDlFRCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFNTVFNEM3OENGNEMxMUU2OUJEMUYyMjU3NjIwNDlFRCIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNyAoTWFjaW50b3NoKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkU1NUU0QzcwQ0Y0QzExRTY5QkQxRjIyNTc2MjA0OUVEIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkU1NUU0QzcxQ0Y0QzExRTY5QkQxRjIyNTc2MjA0OUVEIi8+IDwvcmRmOkRl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'); *background-image:url("./img/zTreeStandard.gif")}
+
+.ztree li span.button.chk {width:16px; height:16px; margin:0 5px 0 0; cursor: auto;}
+.ztree li span.button.chk.checkbox_false_full {background-position:0 0;}
+.ztree li span.button.chk.checkbox_false_full_focus {background-position:0 -17px;}
+.ztree li span.button.chk.checkbox_false_part {background-position:0 0;}
+.ztree li span.button.chk.checkbox_false_part_focus {background-position:0 -17px;}
+.ztree li span.button.chk.checkbox_false_disable {background-position:0 -34px;}
+.ztree li span.button.chk.checkbox_true_full {background-position:-17px 0;}
+.ztree li span.button.chk.checkbox_true_full_focus {background-position:-17px 0;}
+.ztree li span.button.chk.checkbox_true_part {background-position:-17px 0;}
+.ztree li span.button.chk.checkbox_true_part_focus {background-position:-17px 0;}
+.ztree li span.button.chk.checkbox_true_disable {background-position:-17px -17px;}
+
+.ztree li span.button.chk.radio_false_full {background-position:-34px 0;}
+.ztree li span.button.chk.radio_false_full_focus {background-position:-34px -17px;}
+.ztree li span.button.chk.radio_false_part {background-position:-34px 0;}
+.ztree li span.button.chk.radio_false_part_focus {background-position:-34px -17px;}
+.ztree li span.button.chk.radio_false_disable {background-position:-34px -34px;}
+.ztree li span.button.chk.radio_true_full {background-position:-51px 0;}
+.ztree li span.button.chk.radio_true_full_focus {background-position:-51px 0;}
+.ztree li span.button.chk.radio_true_part {background-position:-51px 0;}
+.ztree li span.button.chk.radio_true_part_focus {background-position:-51px 0;}
+.ztree li span.button.chk.radio_true_disable {background-position:-51px -17px;}
+
+.ztree li span.button.switch {width:18px; height:18px;}
+.ztree li span.button.root_open{background-position:-68px -16px;}
+.ztree li span.button.root_close{background-position:-68px 1px;}
+.ztree li span.button.roots_open{background-position:-68px -16px;}
+.ztree li span.button.roots_close{background-position:-68px 1px;}
+.ztree li span.button.center_open{background-position:-68px -16px;}
+.ztree li span.button.center_close{background-position:-68px 1px; margin-right: 3px;}
+.ztree li span.button.bottom_open{background-position:-68px -16px;}
+.ztree li span.button.bottom_close{background-position:-68px 1px;}
+.ztree li span.button.noline_open{background-position:-68px -16px;}
+.ztree li span.button.noline_close{background-position:-68px 1px;}
+.ztree li span.button.root_docu{ background:none; margin-right: 3px;}
+.ztree li span.button.roots_docu{background:none; margin-right: 3px;}
+.ztree li span.button.center_docu{background: none; margin-right: 3px;}
+.ztree li span.button.bottom_docu{background-position:-56px -36px; margin-right: 3px;}
+.ztree li span.button.noline_docu{ background:none; margin-right: 3px;}
+
+.ztree li span.button.ico_open{margin-right:5px; background-position:-99px 1px; vertical-align:top; *vertical-align:middle}
+.ztree li span.button.ico_close{margin-right:5px; background-position:-99px 1px; vertical-align:top; *vertical-align:middle}
+.ztree li span.button.ico_docu{margin-right:5px; background-position:-99px -16px; vertical-align:top; *vertical-align:middle}
+.ztree li span.button.edit {}
+.ztree li span.button.remove {}
+
+.ztree li span.button.ico_loading{margin-right:5px; background:url('data:image/gif;base64,R0lGODlhEAAQAKIGAMLY8YSx5HOm4Mjc88/g9Ofw+v///wAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgAGACwAAAAAEAAQAAADMGi6RbUwGjKIXCAA016PgRBElAVlG/RdLOO0X9nK61W39qvqiwz5Ls/rRqrggsdkAgAh+QQFCgAGACwCAAAABwAFAAADD2hqELAmiFBIYY4MAutdCQAh+QQFCgAGACwGAAAABwAFAAADD1hU1kaDOKMYCGAGEeYFCQAh+QQFCgAGACwKAAIABQAHAAADEFhUZjSkKdZqBQG0IELDQAIAIfkEBQoABgAsCgAGAAUABwAAAxBoVlRKgyjmlAIBqCDCzUoCACH5BAUKAAYALAYACgAHAAUAAAMPaGpFtYYMAgJgLogA610JACH5BAUKAAYALAIACgAHAAUAAAMPCAHWFiI4o1ghZZJB5i0JACH5BAUKAAYALAAABgAFAAcAAAMQCAFmIaEp1motpDQySMNFAgA7') no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+
+ul.tmpTargetzTree {background-color:#FFE6B0; opacity:0.8; filter:alpha(opacity=80)}
+
+span.tmpzTreeMove_arrow {width:16px; height:16px; display: inline-block; padding:0; margin:2px 0 0 1px; border:0 none; position:absolute;
+	background-color:transparent; background-repeat:no-repeat; background-attachment: scroll;
+	background-position:-110px -80px; background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAAyCAYAAACNm/9WAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2xpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpDQTNCQzM3RUNGMjYxMUU2OUJEMUYyMjU3NjIwNDlFRCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFNTVFNEM3OUNGNEMxMUU2OUJEMUYyMjU3NjIwNDlFRCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFNTVFNEM3OENGNEMxMUU2OUJEMUYyMjU3NjIwNDlFRCIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNyAoTWFjaW50b3NoKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkU1NUU0QzcwQ0Y0QzExRTY5QkQxRjIyNTc2MjA0OUVEIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkU1NUU0QzcxQ0Y0QzExRTY5QkQxRjIyNTc2MjA0OUVEIi8+IDwvcmRmOkRl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'); *background-image:url("./img/zTreeStandard.gif")}
+
+ul.ztree.zTreeDragUL {margin:0; padding:0; position:absolute; width:auto; height:auto;overflow:hidden; background-color:#cfcfcf; border:1px #00B83F dotted; opacity:0.8; filter:alpha(opacity=80)}
+.zTreeMask {z-index:10000; background-color:#cfcfcf; opacity:0.0; filter:alpha(opacity=0); position:absolute}
+
+/* level style*/
+/*.ztree li span.button.level0 {
+	display:none;
+}
+.ztree li ul.level0 {
+	padding:0;
+	background:none;
+}*/

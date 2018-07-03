@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+#up_vdn_title {
+	width: 100%;
+	margin-bottom: 20px;
+	font-size: 12px;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#up_vdn_title tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	
+}
+
+#up_vdn_title tr td{
+	height: 40px;
+}
+
+.up_vdn_id, .up_vdn_name, .up_sipServer_ip, .up_sipServer_port{
+	background: transparent;
+	border: 1px solid #DDD;
+	height: 25px;
+}
+.sipServer{
+	background: transparent;
+	border: 1px solid #DDD;
+	height: 25px;
+	width:220px;
+}
+.buton {
+     display: inline-block;
+     height: 28px;
+     line-height: 30px;
+     border-radius: 3px;    
+     border: 1px solid #DDD;
+     padding: 0 14px;
+     font-size: 14px;
+     cursor: pointer;
+     position: relative;
+     white-space: nowrap;
+     margin-left: 12px;
+     margin-right: 0;
+     background: #339dd9;
+     border-color: #208bc8;
+     color: #fff !important;
+     }
+.up_vdn_del{
+	display: inline-block;
+	border-radius: 3px;
+	border: 1px solid #DDD;
+	padding: 0 14px;
+	cursor: pointer;
+	position: relative;
+	white-space: nowrap;
+	height: 26px;
+	font-size: 12px;
+	line-height: 26px;
+}
+
+.up_vdn_del:HOVER{
+	background: #F9F9F9;
+    border-color: #CCC;
+    color: #333;
+}
+
+
+.ctiLabel {
+    display: inline-block;
+    width: 70px;
+    margin-right:5px;
+    text-align:right;
+}
+
+.selectProvice {
+    width: 150px;
+}
+
+.jf-search-btns-p {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+ .jf-form-item li div {
+    width: 40%;
+    display: inline-block;
+}
+
+#up_vdn_save{
+	background: #3A8BE0;
+    border-color: #4A81C4;
+    color: #fff;
+}
+

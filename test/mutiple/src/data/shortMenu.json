@@ -1,0 +1,176 @@
+{
+   "beans" : [
+      {
+         "menuId" : "1001",
+         "menuName" : "受理请求及查询",
+         "secondMenu" : [
+            {
+               "menuId" : "100111",
+               "menuName" : "受理请求",
+               "url" : "js/workflow/requestAccept"
+            },
+            {
+               "menuId" : "100111",
+               "menuName" : "填单",
+               "url" : "js/workflow/fillOrder"
+            },
+            {
+               "menuId" : "100111",
+               "menuName" : "服务请求查询",
+               "url" : "js/workflow/serviceRequest"
+            },
+            {
+               "menuId" : "100111",
+               "menuName" : "未完服务请求查询",
+               "url" : "js/workflow/serviceRequestUnFinished"
+            }
+         ]
+      },
+      {
+         "menuId" : "1002",
+         "menuName" : "工单查询及处理",
+         "secondMenu" : [
+            {
+               "menuId" : "100122",
+               "menuName" : "待归档工单",
+               "url" : "js/workflow/orderArchive"
+            },
+            {
+               "menuId" : "100123",
+               "menuName" : "工单综合查询",
+               "url" : "js/workflow/orderSearch"
+            },
+            {
+               "menuId" : "100123",
+               "menuName" : "异动查询",
+               "url" : "js/workflow/searchDynamic"
+            },
+            {
+               "menuId" : "100123",
+               "menuName" : "待办区",
+               "url" : "js/workflow/workItemAgentDistrict"
+            },
+            {
+               "menuId" : "100123",
+               "menuName" : "休眠区",
+               "url" : "js/workflow/dormantArea"
+            },
+            {
+               "menuId" : "100123",
+               "menuName" : "工单池",
+               "url" : "js/workflow/workpool"
+            },
+            {
+               "menuId" : "100123",
+               "menuName" : "工单统计",
+               "url" : "js/temp/moreClientInfo"
+            }
+         ]
+      },
+      {
+         "menuId" : "1003",
+         "menuName" : "服务请求配置",
+         "secondMenu" : [
+            {
+               "menuId":"100111",
+               "menuName":"工作组派发关系配置",
+               "url":"js/workflow/configurationRequest"
+            },
+             {
+               "menuId":"100111",
+               "menuName":"技能组与服务请求类型关联配置",
+               "url":"js/workflow/groupsSkillConfigurationRequest"
+            },
+            {
+               "menuId":"100111",
+               "menuName":"工单时限要素配置",
+               "url":"js/workflow/secondLineConfigurationRequest"
+            },
+            {
+               "menuId" : "10012",
+               "menuName" : "工单时限规则配置",
+               "url" : "js/temp/OrderRuleConfiguration"
+            },
+            {
+               "menuId" : "10012",
+               "menuName" : "工单时限状态配置",
+               "url" : "js/temp/OrderStatusConfiguration"
+            }
+         ]
+      },
+      {
+         "menuId" : "1004",
+         "menuName" : "公告",
+         "secondMenu" : [
+            {
+               "menuId" : "100311",
+               "menuName" : "公告列表",
+               "url" : "js/affiche/afficheList"
+            },
+            {
+               "menuId" : "100312",
+               "menuName" : "公告管理",
+               "url" : "js/workflow/requestAccept"
+            },
+            {
+                "menuId" : "100313",
+                "menuName" : "公告发布",
+                "url" : "js/affiche/affichePublish"
+             },
+             {
+                "menuId" : "100314",
+                "menuName" : "公告类别管理",
+                "url" : "js/affiche/afficheTypeManager"
+             },
+            {
+               "menuId" : "100315",
+               "menuName" : "公告历史查询",
+               "url" : "js/workflow/requestAccept"
+            },
+            {
+               "menuId" : "100316",
+               "menuName" : "公告收藏",
+               "url" : "js/workflow/requestAccept"
+            }
+         ]
+      },
+      {
+         "menuName" : "便签",
+         "menuid" : "1005",
+         "secondMenu" : {
+            "[0]" : {
+               "menuId" : "100501",
+               "menuName" : "未读便签",
+               "url" : "js/notepad/notepadReadInfo"
+            },
+            "[1]" : {
+               "menuId" : "100502",
+               "menuName" : "已读便签",
+               "url" : "js/notepad/notepadReadInfo"
+            },
+            "[2]" : {
+               "menuId" : "100503",
+               "menuName" : "已发便签",
+               "url" : "js/notepad/notepadSentInfo"
+            },
+            "[3]" : {
+               "menuId" : "100504",
+               "menuName" : "便签草稿",
+               "url" : "js/workflow/requestAccept"
+            },
+            "[4]" : {
+               "menuId" : "100505",
+               "menuName" : "垃圾便签",
+               "url" : "js/workflow/requestAccept"
+            },
+            "[5]" : {
+               "menuId" : "100506",
+               "menuName" : "便签发送",
+               "url" : "js/notepad/notepadSendInfo"
+            }
+         }
+      }
+   ],
+   "returnCode" : "0",
+   "returnMessage" : null
+}

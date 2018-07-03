@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+	.ui-dialog-content{
+	  overflow:hidden;
+	}
+	.send-message-box{
+		width: 600px;
+		padding: 20px;
+		height: 427px;
+		position: absolute;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+	}
+	.messagebox{
+		position: relative;
+		margin-bottom: 20px;
+	}
+	.messagebox .clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+	.messagebox .clearfloat{zoom:1}
+	.messagebox .float-left{
+		float: left;
+	}
+	.messagebox .call-number-word{
+		font-size: 12px;
+		margin-top: 12px;
+		margin-right: 14px;
+	}
+	.messagebox .number-choice{
+		font-size: 12px;
+		width: 524px;
+		height: 34px;
+		border: 1px solid #CFD6D9;
+		position: relative;
+	}	
+	.messagebox .show-number{
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+	.messagebox .send-message-down{
+		position: absolute;
+		right: 10px;
+		top: 14px;
+	}
+	.messagebox .more-number{
+		width: 524px;
+		position: absolute;
+		top: 36px;
+		left: 74px;
+		font-size: 12px;
+		border: 1px solid #CFD6D9;
+		border-top: 0;
+		z-index: 1;
+		background: white;
+	}
+	.messagebox .number{
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+	.messagebox .hidden{
+		display: none;
+	}
+	.messagebox .message-content{
+		width: 524px;;
+		height: 198px;
+		position: absolute;
+		top: 36px;
+		left: 74px;
+		border: 1px solid #CFD6D9;
+		border-top: 0;
+		font-size: 12px;
+		line-height: 20px;
+		color: #DADADA;	
+		text-indent: 12px;
+	}
+	.send-message-box .operation-box{
+		height: 60px;
+		width: 680px;
+		background: #F9FAFC;
+		position: absolute;
+		bottom: 0px;
+		left: -20px;
+		line-height: 60px;
+		text-align: center;
+	}
+	.send-message-box .send-cancel,.send-message-box .send-enter{
+		width: 140px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		display: inline-block;
+		vertical-align: middle;
+		background: url(../../../../tpl/comMenu/sendMessage/send-message-cancel.png);
+		color: #56B0E0;
+	}
+	.send-message-box .send-enter{
+		margin-right: 16px;
+		color: white;
+		background: url(../../../../tpl/comMenu/sendMessage/send-message-enter.png);
+	}
+	.send-message-box .accept-number{
+		outline: none;
+		border: 0;
+		width: 514px;
+		height: 33px;
+		margin-top: 0;
+		line-height: 33px;
+	}

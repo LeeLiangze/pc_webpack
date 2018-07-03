@@ -1,0 +1,26 @@
+{
+  "busiCode": null,
+  "opId": null,
+  "phone": null,
+  "returnCode": "0",
+  "returnMessage": "成功",
+  "bean": {
+    "cateGoryId": "101007",
+    "itemName": "是否启用员工休息功能",
+    "moduleId": "101",
+    "description": "Y:是;N:否",
+    "value": "Y",
+    "itemId": "061"
+  },
+  "beans": [
+    {
+      "cateGoryId": "101007",
+      "itemName": "是否启用员工休息功能",
+      "moduleId": "101",
+      "description": "Y:是;N:否",
+      "value": "Y",
+      "itemId": "061"
+    }
+  ],
+  "object": null
+}

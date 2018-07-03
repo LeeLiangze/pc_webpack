@@ -1,0 +1,43 @@
+{
+  "busiCode": null,
+  "opId": null,
+  "phone": null,
+  "returnCode": "0",
+  "returnMessage": null,
+  "bean": {},
+  "beans": [
+    {
+      "serchUrlAddr": "",
+      "bizTypeId": "86otck",
+      "serchTypeCd": "01",
+      "serchTypeNm": "全部菜单",
+      "openModeCd": "",
+      "serchParaNm": ""
+    },
+    {
+      "serchUrlAddr": "www.360.cn",
+      "bizTypeId": "86otck",
+      "serchTypeCd": "02",
+      "serchTypeNm": "知识库",
+      "openModeCd": "02",
+      "serchParaNm": "keyword"
+    },
+    {
+      "serchUrlAddr": "www.baidu.com",
+      "bizTypeId": "86otck",
+      "serchTypeCd": "03",
+      "serchTypeNm": "公告便签",
+      "openModeCd": "02",
+      "serchParaNm": "queryString"
+    },
+    {
+      "serchUrlAddr": "www.tmall.com",
+      "bizTypeId": "86otck",
+      "serchTypeCd": "04",
+      "serchTypeNm": "服务请求",
+      "openModeCd": "01",
+      "serchParaNm": "queryString"
+    }
+  ],
+  "object": null
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=8" >
+    <!--避免大多数浏览器缓存html-->
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <!--避免大多数浏览器缓存html end-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <title>省端客服融合系统</title>
+    <link rel="stylesheet" href="/css/style.min.css"/>
+    <OBJECT id="WebVoipControlIF" classid="CLSID:824838E7-26FB-4037-8E7B-7D0B2DBDA8D1" codeBase="FlexitCtrl.cab#Version=3.1.60.11" style="width:0px; height:0px;"  VIEWASTEXT>
+    </OBJECT>
+</head>
+
+<body>
+<div class = "newJZ"><div class="out2"><div class="out3"></div></div></div>
+<div class="topMenu"></div>
+<div class="communication"></div>
+<div class="menu"></div>
+<div class="clientInfo"></div>
+<div class="queue"></div>
+<div class="main"></div>
+<div id="ngcsSendMsgIframeDiv" style="display:none;"></div>
+<div>
+    <!-- 整理态优化，lijianjun 20161025-->
+    <input type="hidden" id="tidying_Mark" value="true">
+    <input type="hidden" id="tidying_surplus_time" value="">
+    <input type="hidden" id="tidying_model" value="999">
+</div>
+<script>
+    //解决ie下console.log()报错问题
+    window.console = window.console || (function(){
+                var c = {};
+                c.log = c.warn = c.debug = c.info = c.error = c.time = c.dir = c.profile = c.clear = c.exception = c.trace = c.assert = function(){};
+                return c;
+            })();
+    /**
+     * 每次上线前请修改这个版本号解决上线后资源缓存问题
+     * */
+    window.Args='201611081600';
+    window.UEDITOR_HOME_URL = 'src/assets/lib/ueditor/';
+</script>
+</body>
+</html>

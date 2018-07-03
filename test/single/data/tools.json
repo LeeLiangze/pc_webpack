@@ -1,0 +1,128 @@
+{
+  "busiCode": null,
+  "opId": null,
+  "phone": null,
+  "returnCode": "0",
+  "returnMessage": null,
+  "bean": {},
+  "beans": [
+    {
+      "displayNo": "1",
+      "parentId": "",
+      "useType": "00",
+      "imageUrl": "",
+      "authId": "",
+      "openModule": "",
+      "menuUrl": "",
+      "toolBarType": "02",
+      "children": [
+        {
+          "displayNo": "0",
+          "parentId": "000108004",
+          "imageUrl": "",
+          "authId": "000108005005",
+          "openModule": "F",
+          "menuUrl": "",
+          "menuId": "000108004005",
+          "displayName": "工具",
+          "typeId": "201703061702050000000000000017",
+          "configId": "201702132100300000000000000107"
+        },
+        {
+          "displayNo": "1",
+          "parentId": "000108004",
+          "imageUrl": "",
+          "authId": "000108005001",
+          "openModule": "N",
+          "menuUrl": "http://192.168.100.36:8843/aikbs/kbs/uiguangxi/listCreate.jsp",
+          "menuId": "000108004001",
+          "displayName": "知识库",
+          "typeId": "201703061702050000000000000017",
+          "configId": "201702132056470000000000000102"
+        },
+        {
+          "displayNo": "2",
+          "parentId": "000108004",
+          "imageUrl": "",
+          "authId": "000108005002",
+          "openModule": "N",
+          "menuUrl": "https://192.168.100.36:8843/nganoce/src/module/anoce/anoceList.html",
+          "menuId": "000108004002",
+          "displayName": "公告",
+          "typeId": "201703061702050000000000000017",
+          "configId": "201702132059390000000000000104"
+        },
+        {
+          "displayNo": "3",
+          "parentId": "000108004",
+          "imageUrl": "",
+          "authId": "000108005003",
+          "openModule": "N",
+          "menuUrl": "https://192.168.100.36:8843/nganoce/src/module/note/note.html",
+          "menuId": "000108004003",
+          "displayName": "便签",
+          "typeId": "201703061702050000000000000017",
+          "configId": "201702132059550000000000000105"
+        },
+        {
+          "displayNo": "4",
+          "parentId": "000108004",
+          "imageUrl": "",
+          "authId": "000108005004",
+          "openModule": "N",
+          "menuUrl": "https://192.168.100.36:8843/ngbusi_gx/src/module/others/favorites/favorites.html",
+          "menuId": "000108004004",
+          "displayName": "收藏夹",
+          "typeId": "201703061702050000000000000017",
+          "configId": "201702132100100000000000000106"
+        }
+      ],
+      "displayName": "测试工具栏",
+      "typeId": "201703061702050000000000000017",
+      "configId": ""
+    },
+    {
+      "displayNo": "1",
+      "parentId": "",
+      "useType": "00",
+      "imageUrl": "",
+      "authId": "",
+      "openModule": "",
+      "menuUrl": "",
+      "toolBarType": "02",
+      "children": [],
+      "displayName": "测试2017030915",
+      "typeId": "201703091029490000000000000210",
+      "configId": ""
+    },
+    {
+      "displayNo": "2",
+      "parentId": "",
+      "useType": "00",
+      "imageUrl": "",
+      "authId": "",
+      "openModule": "",
+      "menuUrl": "",
+      "toolBarType": "02",
+      "children": [],
+      "displayName": "测试2017030914",
+      "typeId": "201703091029110000000000000209",
+      "configId": ""
+    },
+    {
+      "displayNo": "2",
+      "parentId": "",
+      "useType": "00",
+      "imageUrl": "",
+      "authId": "",
+      "openModule": "",
+      "menuUrl": "",
+      "toolBarType": "02",
+      "children": [],
+      "displayName": "测试2017030919",
+      "typeId": "201703091043590000000000000213",
+      "configId": ""
+    }
+  ],
+  "object": null
+}

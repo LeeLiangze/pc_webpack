@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/**
+ *created by lishouming 2016/12/23 
+ *
+ */
+.queryHistory .queryLeft .customerList{
+	list-style: none;
+}
+.queryHistory .queryLeft .customerList .customer{
+	height:18px;
+	line-height: 18px;
+	padding: 10px 0;
+	font-size: 12px;
+	width:152px;
+	padding-left: 30px;
+	overflow: hidden;
+	cursor:pointer;
+}
+.queryHistory .queryLeft .customerList .clicked{
+	background-color: #e5f2fa;
+}
+.queryHistory .queryLeft .customerList .customer img{
+	width:20px;
+	height: 20px;
+	float: left;
+	margin-right: 12px;
+}
+.queryHistory .queryLeft .customerList .customer span{
+	display: inline-block;
+	width: 100px;
+	overflow: hidden;
+	height:18px;
+	float: left;
+	/*璁剧疆鏄电О瓒呭嚭閮ㄥ垎鏄剧ず鐪佺暐鍙�*/
+	text-overflow: ellipsis;
+	white-space:nowrap;
+}
+

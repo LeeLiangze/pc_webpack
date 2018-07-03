@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+/* jf-tag for Huawei @ 20160408 */
+.jf-tag { margin:0; padding:0;}
+.jf-tag li { display:block; float:left; margin:4px 4px; font-size:12px; list-style:none; height:28px; line-height:28px;}
+.jf-tag li a { display:block; height:28px; position:relative; margin-left:8px; padding-left:6px; padding-right:26px; text-decoration:none; color:#333;}
+.jf-tag li .span_del{display:block;height:28px; width:28px; position:absolute; right:-4px; top:-2px;}
+.jf-tag li .span_add{display:block;height:28px; width:28px; position:absolute; right:-4px; top:-2px;}
+.jf-tag li .span_added{display:block;height:28px; width:28px; position:absolute; right:-4px; top:-2px;background:url("../../img/clientInfo/icon_tag.gif") no-repeat 6px -43px;}
+
+.hasTagsDiv{width:95%;height:110px;border:1px solid gray;overflow:auto;}
+.addClientTag .colorRed {color: red;}
+.addClientTag .no_tags {margin-left: 50px}
+.addClientTag .txt_tag {vertical-align: middle;
+	cursor: text;
+	text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    border: 0;
+    display: inline-block;
+    padding: 0 0 0 3px;
+    height: 22px;
+    width:210px;
+    line-height: 21px; 
+    font-size: 12px;
+    line-height: 1.125;
+    margin: 7px 5px 10px 5px;
+    text-decoration: none;}
+.addClientTag {
+    padding: 20px;
+}    
+.addClientTag .btns-center {
+    margin-left: 35%;
+}    
+.addClientTag .btns-center a {
+   text-decoration:none;
+}
+.addClientTag .tag_0{
+    background-color:#D9EDF8;
+    border:1px solid #0085D0;
+    height:24px;
+    padding:0px 10px;
+    border-radius:12px;
+    font-size:12px;
+    color:#0085D0;
+    line-height:24px;
+}
+#hasTags .tag_0 span{
+	background:url("../../img/clientInfo/icon_del_1.png") no-repeat center center;
+}
+#hasTags .tag_1 span{
+	background:url("../../img/clientInfo/icon_del_2.png") no-repeat center center;
+}
+#hasTags .tag_2 span{
+	background:url("../../img/clientInfo/icon_del_3.png") no-repeat center center;
+}
+#hasTags .tag_3 span{
+	background:url("../../img/clientInfo/icon_del_4.png") no-repeat center center;
+}
+/* .addClientTag #tagsLib .tag_4 span{
+	background:url("../../img/clientInfo/icon_del_5.png") no-repeat;
+} */
+#tagsLib .tag_0 span{
+	background:url("../../img/clientInfo/icon_add_1.png") no-repeat center center;
+}
+#tagsLib .tag_1 span{
+	background:url("../../img/clientInfo/icon_add_2.png") no-repeat center center;
+}
+#tagsLib .tag_2 span{
+	background:url("../../img/clientInfo/icon_add_3.png") no-repeat center center;
+}
+#tagsLib .tag_3 span{
+	background:url("../../img/clientInfo/icon_add_4.png") no-repeat center center;
+}
+/* .addClientTag #tagsLib .tag_4 span{
+	background:url("../../img/clienInfo/icon_add_5.png") no-repeat center center;
+} */
+.addClientTag .tag_1{
+     background-color:#EEF6DE;
+    border:1px solid #90C31F;
+    height:24px;
+    padding:0px 10px;
+    border-radius:12px;
+    font-size:12px;
+    color:#90C31F;
+    line-height:24px;
+
+}
+.addClientTag .tag_2{
+     background-color:#FEE6E6;
+    border:1px solid #F65A56;
+    height:24px;
+    padding:0px 10px;
+    border-radius:12px;
+    font-size:12px;
+    color:#F65A56;
+    line-height:24px;
+	
+}
+.addClientTag .tag_3{
+     background-color:#FFF3D9;
+    border:1px solid #FFAE00;
+    height:24px;
+    padding:0px 10px;
+    border-radius:12px;
+    font-size:12px;
+    color:#FFAE00;
+    line-height:24px;
+	
+}
+/* .addClientTag .tag_4{
+     background-color:#F1E9FA;
+    border:1px solid #9E69DB;
+    height:24px;
+    padding:0px 10px;
+    border-radius:12px;
+    font-size:12px;
+    color:#9E69DB;
+    line-height:24px;
+	
+} */ 
+   

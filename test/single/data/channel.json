@@ -1,0 +1,15 @@
+{
+        "returnCode": "0",
+        "returnMessage": "",
+        "beans":[ 
+            {
+               "MEDIATYPEID":"03"
+            },
+            {
+               "MEDIATYPEID":"09"
+            },
+            {
+               "MEDIATYPEID":"01"
+            }
+        ]
+    }

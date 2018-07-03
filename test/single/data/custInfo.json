@@ -1,0 +1,40 @@
+{
+        "returnCode": "0",
+        "returnMessage": "",
+        "bean": 
+            {
+                "userName": "张三",
+                "contactId":"201604201030170000000000000605",
+                "serialNo":"201604201030170000000000000606",
+                "assChannel": "微信 微博 短信",
+                "userLevel": "3",
+                "userStatus": "开机",
+                "callerNo": "13838088438",
+                "calledNo": "10086",
+                "subsNumber": "13838000438",
+                "userAdd": "北京",
+                "overdraft": "100元",
+                "curPlanName": "4G飞享-188 B套餐",
+                "userStatus": "正常",
+                "paymentMethod": "现金",
+                "userAdd": "北京",
+                "numberLevel": "一线号码",
+                "userBegin": "2008.09.01", 
+                "userBrandVal": "社会渠道号码" ,
+                "realNameInfo": "张全蛋",
+                "curFee": "88元",
+                "realFee": "68元",
+                "flag4G": "是",
+                "curPlanId": "ZYZX0001",
+                "startTime": "2017.09.01",
+                "endTime": "2018.09.01",
+                "nextPlanName": "4G飞享-188 B套餐",
+                "nextPlanId": "2018.09.01",
+                "email": "xxx@163.com",
+                "userLevel":"VIP",
+                "oweFee":"888元",
+                "provNm":"北京"
+                
+            }
+        
+    }

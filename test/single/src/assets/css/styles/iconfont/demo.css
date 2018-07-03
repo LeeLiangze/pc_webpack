@@ -1,0 +1,89 @@
+*{margin: 0;padding: 0;list-style: none;}
+/*
+KISSY CSS Reset
+鐞嗗康锛�1. reset 鐨勭洰鐨勪笉鏄竻闄ゆ祻瑙堝櫒鐨勯粯璁ゆ牱寮忥紝杩欎粎鏄儴鍒嗗伐浣溿�傛竻闄ゅ拰閲嶇疆鏄揣瀵嗕笉鍙垎鐨勩��
+2. reset 鐨勭洰鐨勪笉鏄榛樿鏍峰紡鍦ㄦ墍鏈夋祻瑙堝櫒涓嬩竴鑷达紝鑰屾槸鍑忓皯榛樿鏍峰紡鏈夊彲鑳藉甫鏉ョ殑闂銆�
+3. reset 鏈熸湜鎻愪緵涓�濂楁櫘閫傞�氱敤鐨勫熀纭�鏍峰紡銆備絾娌℃湁閾跺脊锛屾帹鑽愭牴鎹叿浣撻渶姹傦紝瑁佸壀鍜屼慨鏀瑰悗鍐嶄娇鐢ㄣ��
+鐗硅壊锛�1. 閫傚簲涓枃锛�2. 鍩轰簬鏈�鏂颁富娴佹祻瑙堝櫒銆�
+缁存姢锛氱帀浼�<lifesinger@gmail.com>, 姝ｆ烦<ragecarrier@gmail.com>
+ */
+
+/** 娓呴櫎鍐呭杈硅窛 **/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 缁撴瀯鍏冪礌 */
+dl, dt, dd, ul, ol, li, /* list elements 鍒楄〃鍏冪礌 */
+pre, /* text formatting elements 鏂囨湰鏍煎紡鍏冪礌 */
+form, fieldset, legend, button, input, textarea, /* form elements 琛ㄥ崟鍏冪礌 */
+th, td /* table elements 琛ㄦ牸鍏冪礌 */ {
+  margin: 0;
+  padding: 0;
+}
+
+/** 璁剧疆榛樿瀛椾綋 **/
+body,
+button, input, select, textarea {
+  font-size: 12px;
+  line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var { font-style: normal; } /* 灏嗘枩浣撴壎姝� */
+small { font-size: 12px; } /* 灏忎簬 12px 鐨勪腑鏂囧緢闅鹃槄璇伙紝璁� small 姝ｅ父鍖� */
+
+/** 閲嶇疆鍒楄〃鍏冪礌 **/
+ul, ol { list-style: none; }
+
+/** 閲嶇疆鏂囨湰鏍煎紡鍏冪礌 **/
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+
+/** 閲嶇疆琛ㄥ崟鍏冪礌 **/
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: 0; } /* img 鎼溅锛氳閾炬帴閲岀殑 img 鏃犺竟妗� */
+button, input, select, textarea { font-size: 100%; } /* 浣垮緱琛ㄥ崟鍏冪礌鍦� ie 涓嬭兘缁ф壙瀛椾綋澶у皬 */
+/* 娉細optgroup 鏃犳硶鎵舵 */
+
+/** 閲嶇疆琛ㄦ牸鍏冪礌 **/
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* 娓呴櫎娴姩 */
+.ks-clear:after, .clear:after {
+  content: '\20';
+  display: block;
+  height: 0;
+  clear: both;
+}
+.ks-clear, .clear {
+  *zoom: 1;
+}
+
+.main {padding: 30px 100px;}
+.main h1{font-size:36px; color:#333; text-align:left;margin-bottom:30px; border-bottom: 1px solid #eee;}
+
+.helps{margin-top:40px;}
+.helps pre{
+  padding:20px;
+  margin:10px 0;
+  border:solid 1px #e7e1cd;
+  background-color: #fffdef;
+  overflow: auto;
+}
+
+.icon_lists li{
+  float:left;
+  width: 100px;
+  height:180px;
+  text-align: center;
+}
+.icon_lists .icon{
+  font-size: 42px;
+  line-height: 100px;
+  margin: 10px 0;
+  color:#333;
+  -webkit-transition: font-size 0.25s ease-out 0s;
+  -moz-transition: font-size 0.25s ease-out 0s;
+  transition: font-size 0.25s ease-out 0s;
+
+}
+.icon_lists .icon:hover{
+  font-size: 100px;
+}

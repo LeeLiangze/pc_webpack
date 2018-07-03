@@ -1,0 +1,14 @@
+{"busiCode":null,
+  "opId":null,
+  "phone":null,
+  "returnCode":"0",
+  "returnMessage":null,
+   "bean":{},
+   "beans":[
+   {"defaultMode":"1","serviceTypeId":"185k","name":"10085专席"},
+    {"defaultURL":"js/communication/huawei/media/clientArea/contentInit^交谈区",
+"defaultMode":"2","serviceTypeId":"185KOTCK","name":"85互联网客服"},
+   {"logoURL":"","defaultURL":"js/communication/huawei/media/clientArea/contentInit^交谈区",
+"defaultMode":"2","serviceTypeId":"otck","name":"互联网客服"}
+   ],
+"object":null}

@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+/*卤脿录颅脟酶脥路虏驴 */
+.hl_content{
+    position:absolute;
+    height:34.2%;
+    bottom:0;
+    width:69.6%;;
+    border:1px solid #c9c9c9;
+    background-color:#fff;
+}
+.hl_content .hl_tool{
+	height:34px;
+	line-height:34px;
+	background-color:rgb(247,249,250);
+}
+
+/*卤脿录颅脟酶脫貌 */
+.hl_content .editor{
+    word-break: break-all;
+    position:absolute;
+    left:0;
+    width:99.8%;
+    z-index:0;
+}
+.hl_content .editor:hover{
+    cursor: text;
+}
+
+/*碌脳虏驴掳麓脜楼脟酶脫貌 */
+.hl_content .btnsArea {
+    padding-top: 6px;
+    height: 40px;
+    font-size: 14px;
+    border-top:none;
+    margin-top:2px;
+    margin-left:2px;
+    line-height:50px;
+    position:absolute;
+    left:0;
+    top:144px;
+    width:100%;
+}
+
+.hl_content .btnsArea a {
+    display: inline-block;
+    outline: none;
+    padding: 0 10px;
+    margin: 0 3px;
+    height: 30px;
+    width:100px;
+    border-radius: 4px;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 14px;
+    letter-spacing: 4px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.hl_content .btnsArea .btn-light {
+    border: 1px solid rgb(208,214,217);
+    background: #FFF;
+    color: #39A9EF;
+    float:right;
+    letter-spacing: 2px;
+    width:70px;
+    margin-right:22px;
+}
+
+.hl_content .btnsArea .btn-dark {
+    border: 1px solid #309ADD;
+    background: #39A9EF;
+    color: #FFF;
+    float:right;
+    width:78px;
+    height:30px;
+    border-radius: 4px;
+    white-space: nowrap;
+    font-size: 14px;
+    letter-spacing: 4px;
+    line-height:30px;
+    padding: 0 10px;
+    margin: 0 3px;
+    margin-right:22px;
+    position:relative;
+}
+.hl_content .btnsArea .btn-dark span {
+	display:inline-block;
+	height:30px;
+	cursor:pointer;
+}
+
+.hl_content .btnsArea .btn-dark span .chooselist{
+    display:inline-block;
+    border-left:1px solid #ccc;
+}
+.hl_content .btnsArea .btn-dark ul{
+	list-style:none;
+	height:80px;
+    background: url("../../../../../src/assets/img/content/editArea/fs-xl.png") no-repeat;
+    position:absolute;
+    z-index: 9999;
+    top: -80px;
+    left: -68px;
+    padding-top:6px;
+    letter-spacing: 0;
+}
+.hl_content .btnsArea .btn-dark ul .enter,.hl_content .btnsArea .btn-dark ul .ctrlEnter{
+	line-height:30px;
+	color:#A5B5BD;
+	margin-left:2px;
+    width: 150px;
+    text-align: left;
+    padding-left: 10px;
+    font-size:12px;
+}
+.hl_content .btnsArea .btn-dark ul span,.hl_content .btnsArea .btn-dark ul span{
+	text-align:left;
+}
+.hl_content .btnsArea .btn-transfer {
+    border: 1px solid rgb(208,214,217);
+    background: #FFF;
+    color: #39A9EF;
+    float:left;
+    width:90px;
+    margin-left: 22px;
+}
+
+
+.hl_content .edui-default .edui-editor-toolbarboxouter{
+	    border-bottom: none;
+}
+.hl_content .edui-default .edui-editor-toolbarboxinner {
+    padding: 0;
+}
+.hl_content .edui-default .edui-toolbar{
+	padding:0;
+}
+.hl_content .edui-default .edui-editor-bottomContainer td{
+	border:none;
+}
+#transferId .sn-list-show {
+    overflow: hidden;
+}

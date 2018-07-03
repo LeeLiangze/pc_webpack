@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/* t-page */
+.t-page { text-align: right; font-size: 12px; position: relative; }
+.t-page > ul { margin: 0; padding: 0; display: inline-block; }
+.t-page > ul li { margin: 0 5px; list-style: none ; float: left; }
+.t-page > ul li.active span, .t-page > ul li.disabled span, .t-page > ul li a { float: left; padding: 0 8px; line-height: 24px; height: 24px; text-decoration: none; }
+.t-page > ul li a { color: #666; background: #FFF; border: 1px solid #DDD; border-radius: 3px; }
+.t-page > ul li a:hover { text-decoration: none; color: #FFF; background-color: #339dd9; border: 1px solid #339dd9; }
+.t-page .active span { background: #339dd9; color: #FFF; border-radius: 3px; border: 1px solid #339dd9; }
+.t-page .disabled span { color: #AAA; }
+.t-page:after, .t-page:before { display: block; content: ""; clear: both; height: 0; font-size: 0; overflow: hidden; }
+
+/* page-btns */
+.t-page > .page-btns { float: left;}

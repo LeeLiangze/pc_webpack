@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.sn-list table {
+    table-layout:fixed;
+}
+
+.sn-list thead th{
+    text-align: center;
+}
+.list-hide {
+    display: none
+}
+
+.list-serireNo {
+    width: 28%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.list-time {
+    text-align: center
+}
+
+.width-percent-23 {
+    width: 25%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.width-percent-24 {
+    width: 25%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}

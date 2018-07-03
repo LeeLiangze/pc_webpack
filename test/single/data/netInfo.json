@@ -1,0 +1,57 @@
+{
+    "busiCode": null,
+    "opId": null,
+    "phone": null,
+    "returnCode": "0",
+    "returnMessage": null,
+    "bean": {},
+    "beans": [
+        {
+            "argeSeqno": "1",
+            "name": "公众号",
+            "configId": "1"
+        },
+        {
+            "argeSeqno": "2",
+            "name": "微博账号",
+            "configId": "1"
+        },
+        {
+            "argeSeqno": "3",
+            "name": "昵称",
+            "configId": "1"
+        },
+        {
+            "argeSeqno": "4",
+            "name": "性别",
+            "configId": "1"
+        },
+        {
+            "argeSeqno": "5",
+            "name": "粉丝数",
+            "configId": "1"
+        },
+        {
+            "argeSeqno": "6",
+            "name": "关注数",
+            "configId": "1"
+        },
+        {
+            "argeSeqno": "7",
+            "name": "微博数",
+            "configId": "1"
+        },
+        {
+            "argeSeqno": "8",
+            "name": "是否认证",
+            "configId": "1"
+        },
+        {
+            "argeSeqno": "8",
+            "name": "注册时间",
+            "configId": "1"
+        }
+
+    ],
+    "object": null
+}

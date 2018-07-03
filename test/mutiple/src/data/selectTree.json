@@ -1,0 +1,34 @@
+{
+    "returnCode":"0",
+    "returnMessage":"",
+    "bean":{
+        "total":"14"
+    },
+    "beans":[
+        {
+            "id":"1",
+            "name":"人事部",
+            "value":"1",
+            "children":[
+                { "name":"黄华林",
+                    "value":"13612345611"
+                }
+            ]
+        },
+        {
+            "id":"2",
+            "name":"业务部",
+            "value":"2",
+            "children":[
+                { "name":"李四",
+                    "value":"13577778888",
+                    "id":"21"
+                },
+                { "name":"王五",
+                    "value":"13812345898",
+                    "id":"22"
+                }
+            ]
+        }
+    ]
+}

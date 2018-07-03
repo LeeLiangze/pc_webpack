@@ -1,0 +1,62 @@
+{
+  "busiCode": null,
+  "opId": null,
+  "phone": null,
+  "returnCode": "0",
+  "returnMessage": null,
+  "bean": {},
+  "beans": [
+    {
+      "agentalarmMsg": "系统提示：咨询客户较多，请您稍等~||人工MM正在帮您核实问题，请您稍等~",
+      "maxConcurrent": "3",
+      "logoURL": "src/assets/img/mediaIcon/webchat/ic-wechat.png",
+      "agentalarmTime": "30",
+      "alarmMsg": "系统提示：您好，您已2分钟无任何操作，如问题还未得到答复，可回复催促，并延长等待时间。如问题已经解决，系统也将在1分钟后自动关闭。",
+      "releaseMsg": "系统提示：非常抱歉，因为3分钟内未接到您任何消息，系统将自动结束会话，如仍需帮助，您可再次联系我们，感谢您的支持，祝您生活愉快！",
+      "mediaTypeId": "01",
+      "releaseTime": "3",
+      "mediaTypeName": "webChat",
+      "alarmTime": "2",
+      "ctiMediaTypeId": "51"
+    },
+    {
+      "maxConcurrent": "10",
+      "mediaTypeId": "02",
+      "mediaTypeName": "短信",
+      "alarmTime": "3",
+      "ctiMediaTypeId": ""
+    },
+    {
+      "agentalarmMsg": "系统提示：咨询客户较多，请您稍等~||人工MM正在帮您核实问题，请您稍等~",
+      "maxConcurrent": "3",
+      "logoURL": "src/assets/img/mediaIcon/weixin/tx-wx.png",
+      "agentalarmTime": "30",
+      "alarmMsg": "系统提示：您好，您已2分钟无任何操作，如问题还未得到答复，可回复催促，并延长等待时间。如问题已经解决，系统也将在1分钟后自动关闭。",
+      "releaseMsg": "系统提示：非常抱歉，因为3分钟内未接到您任何消息，系统将自动结束会话，如仍需帮助，您可再次联系我们，感谢您的支持，祝您生活愉快！",
+      "mediaTypeId": "03",
+      "releaseTime": "3",
+      "mediaTypeName": "微信",
+      "alarmTime": "2",
+      "ctiMediaTypeId": "53"
+    },
+    {
+      "agentalarmMsg": "系统提示：咨询客户较多，请您稍等~||人工MM正在帮您核实问题，请您稍等~",
+      "maxConcurrent": "1",
+      "logoURL": "src/assets/img/mediaIcon/weibo/tx-wb.png",
+      "agentalarmTime": "30",
+      "alarmMsg": "系统提示：您好，您已2分钟无任何操作，如问题还未得到答复，可回复催促，并延长等待时间。如问题已经解决，系统也将在1分钟后自动关闭。",
+      "releaseMsg": "系统提示：非常抱歉，因为3分钟内未接到您任何消息，系统将自动结束会话，如仍需帮助，您可再次联系我们，感谢您的支持，祝您生活愉快！",
+      "mediaTypeId": "09",
+      "releaseTime": "3",
+      "mediaTypeName": "微博",
+      "alarmTime": "2",
+      "ctiMediaTypeId": "52"
+    },
+    {
+      "mediaTypeId": "5",
+      "mediaTypeName": "语音",
+      "ctiMediaTypeId": "5"
+    }
+  ],
+  "object": null
+}

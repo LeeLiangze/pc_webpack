@@ -1,0 +1,66 @@
+{
+        "returnCode": "0",
+        "returnMessage": "",
+        "bean":{ "total":"50"
+               },
+        "beans":[ 
+          
+            {
+               "dataSourceId":"201701100001",
+               "nodeType":"00",
+               "serviceURL":"",
+               "name":"广西客服",
+               "serviceTypeName":"广西客服",
+               "id":"1111",
+               "pId":"root "
+                   
+            },
+            {
+               "dataSourceId":"201701100002",
+               "nodeType":"01",
+               "serviceURL":"https://192.168.100.5:8843/ngmtt/login.html",
+               "name":"获取客户基本信息",
+               "serviceTypeName":"广西客服",
+               "id":"2222",
+               "pId":"1111"   
+            },
+            {
+              "dataSourceId":"201701100003",
+               "nodeType":"01",
+               "serviceURL":"https://192.168.100.5:8843/ngmtt/login.html",
+               "name":"获取客户资费信息",
+               "serviceTypeName":"广西客服",
+               "id":"3334",
+               "pId":"2222"    
+            },
+             {
+               "dataSourceId":"201701100001",
+               "nodeType":"00",
+               "serviceURL":"",
+               "name":"河北客服",
+               "serviceTypeName":"河北客服",
+               "id":"1112",
+               "pId":"root "
+                   
+            },
+            {
+               "dataSourceId":"201701100002",
+               "nodeType":"01",
+               "serviceURL":"https://192.168.100.5:8843/ngmtt/login.html",
+               "name":"获取客户基本信息获取客户基本信息获取客户基本信息",
+              "serviceTypeName":"河北客服",
+               "id":"2223",
+               "pId":"1112"   
+            },
+            
+            {
+              "dataSourceId":"201701100003",
+               "nodeType":"01",
+               "serviceURL":"https://192.168.100.5:8843/ngmtt/login.html",
+               "name":"获取客户地市信息",
+               "serviceTypeName":"河北客服",
+               "id":"2224",
+               "pId":"1112"    
+            }
+        ]
+    }

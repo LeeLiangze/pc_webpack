@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+.chat-right-item {
+    float: right;
+    margin-bottom: 20px;
+    padding-right: 40px;
+    min-width: 50%;
+    width:100%;
+}
+
+.chat-right-item .chat-icon {
+    float: right;
+    width: 40px;
+    height: 40px;
+}
+
+.chat-right-item .chat-info {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.chat-right-item .chat-info .chat-time {
+    margin-right: 55px;
+}
+
+.chat-right-item .chat-info span {
+    font-size: 10px;
+    color: #999;
+    font-size: 12px\0;
+}
+
+.chat-right-item .chat-info .chat-channel {
+    padding-right: 4px;
+}
+
+.chat-right-item .chat-info .chat-sender {
+    padding-right: 4px;
+}
+
+
+
+.chat-right-item .chat-content-text {
+    margin-right: 15px;
+    background: #D9EDF8;
+    float: right;
+    max-width: 75%;
+    border-radius: 4px;
+}
+
+.chat-right-item .chat-content-text div {
+    font-size: 12px;
+    text-align: left;
+    padding: 12px;
+    color: #222;
+    word-break: break-all;
+    word-wrap:break-word;
+}
+
+
+
+.chat-right-item .chat-content-text a {
+    color: #0085D0;
+    font-size: 12px;
+    text-decoration: blink;
+}
+
+
+
+.chat-right-item .chat-content-img {
+    float: right;
+    margin-right: 15px;
+}
+
+.chat-right-item .chat-content-img img {
+    max-width: 150px;
+    height: 110px;
+}
+
+
+/*褰曢煶css*/
+
+.chat-right-item .chat-content-record {
+    margin-right: 15px;
+    min-width: 40px;
+    max-width: 300px;
+    background: #EBEFF2;
+    height: 40px;
+    max-width: 75%;
+    float: right;
+    border-radius: 4px;
+}
+
+.chat-right-item .chat-content-record img {
+    margin-top: 8px;
+    margin-right: 10px;
+    float: right;
+    width: 22px;
+    height: 22px;
+}
+
+.chat-right-item .record-time {
+    float: right;
+    font-size: 14px;
+    color: #999;
+    margin-top: 14px;
+    margin-right: 10px;
+}
+
+.chat-right-item .play-flag img {
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin-top: 14px;
+}
+
+#msgId {
+    display: none;
+}
+
+.revokeButtonDiv {
+    overflow: hidden;
+    text-align: center;
+    width: 40px;
+    height: 20px;
+}
+
+.revokeMsgTips {
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #F5F5F5;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.revokeDiv {
+    float: left;
+    width: 120px;
+    margin-left: 44%;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 5px 12px 5px 12px;
+    background-color: #A9A9A9;
+}
+.revokeButton{
+    text-decoration: none;
+}
+.revokeButton:link {
+    font-size: 12px;
+    color: #0085D0;
+}
+
+.revokeButton:hover {
+    color: #319DDF
+}
+
+.revokeButton {
+    font-size: 12px;
+    color: #006AA6;
+}
+
+#divShow {
+    border-radius: 3px;
+    position: absolute;
+    border: 1px solid #ccc;
+    background: white;
+    padding: 5px;
+    color: black;
+    /* display:block; */
+    z-index: 1;
+    max-width: 500px;
+    word-break: break-all;
+}
+
+#historyDivShow {
+    border-radius: 3px;
+    position: fixed;
+    border: 1px solid #ccc;
+    background: white;
+    padding: 5px;
+    color: black;
+    display: block;
+    z-index: 3035;
+    max-width: 500px;
+    word-break: break-all;
+}

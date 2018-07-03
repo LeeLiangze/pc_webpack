@@ -1,0 +1,16 @@
+{
+    "bean":
+    {
+        "MainIP":"192.168.1.99",
+        "CTIType":"3",
+        "deptId":"01",
+        "deptName":"销售部",
+        "staffId":"101",
+        "staffName":"孙晓辉",
+        "operIp":"192.168.1.1",
+        "roleName":"系统管理员"
+    },
+    "beans":{},
+    "returnCode":"0",
+    "returnMessage":""
+}

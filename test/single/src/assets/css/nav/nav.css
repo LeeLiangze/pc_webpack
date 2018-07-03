@@ -1,0 +1,337 @@
+@charset "utf-8";
+/*重置样式*/
+*{
+	padding: 0;
+	margin: 0;
+}
+.nav_showNotice{
+	display: none;
+	width: 100%;
+	height:22px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 220;
+	line-height: 22px;
+}
+.nav_showNotice>.box{
+	width: 100%;
+	text-align: center;
+	height:22px;
+	z-index: 2000123103300;
+	
+}
+.alpha{
+	  filter:alpha(opacity=50);  
+      -moz-opacity:0.5;  
+      -khtml-opacity: 0.5;  
+      opacity: 0.5;
+}
+.nav_showNotice>.hideNotice{
+	width: 28px;
+	height: 22px;
+	text-align: center;
+	line-height: 22px;
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 0;
+	right:18%;
+	background:none;
+	cursor: pointer;
+	z-index: 2000123103303;
+}
+/*模板样式*/
+.topMenu>.wrap img{
+	vertical-align: middle;
+}
+.topMenu>.wrap{
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 21px;
+	background-color:#f5f5f5;
+	border‐bottom:1px solid #7E7E7E;
+}
+.topMenu>.wrap>ul{
+	height: 20px;
+	width:100%;
+	float: right;
+	/*overflow: hidden;*/
+	z-index: 2000;
+	text-align: right;
+	line-height: 20px;
+}
+.topMenu>.wrap>ul>li>img{
+	vertical-align: middle;
+	margin-left: 5px;
+}
+.topMenu>.wrap>ul>li{
+	cursor: pointer;
+	height: 20px;
+	color: #ABABAB;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+	list-style: none;
+	margin-right:20px;
+	/*display:inline-block兼容所有浏览器方法start*/
+	display:inline-block;
+    *display:inline;
+    *zoom:1; /*end*/
+    position: relative;
+}
+/*工具栏子项*/
+.topMenu>.wrap>ul>li>.childContent{
+	position:absolute;
+	left:0;
+	top:22px;
+	padding:10px;
+	z-index:1213131313213;
+	background:white;
+}
+.topMenu>.wrap>ul>li>.childContent>li{
+	
+}
+/*工具下拉*/
+.topMenu>.wrap>ul>li>.toolSlide{
+	width: 211px;
+	border: 1px solid #E5E9EA;	
+	position: absolute;
+	top: 20px;
+	right:-18px;
+	background:white;
+	z-index: 100000;
+	display: none;
+}
+
+.tool{
+	padding: 0 10px;
+	color:#BFBFBF;
+}
+.tool:hover{
+	background:#E5F3FA;
+}
+.tool:hover p,.tool:hover p span{
+	color:#0085D0;
+}
+.tool>p{
+	text-align: left;
+	padding: 5px 0;
+	border-bottom:  1px solid #E5E9EA;
+}
+.tool>p>span{
+	float: right;
+	color: #9B9B9B;
+	font-size:10px;
+	display: block;
+	height: 100%;
+}
+.tool>p>img{
+	margin-right: 5px;
+}
+/*姓名下拉*/
+.topMenu>.wrap>.nameSlide{
+	width: 155px;
+	top: 20px;
+	right: 5px;
+	border: 1px solid #E5E9EA;
+	position: absolute;
+	z-index: 2000;
+	background: white;
+	/*隐藏姓名下拉*/
+	display: none;
+}
+.topMenu>.wrap>.nameSlide>img{
+	width: 145px;
+	height: 5px;
+	position: absolute;
+	top:-5px;
+	right:0px;
+}
+/*显示登录成功块*/
+.topMenu>.wrap>.nameSlide>.loginSuccess{
+	padding: 10px 15px;
+	border-bottom: 1px solid #E5E9EA;
+	text-align: left;
+}
+.topMenu>.wrap>.nameSlide>.loginSuccess>p>.hoverStaff{
+	position:absolute;
+	left:45px;
+	top:70px;
+	display:block;
+	width:100px;
+	height:20px;
+	text-align:center;
+	line-height:20px;
+	border: 1px solid #E5E9EA;
+    visibility:hidden;	
+    background:gray;
+    border-radius:10px;
+    color:white;
+    text-index:2px;
+}
+.topMenu>.wrap>.nameSlide>.loginSuccess>.staff:hover{
+	cursor: pointer;
+}
+.topMenu>.wrap>.nameSlide>.loginSuccess>.staff:hover .hoverStaff{
+	visibility:visible;
+}
+/*显示操作块*/
+.topMenu>.wrap>.nameSlide>.operation>p>img{
+	vertical-align: middle;
+	margin-right: 8px;
+	z-index: 100000;
+}
+.topMenu>.wrap>.nameSlide>.operation{
+	padding: 0 10px 0 15px;
+	position: relative;
+}
+/*鼠标移入姓名下拉菜单产生的效果*/
+.topMenu>.wrap>.nameSlide>.operation:hover{
+	background:#E5F3FA;
+	color:#0085D0;
+	cursor: pointer;
+}
+.topMenu>.wrap>.nameSlide>.operation>p{
+	padding: 10px 0;
+	text-align: left;
+	border-bottom:  1px solid #E5E9EA;
+}
+/*产生选择菜单的共有的样式*/
+.topMenu>.wrap>.nameSlide>.operation>.selectMenu,
+.topMenu>.wrap>.nameSlide>.operation>.setSkin,
+.topMenu>.wrap>.nameSlide>.operation>.viewMode{
+	background:#E5F3FA;
+	border: 1px solid #E5E9EA;
+	position: absolute;
+	top: 0;
+	right:155px;
+	border-right: none;
+	display: none;
+}
+/*接续菜单选择*/
+.topMenu>.wrap>.nameSlide>.operation>.selectMenu{
+	width:160px;
+	padding:5px 5px 5px 15px;
+	/*display: block;*/
+}
+/*鼠标移入出现接续菜单*/
+.topMenu>.wrap>.nameSlide>.operation:hover .selectMenu,
+.topMenu>.wrap>.nameSlide>.operation:hover .setSkin,
+.topMenu>.wrap>.nameSlide>.operation:hover .viewMode{
+	display: block;
+} 
+/*皮肤设置选择*/
+.topMenu>.wrap>.nameSlide>.operation>.setSkin{
+	width: 310px;
+	display: none;
+	padding:15px 5px 15px 15px;
+	text-align: left;
+	color: #ACB4B8;
+}
+/*纯色主题*/
+.topMenu>.wrap>.nameSlide>.operation>.setSkin>.skin{
+	width:99px;
+    /*display:inline-block兼容所有浏览器方法start*/
+	display:inline-block;
+    *display:inline;
+    *zoom:1; /*end*/
+    
+    
+}
+/*视图模式的选择*/
+.topMenu>.wrap>.nameSlide>.operation>.viewMode{
+	width:333px;
+	padding:0px 5px 0px 15px;
+	display: none;
+}
+/*视图样式*/
+.topMenu>.wrap>.nameSlide>.operation>.viewMode>.view,
+.topMenu>.wrap>.nameSlide>.operation>.selectMenu>.setPlace{
+	width:73px;
+	height: 100%;
+	padding-bottom: 10px;
+	margin-right: 5px;
+	color: #ACB4B8;
+	/*display:inline-block兼容所有浏览器方法start*/
+	display:inline-block;
+    *display:inline;
+    *zoom:1;
+    /*end*/
+}
+.topMenu>.wrap>.nameSlide>.operation>.viewMode>.view{
+	margin:5px 0;
+}
+.topMenu>.wrap>.nameSlide>.operation>.viewMode>.view>span,
+.topMenu>.wrap>.nameSlide>.operation>.selectMenu>.setPlace>span,
+.topMenu>.wrap>.nameSlide>.operation>.setSkin>.skin>span{
+	display: block;
+	font-size:10px;
+	width: 95%;
+	text-align: center;
+	margin-top: 4px;
+}
+.topMenu>.wrap>.nameSlide>.operation>.viewMode>.view>img{
+	margin-bottom: 0px;
+}
+/*屏幕缩小到一定值的时候的样式 start*/
+@media only screen and (max-width:450px) {
+.topMenu>.wrap>ul,.topMenu>.wrap{
+		width:600px;
+ }
+}
+/*媒介查询end*/
+
+.popAnoceShow{
+	position: absolute;
+	top:1000px;
+	right:30px;
+	width:280px;
+	height:195px;
+	border:1px solid #ccc;
+	z-index:200000;
+	display:none;
+	background:white;
+}
+.popAnoceShow>.popAnoceTitle{
+	height:25px;
+	font-size: 12px;
+	color: white;
+    text-align: left;
+    background: #90C501;
+    line-height:25px;
+    margin-bottom: 10px;
+}
+.anoceList{
+	cursor: pointer;
+    text-align: left;
+    cursor: pointer;
+    text-indent: 8px;
+    margin-bottom: 2px;
+    font-size:12px;
+    /*display:-webkit-box !importmort;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	word-break:break-all;
+	white-space:nowrap;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:2;*/
+}
+.anoceList:hover{
+	color:white;
+	background:#0085D0;
+}
+
+.anoceList span,.moreAnoceList span{
+    font-size: 14px;
+    vertical-align: middle;
+}
+.popAnoceShow>.moreAnoceList{
+	height:24px;
+	width:58px;
+	text-align:center;
+	cursor: pointer;
+	
+}

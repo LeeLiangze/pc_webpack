@@ -1,0 +1,113 @@
+{
+	"userName": "韩梅梅",
+	"loginTime": "08:12:12",
+	"userIp": "192.168.0.1",
+	"staffId": "1008601",
+	"department": "中移在线客服部",
+	"viewMode": 0,
+	"continueMenu": 0,
+	"skinSet": 0,
+	"tool": true,
+	"content":"公告内容公告内容公告内容公告内容公告内容公告内容公告内容公告内容公告内容公告内容公告内容公告内容",
+	"items": [
+
+		{
+			"btnId": "001",
+			"displayName": "知识库",
+			"btnOrder": 5,
+			"btnImgurl": "url1",
+			"btnUrl": "url2",
+			"btnOpenMethod": 1,
+			"tool": true
+		}, 
+		{
+			"btnId": "002",
+			"displayName": "公告",
+			"num": 5,
+			"btnOrder": 1,
+			"btnImgurl": "url2",
+			"btnUrl": "url2",
+			"btnOpenMethod": 1
+		}, 
+		{
+			"btnId": "003",
+			"displayName": "便签",
+			"num": 10,
+			"btnOrder": 2,
+			"btnImgurl": "url2",
+			"btnUrl": "url2",
+			"btnOpenMethod": 1
+		},
+		 {
+			"btnId": "004",
+			"displayName": "收藏夹",
+			"btnOrder": 3,
+			"btnImgurl": "url2",
+			"btnUrl": "url2",
+			"btnOpenMethod": 1
+		},
+		{
+			"btnId": "004",
+			"displayName": "工具",
+			"btnOrder": 3,
+			"btnImgurl": "url2",
+			"btnUrl": "url2",
+			"btnOpenMethod": 1
+		}
+	],
+	"skins": [
+		{
+			"skinName": "默认",
+			"argeSeqno": "1",
+			"thumbnlPath": "src/assets/img/nav/pfsz-mr.png",
+			"skinId": "01"
+		}, 
+		{
+			"skinName": "绿色",
+			"argeSeqno": "2",
+			"thumbnlPath": "src/assets/img/nav/pfsz-ls.png",
+			"skinId": "02"
+		}, 
+		{
+			"skinName": "黑金",
+			"argeSeqno": "3",
+			"thumbnlPath": "src/assets/img/nav/pfsz-hj.png",
+			"skinId": "03"
+		}
+	],
+	 "view": [
+        {
+            "custInfoFlag": "0",
+            "picUrl": "src/assets/img/nav/stms-yystA.png",
+            "serviceTypeId": "10086otck",
+            "viewDesc": "语音视图A",
+            "viewMode": "01",
+            "touchNwsclmFlag": "1"
+        },
+        {
+            "custInfoFlag": "0",
+            "picUrl": "src/assets/img/nav/stms-yystB.png",
+            "serviceTypeId": "10086otck",
+            "viewDesc": "语音视图B",
+            "viewMode": "02",
+            "touchNwsclmFlag": "1"
+        },
+        {
+            "custInfoFlag": "1",
+            "picUrl": "src/assets/img/nav/stms-hlwst.png",
+            "serviceTypeId": "10086otck",
+            "viewDesc": "互联网视图",
+            "viewMode": "03",
+            "touchNwsclmFlag": "1"
+        },
+        {
+            "custInfoFlag": "0",
+            "picUrl": "src/assets/img/nav/stms-glyst.png",
+            "serviceTypeId": "10086otck",
+            "viewDesc": "管理员视图",
+            "viewMode": "04",
+            "touchNwsclmFlag": "0"
+        }
+    ]
+
+}

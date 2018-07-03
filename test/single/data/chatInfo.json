@@ -1,0 +1,56 @@
+{
+    "busiCode": null,
+    "opId": null,
+    "phone": null,
+    "returnCode": "0",
+    "returnMessage": null,
+    "bean": {},
+    "beans": [
+        {
+            "id": "01",
+            "paraFlag": "1",
+            "configItemUrl": "js/content/chatInfo/custInfo",
+            "hideFlag": "0",
+            "argeSeqno": "1",
+            "paraName": "serialNo",
+            "paraColmName": "serialNo",
+            "typeId": "",
+            "configItemName": "传统客户信息"
+        },
+        {
+            "id": "02",
+            "paraFlag": "1",
+            "configItemUrl": "js/content/chatInfo/netInfo",
+            "hideFlag": "0",
+            "argeSeqno": "2",
+            "paraName": "serialNo",
+            "paraColmName": "serialNo",
+            "typeId": "",
+            "configItemName": "互联网信息"
+        },
+        {
+            "id": "03",
+            "paraFlag": "1",
+            "configItemUrl": "js/content/chatInfo/contactHistory",
+            "hideFlag": "0",
+            "argeSeqno": "3",
+            "paraName": "serialNo",
+            "paraColmName": "serialNo",
+            "typeId": "",
+            "configItemName": "历史接触"
+        },
+        {
+            "id": "03",
+            "paraFlag": "1",
+            "configItemUrl": "js/content/chatInfo/contanctHistory",
+            "hideFlag": "0",
+            "argeSeqno": "3",
+            "paraName": "serialNo",
+            "paraColmName": "serialNo",
+            "typeId": "",
+            "configItemName": "自定义模块"
+        }
+
+    ],
+    "object": null
+}

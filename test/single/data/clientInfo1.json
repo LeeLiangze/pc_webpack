@@ -1,0 +1,274 @@
+{
+
+        "returnCode": "0",
+        "returnMessage": "",
+        "beans": [
+        		
+				{
+				    "ITEMID": "basInfo",
+				    "ITEMNAME": "基本信息",
+				    "ORDERNUM": "1",
+				    "NODETYPE":"02",
+				    "SuperCode": "yyA"
+				},
+  	           {
+  	                "ITEMID": "castName",
+  	                "ITEMNAME": "客户姓名",
+  	                "ORDERNUM": "1",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "GROUPTYPE":"00",
+  	                "SuperCode": "basInfo"
+  	            },
+  	           {
+  	                "ITEMID": "subsNumber",
+  	                "ITEMNAME": "受理号码",
+  	                "ORDERNUM": "2",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "TEXT",
+  	                "GROUPTYPE":"00",
+  	                "SuperCode": "basInfo"
+  	            },
+  	            {
+  	                "ITEMID": "provNmView",
+  	                "ITEMNAME": "归属地",
+  	                "ORDERNUM": "3",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "GROUPTYPE":"00",
+  	                "SuperCode": "basInfo"
+  	            },
+  	            {
+  	                "ITEMID": "callerNo",
+  	                "ITEMNAME": "主叫号码",
+  	                "ORDERNUM": "4",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "GROUPTYPE":"01",
+  	                "SuperCode": "basInfo"
+  	            },
+  	            {
+  	                "ITEMID": "contactId",
+  	                "ITEMNAME": "接触编码",
+  	                "ORDERNUM": "5",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "GROUPTYPE":"01",
+  	                "SuperCode": "basInfo"
+  	            },
+  	            {
+  	                "ITEMID": "serialNo",
+  	                "ITEMNAME": "流水号",
+  	                "ORDERNUM": "5",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "GROUPTYPE":"01",
+  	                "SuperCode": "basInfo"
+  	            },
+  	            {
+  	                "ITEMID": "castState",
+  	                "ITEMNAME": "状态",
+  	                "ORDERNUM": "5",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "GROUPTYPE":"01",
+  	                "SuperCode": "basInfo"
+  	            },
+  	             {
+  	                "ITEMID": "castName",
+  	                "ITEMNAME": "客户姓名",
+  	                "ORDERNUM": "5",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "GROUPTYPE":"01",
+  	                "SuperCode": "basInfo"
+  	            },
+  	            {
+  	                "ITEMID": "userBrandVal",
+  	                "ITEMNAME": "客户品牌",
+  	                "ORDERNUM": "5",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "GROUPTYPE":"01",
+  	                "SuperCode": "basInfo"
+  	            },
+  	            {
+  	                "ITEMID": "networkTime",
+  	                "ITEMNAME": "入网时间",
+  	                "ORDERNUM": "5",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "GROUPTYPE":"01",
+  	                "SuperCode": "basInfo"
+  	            },
+  	            {
+  	                "ITEMID": "castName",
+  	                "ITEMNAME": "学生客户",
+  	                "ORDERNUM": "5",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "GROUPTYPE":"01",
+  	                "SuperCode": "basInfo"
+  	            },
+  	            {
+  	                "ITEMID": "starScore",
+  	                "ITEMNAME": "当前可兑换积分",
+  	                "ORDERNUM": "5",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "GROUPTYPE":"01",
+  	                "SuperCode": "basInfo"
+  	            },
+  	            {
+  	                "ITEMID": "castName",
+  	                "ITEMNAME": "集团客户",
+  	                "ORDERNUM": "5",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "GROUPTYPE":"01",
+  	                "SuperCode": "basInfo"
+  	            },
+  	            {
+  	                "ITEMID": "castName",
+  	                "ITEMNAME": "最近账期费用",
+  	                "ORDERNUM": "5",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "GROUPTYPE":"01",
+  	                "SuperCode": "basInfo"
+  	            },
+  	            {
+  	                "ITEMID": "castName",
+  	                "ITEMNAME": "终端设置标识",
+  	                "ORDERNUM": "5",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "GROUPTYPE":"01",
+  	                "SuperCode": "basInfo"
+  	            },
+  	            {
+  	                "ITEMID": "castName",
+  	                "ITEMNAME": "终端使用",
+  	                "ORDERNUM": "5",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "GROUPTYPE":"01",
+  	                "SuperCode": "basInfo"
+  	            },
+  	            {
+  	                "ITEMID": "castName",
+  	                "ITEMNAME": "最近账期",
+  	                "ORDERNUM": "5",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "GROUPTYPE":"01",
+  	                "SuperCode": "basInfo"
+  	            },
+  	            {
+  	                "ITEMID": "castName",
+  	                "ITEMNAME": "跟换USIM卡",
+  	                "ORDERNUM": "5",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "GROUPTYPE":"01",
+  	                "SuperCode": "basInfo"
+  	            },
+  	            {
+  	                "ITEMID": "castName",
+  	                "ITEMNAME": "月均4G费用",
+  	                "ORDERNUM": "5",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "GROUPTYPE":"01",
+  	                "SuperCode": "basInfo"
+  	            },
+  	            {
+  	                "ITEMID": "castName",
+  	                "ITEMNAME": "月均流量",
+  	                "ORDERNUM": "5",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "GROUPTYPE":"01",
+  	                "SuperCode": "basInfo"
+  	            },
+  	            {
+  	                "ITEMID": "castName",
+  	                "ITEMNAME": "全国统一流量套餐数量",
+  	                "ORDERNUM": "5",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "GROUPTYPE":"01",
+  	                "SuperCode": "basInfo"
+  	            },
+  	            {
+  	                "ITEMID": "castName",
+  	                "ITEMNAME": "全国统一流量套餐内总流浪",
+  	                "ORDERNUM": "5",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "GROUPTYPE":"01",
+  	                "SuperCode": "basInfo"
+  	            },
+  	            {
+				    "ITEMID": "channelInfo",
+				    "ITEMNAME": "渠道信息",
+				    "ORDERNUM": "2",
+				    "NODETYPE":"02",
+				    "SuperCode": "yyA"
+				},
+                 {
+  	                "ITEMID": "assChannel",
+  	                "ITEMNAME": "关联渠道",
+  	                "ORDERNUM": "1",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "CUSTOMIZE",
+  	                "DISPLAYSCRIPT":"assChannel",
+  	                "GROUPTYPE":"00",
+  	                "SuperCode": "channelInfo"
+  	            },
+  	            {
+				    "ITEMID": "continueInfo",
+				    "ITEMNAME": "接续信息",
+				    "ORDERNUM": "3",
+				    "NODETYPE":"02",
+				    "SuperCode": "yyA"
+				},
+				 {
+  	                "ITEMID": "acceRequest",
+  	                "ITEMNAME": "受理请求",
+  	                "ORDERNUM": "1",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "GROUPTYPE":"00",
+  	                "SuperCode": "continueInfo"
+  	            },
+  	             {
+  	                "ITEMID": "Satisfaction",
+  	                "ITEMNAME": "邀请评价",
+  	                "ORDERNUM": "2",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "GROUPTYPE":"00",
+  	                "SuperCode": "continueInfo"
+  	            },
+				{
+  				    "ITEMID": "tagInfo",
+  				    "ITEMNAME": "标签信息",
+  				    "ORDERNUM": "4",
+  				    "NODETYPE":"02",
+  				    "SuperCode": "yyA"
+  				},
+  				{
+                      "ITEMID": "custTag",
+                      "ITEMNAME": "客户标签",
+                      "ORDERNUM": "1",
+                      "NODETYPE":"03",
+                      "DISPLAYTYPE": "CUSTOMIZE",
+  	                  "DISPLAYSCRIPT":"custTag",
+  	                  "GROUPTYPE":"00",
+                      "SuperCode": "tagInfo"
+                  }
+				
+        ]
+    
+}

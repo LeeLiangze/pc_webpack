@@ -1,0 +1,143 @@
+{
+  "busiCode": null,
+  "opId": null,
+  "phone": null,
+  "returnCode": "0",
+  "returnMessage": null,
+  "bean": {},
+  "beans": [
+    {
+      "displayNo": "0",
+      "parentId": "000102008",
+      "imageUrl": "icon-zhenglitaizhuanhuan-copy",
+      "authId": "000102007002",
+      "openModule": "F",
+      "menuUrl": "",
+      "menuId": "000102008002",
+      "displayName": "整理态",
+      "typeId": "201703061449000000000000000009",
+      "configId": "201702130958540000000000000302"
+    },
+    {
+      "displayNo": "1",
+      "parentId": "000102008",
+      "imageUrl": "icon-shixianzhuanhuan-copy",
+      "authId": "000102007003",
+      "openModule": "F",
+      "menuUrl": "",
+      "menuId": "000102008003",
+      "displayName": "示闲",
+      "typeId": "201703061449000000000000000009",
+      "configId": "201702131709120000000000000303"
+    },
+    {
+      "displayNo": "2",
+      "parentId": "000102008",
+      "imageUrl": "icon-zonghejiexuzhuanhuan-copy",
+      "authId": "000102007004",
+      "openModule": "P",
+      "menuUrl": "",
+      "menuId": "000102008004",
+      "displayName": "综合接续",
+      "typeId": "201703061449000000000000000009",
+      "configId": "201702131709280000000000000304"
+    },
+    {
+      "displayNo": "3",
+      "parentId": "000102008",
+      "imageUrl": "icon-mimayanzhengzhuanhuan-copy",
+      "authId": "000102007005",
+      "openModule": "P",
+      "menuUrl": "js/comMenu/cipherCheck/cipherCheck?width=480&height=190",
+      "menuId": "000102008005",
+      "displayName": "密码验证",
+      "typeId": "201703061449000000000000000009",
+      "configId": "201702131709480000000000000305"
+    },
+    {
+      "displayNo": "4",
+      "parentId": "000102008",
+      "imageUrl": "icon-waihuzhuanhuan-copy",
+      "authId": "000102007006",
+      "openModule": "F",
+      "menuUrl": "",
+      "menuId": "000102008006",
+      "displayName": "外呼",
+      "typeId": "201703061449000000000000000009",
+      "configId": "201702131710010000000000000306"
+    },
+    {
+      "displayNo": "5",
+      "parentId": "000102008",
+      "imageUrl": "icon-fasongduanxin-copy",
+      "authId": "000102007007",
+      "openModule": "N",
+      "menuUrl": "",
+      "menuId": "000102008007",
+      "displayName": "发送短信",
+      "typeId": "201703061449000000000000000009",
+      "configId": "201702131710190000000000000307"
+    },
+    {
+      "displayNo": "6",
+      "parentId": "000102008",
+      "imageUrl": "icon-jieshuduihua-copy",
+      "authId": "000102007008",
+      "openModule": "F",
+      "menuUrl": "",
+      "menuId": "000102008008",
+      "displayName": "结束会话",
+      "typeId": "201703061449000000000000000009",
+      "configId": "201702131710430000000000000308"
+    },
+    {
+      "displayNo": "7",
+      "parentId": "000102008",
+      "imageUrl": "icon-zhuanjiezhuanxi-copy",
+      "authId": "000102007013",
+      "openModule": "P",
+      "menuUrl": "",
+      "menuId": "000102008013",
+      "displayName": "转接专席",
+      "typeId": "201703061449000000000000000009",
+      "configId": "201702141119480000000000000113"
+    },
+    {
+      "displayNo": "8",
+      "parentId": "000102010",
+      "imageUrl": "icon-qianchuzhuanhuan-copy",
+      "authId": "000102009001",
+      "openModule": "F",
+      "menuUrl": "",
+      "menuId": "000102010001",
+      "displayName": "签出",
+      "typeId": "201703061449000000000000000009",
+      "configId": "201702251509260000000000000408"
+    },
+    {
+      "displayNo": "9",
+      "parentId": "000102009",
+      "imageUrl": "icon-shouliqingqiuzhuanhuan-copy",
+      "authId": "000102008001",
+      "openModule": "N",
+      "menuUrl": "",
+      "menuId": "000102009001",
+      "displayName": "受理请求",
+      "typeId": "201703061449000000000000000009",
+      "configId": "201702251509530000000000000409"
+    },
+    {
+      "displayNo": "7",
+      "parentId": "000102010",
+      "imageUrl": "icon-xiuxi-copy",
+      "authId": "000102009002",
+      "openModule": "F",
+      "menuUrl": "",
+      "menuId": "000102010002",
+      "displayName": "休息",
+      "typeId": "201703061515320000000000000014",
+      "configId": "201703081141330000000000000002"
+    }
+  ],
+  "object": null
+}

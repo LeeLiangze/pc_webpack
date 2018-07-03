@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.tidyingDelayed_all{
+	width: 32px;
+}
+.tidyingDelayed_use{
+	width: 32px;
+}
+.tidyingDelayed_extend{
+	width: 32px;
+}
+
+.TidyingDelayed_div td{
+	  text-align:right;
+}
+.tidyingDelayed_div1{
+	padding-left:10%;
+	color:#333;
+	font-size:14px;
+}
+.tidyingDelayed_div2{
+	text-align:center;
+	margin-top: 25px;
+}
+.tidyingDelayed_div2 #tidyingDelayed_true{
+	background:#0085D0;
+	outline:0;
+}
+.tidyingDelayed_div2 #tidyingDelayed_false{
+	border:1px solid #0085D0;
+	background:#fff;
+	color:#0085D0;
+	outline:0;
+}
+

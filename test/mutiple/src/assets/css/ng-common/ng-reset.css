@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/* 以下样式文件会不定期更新及覆盖。不可修改! 不可修改!! 不可修改!!!
+/* 有任何问题请联系 tianwf@asiainfo.com 
+/* --------------------------------------------------------  */
+
+/* reset */
+html { margin: 0; padding: 0; }
+body { line-height: 1.4; color: #222; font-size: 12px; font-family: "Microsoft Yahei", Arial, sans-serif; }
+input, select, textarea { font-size: 100%; font-family: inherit; }
+body, form, h1, h2, h3, h4, h5, h6, ol, p, ul { margin: 0; }
+h4, h5, h6 { font-size: 1em; }
+ol, ul { padding-left: 0; list-style-type: none; }
+img, iframe { border: 0; }

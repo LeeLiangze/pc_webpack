@@ -1,0 +1,29 @@
+
+@charset "UTF-8";
+
+#add_sipServer_title td{
+	text-align:center;
+}
+
+
+#add_sipServer_title{
+	margin-top: 23px;
+}
+
+.synchronization{
+	background: #008ed0;
+    border: 1px solid #ddd;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 3px;
+}
+
+#add_sipServer_title td select{
+	display:inline-block;
+	/**height:30px;**/
+	height:21px;
+}
+#jobNumberTabulation {
+	width:102px;
+	/**height:30px;**/
+}

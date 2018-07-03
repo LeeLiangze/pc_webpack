@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+/*
+ *Created by lishouming on 2016/12/14. 
+ * */
+.clientInfo{
+	border:1px solid #E6E6E6;
+	position:relative;
+}
+.queueHead{
+	width: 180px;
+    padding: 0 9px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    border-bottom: 1px solid #eaeef1;
+    margin-bottom: 10px;
+    overflow: hidden;
+    float: left;
+	color:#666;
+	position:relative;
+}
+.queueHead div {
+    display: inline-block;
+    position:absolute;
+}
+.queueHead .queueTime {
+    width: 75px;
+    height: 12px;
+    padding: 14px 0;
+    line-height: 12px;
+    position: absolute;
+    left: 9px;
+    top: 0;
+}
+.queueHead .queueTime .TimeTilte {
+    position: absolute;
+    left: 0;
+    cursor:default;
+}
+.queueHead #timer {
+    width: 32px;
+    height: 12px;
+    line-height: 12px;
+    background-color: white;
+    color: #f65A56;
+    position: absolute;
+    right: 0;
+}
+.queueHead .yyskills{
+	visibility: visible;
+}
+.queueHead .noyy{
+	visibility: visible;
+}
+.queueHead #queue_skills_info {
+	right:9px;
+	float: right;
+	z-index:3;
+}
+.queueHead #queue_skills_info strong {
+    vertical-align: bottom;
+}
+.queueHead #queue_skills_info span{
+	display: inline-block;
+	height:31px;
+}
+ #waitBox{
+    width: 500%;
+    position: absolute;
+    z-index: 3;
+    left: 97px;
+    top: 16px;
+    padding: 0 10px;
+    display:none;
+}
+/**IE8中的透明度为0，并要对应设置背景色才能做相应的遮盖**/
+#waitFlag{
+	filter:alpha(opacity=0); 
+	z-index:3;
+	position: absolute;
+    top: -17px;
+    background:#fff;
+}
+/**谷歌浏览器专属**/
+@media screen and (-webkit-min-device-pixel-ratio:0){
+ #waitFlag { opacity:0;
+  background:#fff;
+  z-index:3;
+	position: absolute;
+    top: -17px; }
+}
+#waitBox img{
+	font-size: 0;
+    position: absolute;
+    top: 15px;
+    left: 24px;
+    z-index:5;
+}
+#waitBox #waitContent{
+	border: 1px solid lightgray;
+    padding: 10px;
+    position: absolute;
+    top: 20px;
+    background: #fff;
+    border-radius: 4px;
+}
+/*鏀惰捣渚ц竟鏍忕殑鏍峰紡*/
+.queueHeadOther {
+    width: 35px;
+    text-align: center;
+    padding:10px;
+    display: none;
+    margin: 0 auto;
+}
+.WaitNum {
+    color: red;
+}
+.queueHeadOther em {
+    display: block;
+    font-style: normal;
+    height: 12px;
+    margin: 1px auto;
+    width: 12px;
+}
+.queueHeadOther i {
+    display: block;
+    font-style: normal;
+    font-size: 5px;
+    -webkit-transform: scale(0.8);
+    height: 5px;
+}

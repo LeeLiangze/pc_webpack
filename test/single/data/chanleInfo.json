@@ -1,0 +1,34 @@
+{
+
+        "returnCode": "0",
+        "returnMessage": "",
+        "bean":{ "total":"50"
+               },
+        "beans": [
+        		
+				{
+				    "phoneNumber": "13811111111",
+				    "mediaTypeId": "03",
+				    "mediaTypeName": "微信",
+				    "channelId":"030007",
+				    "accountId": "asdfjsj",
+				    "screenName":"嘟嘟"
+				},
+  	           {
+				    "phoneNumber": "13811111111",
+				    "mediaTypeId": "09",
+				    "mediaTypeName": "微博",
+				    "channelId":"099909",
+				    "accountId": "1002243762",
+				    "screenName":"嘟嘟"
+				},
+  	           {
+				    "phoneNumber": "13811111111",
+				    "mediaTypeId": "01",
+				    "mediaTypeName": "webchat",
+				    "channelId":"080007",
+				    "accountId": "1002243762",
+				    "screenName":"嘟嘟"
+				}
+		]
+}

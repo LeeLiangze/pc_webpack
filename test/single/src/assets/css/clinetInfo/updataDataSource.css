@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.updataDataSource input{
+	    margin: 20px;
+}
+.updataDataSource span{
+	    margin-left: 30px;
+}
+.updataDataSource .DS_datasourceid{
+	width: 160px;
+    height: 24px
+}
+.updataDataSource .DS_serviceurl{
+	width: 350px;
+    height: 24px;
+}
+.updataDataSource .DS_nodedesc{
+	width: 240px;
+    height: 24px
+}
+.updataDataSource div{
+	float: right;
+    width: 40px;
+    text-align: center;
+    background-color: #3A8BE0;
+	margin-top: 20px;   
+}

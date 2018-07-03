@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.t-tooltip, .t-tooltip-dismissible {  border: 1px solid #ccc; border-radius: 5px; background: #fff; -webkit-box-shadow: 1px 1px 3px #ccc; -moz-box-shadow: 1px 1px 3px #ccc; box-shadow:1px 1px 3px #ccc; }
+
+/* 提示 */
+.t-tooltip { position: relative; top: 10px; left: 10px; z-index: 1020; margin-bottom: 20px; width: 300px; }
+.t-tooltip-content { padding: 10px;}
+.t-tooltip-content p { margin: 0; padding: 0; color: #333; font-size: 12px; line-height: 18px; }
+.t-tooltip-arrow i, .t-tooltip-arrow span{ position:absolute; right: 20px; overflow: hidden; width: 0; height : 0; border-right: 8px dashed transparent; border-left: 8px dashed transparent; font-style: normal; }
+.t-tooltip-arrow span { top: -8px; border-bottom: 8px solid #ccc; }
+.t-tooltip-arrow i { top: -7px; border-bottom: 8px solid #FFF; }
+
+/* 可关闭提示 */
+.t-tooltip-dismissible { box-sizing: content-box; width: 400px; height: 24px; line-height: 24px; padding: 4px 6px; }
+.t-tooltip-dismissible i,.t-tooltip-dismissible p { display: block; float: left; height: 24px; font-size: 12px; }
+.t-tooltip-dismissible i { color: #ff9628; font-size: 16px; padding: 0 4px;}
+.t-tooltip-dismissible p { margin: 0; padding: 0; font-size: 12px; color: #333;}
+.t-tooltip-dismissible a { display: block; width: 24px; height: 24px; float: right; font-weight: bold; text-align: center; color: #999; text-decoration: none;}
+.t-tooltip-dismissible a:hover { color: #333;}

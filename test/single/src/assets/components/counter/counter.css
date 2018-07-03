@@ -1,0 +1,37 @@
+.sn-counter,
+.sn-counter .btn,
+.sn-counter>.counterContent{
+    padding:0;
+    margin:0;
+}
+.sn-counter{
+    height: 35px;
+    line-height: 31px;
+}
+.sn-counter .sn-btns{
+    display: inline-block;
+    vertical-align: middle;
+}
+.sn-counter .sn-btns .btn{
+    width: 16px;
+    height:13px;
+    overflow: hidden;
+    border: 1px solid #a7a6ab;
+    display: block;
+    line-height:12px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.sn-counter .btn.addBtn{
+    margin-bottom: 3px;
+}
+.sn-counter>.counterContent{
+    vertical-align: middle;
+    padding: 3px 2px 0 3px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    border: 1px solid #a7a6ac;
+    width: 36px;
+    color: #666
+}

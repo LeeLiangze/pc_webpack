@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/* 步骤条 */
+.t-step { margin:0px auto;}
+.t-step .t-stepbar{ margin:12px auto 0px;overflow:hidden;}
+.t-step .t-stepbar li{ width:160px; float:left; text-align:center; list-style: none;}
+.t-step .t-stepbar .step-name{ padding:3px 0px; color:#888; font-size: 14px; font-weight:700px; margin-top:5px;}
+.t-step .t-stepbar .step-time{ margin-top:10px; color:#999; padding:8px 0px;}
+.t-step .t-stepbar .step-done .step-num{ background-position:50% -170px; color: #FFF; }
+.t-step .t-stepbar .step-num{ background:url(imgs/step-bg.png) no-repeat 50% -102px; height:34px; line-height:34px; color:#999;font-size:18px;}
+.t-step .t-stepbar .step-first .step-current .step-num{ background-position:50% -34px;}
+.t-step .t-stepbar .step-first .step-done .step-num{ background-position:50% -204px; }
+.t-step .t-stepbar .step-current .step-num{ background-position:50% 0px; color: #FFF; }
+.t-step .t-stepbar .step-last .step-num{ background-position:50% -136px; }
+.t-step .t-stepbar .step-last .step-current .step-num{ background-position:50% -68px; }
+.t-step .t-stepbar:after,.t-step .t-stepbar:before { display: block; content: ""; clear: both; height: 0; font-size: 0; overflow: hidden; }
+

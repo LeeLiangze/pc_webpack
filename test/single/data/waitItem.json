@@ -1,0 +1,34 @@
+{
+			  "returnCode":"0",
+			  "returnMessage":"",
+			  "bean":
+			  		{
+				  "totalQueueSize":"11"
+			  		},
+				  "beans":[
+				            {
+				            	"sKillName":"4G管家 集中坐席",
+				            	"queueSize":"3"
+				            },
+				            {
+				            	"sKillName":"4G管家 河南",
+				            	"queueSize":"2"
+				            },
+				            {
+				            	"sKillName":"微信 集中坐席",
+				            	"queueSize":"2"
+				            },
+				            {
+				            	"sKillName":"微信 河南",
+				            	"queueSize":"1"
+				            },
+				            {
+				            	"sKillName":"新浪微博 集中坐席",
+				            	"queueSize":"1"
+				            },
+				            {
+				            	"sKillName":"客服邮箱 河南",
+				            	"queueSize":"2"
+				            }
+				           ]
+}

@@ -1,0 +1,26 @@
+{
+  "busiCode": null,
+  "opId": null,
+  "phone": null,
+  "returnCode": "0",
+  "returnMessage": "成功",
+  "bean": {
+    "cateGoryId": "129001",
+    "itemName": "场景菜单子菜单单列最大菜单数量",
+    "moduleId": "129",
+    "description": "场景菜单下的二级菜单每行显示个数",
+    "value": "5",
+    "itemId": "129001001"
+  },
+  "beans": [
+    {
+      "cateGoryId": "129001",
+      "itemName": "场景菜单子菜单单列最大菜单数量",
+      "moduleId": "129",
+      "description": "场景菜单下的二级菜单每行显示个数",
+      "value": "5",
+      "itemId": "129001001"
+    }
+  ],
+  "object": null
+}

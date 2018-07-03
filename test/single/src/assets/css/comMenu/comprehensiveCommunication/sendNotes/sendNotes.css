@@ -1,0 +1,225 @@
+@charset "utf-8";
+
+.talk_time_1{
+	display:block;
+	text-align: left;
+	width: 100%;
+}
+.correctaaa{
+	font-size:12px;
+	height:26px;
+	line-height:26px;
+	color:#333;
+}
+.talk_time_1_re{
+	display:block;
+	text-align: right;
+	width: 100%;
+}
+.talk_time_1 p{
+    font-size: 12px;
+    margin-top: 0px;
+}
+.talk_time_1_re p{
+	font-size: 12px;
+    margin-top: 0px;
+}
+
+.divEditor_sendNotes{
+	color: #9e9393;
+    padding-left: 3px;
+    font-size:10px;
+    display:inline-block;
+    float:left;
+    margin-top:10px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+#Message{
+	 cursor:pointer;
+	 padding:5px 5px 5px 5px;
+	 margin-bottom: 5px;
+	 text-align: center;
+	 color:#339dd9;
+}
+/*讨论区*/
+ .talk_recordbox_1{
+	color: #afafaf;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 0px;
+	margin:14px 0px;
+	word-wrap: break-word;
+	overflow:hidden;
+	zoom:1;
+}
+
+.talk_recordbox_1:first-child{border-top:none;}
+.talk_recordbox_1:last-child{border-bottom:none;}
+.talk_recordbox_1 .talk_recordtextbg_1{
+	float:left;
+	width:10px;
+	height:60px;
+	background-repeat: no-repeat;
+	background-position: left top;}
+.talk_recordbox_1 .talk_recordtext_1{
+	border-radius:5px;
+	background-color:#eaf8ff;
+	width:auto;
+	max-width:61.8%;
+	height:auto;
+	float:left;
+	color:#333333;
+	display:inline;
+}
+.talk_recordbox_1 h3{
+	font-size:12px;
+	padding:0px;
+	padding: 12px;
+	text-transform:none;
+	font-weight: 100;
+	
+}
+.talk_recordbox_1 .user_1 {
+	float:left;
+	display:inline;
+	height: auto;
+	width: auto;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+}
+/*自己发言样式*/
+ .talk_recordboxme_1{
+	display:block;
+	color: #afafaf;	
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 10px;
+	padding-bottom: 0px;
+	word-wrap: break-word;
+	overflow:hidden;
+	zoom:1;
+}
+.talk_recordboxme_1 .talk_recordtextbg_1{
+	float:right;
+	width:10px;
+	height:50px;
+	background-repeat: no-repeat;
+	background-position: left top;}
+
+.talk_recordboxme_1 .talk_recordtext_1{
+	border-radius:5px;
+	background-color:#eaf8ff;
+	width:auto;
+	max-width:61.8%;
+	height:auto;
+	padding: 12px;
+	color:#666;
+	font-size:12px;
+	float:right;
+	display:inline;
+}
+.talk_recordboxme_1 h3{
+	font-size:12px;
+	padding:0px;
+	text-transform:none;
+	font-weight: 100;
+	color:#333333;
+	
+}
+.talk_recordboxme_1 .user_1{
+	float:right;
+	height: auto;
+	width: auto;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	display:inline;
+}
+
+.user_img_touch_1{
+	border-radius:5px;
+	height: 35px;
+	width: 35px;
+	display: block;
+    margin-left: 0px;
+}
+
+.customer_img_touch_1{
+	border-radius:5px;
+	height: 35px;
+	width: 35px;
+	display: block;
+}
+.detail_weibo_1{
+	border-radius:5px;
+	height: 35px;
+	width: 35px;
+	display: block;
+	background: url("../../../../img/appNew/icon-all.png") no-repeat -64px 1px;
+}
+.detail_weixin_1{
+	border-radius:5px;
+	height: 35px;
+	width: 35px;
+	display: block;
+	background: url("../../../../img/appNew/icon-all.png") no-repeat 0 0;
+}
+.detail_webchat_1{
+	border-radius:5px;
+	height: 35px;
+	width: 35px;
+	display: block;
+	background: url("../../../../img/appNew/icon-all.png") no-repeat -128px -350px;
+}
+.content-huawei-media-history a{
+	color:#198DD0;
+	text-decoration:none;
+}
+.content-huawei-media-history a:hover{
+	color:#ba2636;
+	text-decoration:underline;
+}
+.divEditor{
+	border:1px solid #d0d6d8;
+	word-break:break-all;
+	overflow:auto;
+}
+.divEditor_box .sendmsg{
+	display:inline-block;
+	float:right;
+	margin-top:10px;
+	border:0px;
+	height:32px;
+}
+.divEditor_box .jf-search-btns #send-note-btn{
+	margin:0;
+}
+.divEditor_box{
+	width:100%;
+	height:35px;
+	margin-bottom:20px;
+}
+.noteMeg_div{
+	overflow-y:scroll;
+	position: absolute;
+	width:92.5%;
+	height:45%;
+}
+.sendmsg #send-note-btn{
+ 	margin: 0;
+ }
+

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.side_to_side .sidebox .jf-table {
+	width: 300px;
+}
+.staffIdMax {
+	text-align:center;
+}
+.cascade {
+	text-align:left;
+}
+.sidebox {
+	height:250px;
+}
+/* add by zhangqiang start */
+.tree-menu .leftTree{border-right:1px solid green;overflow-y:auto; overflow-x:auto; width:15.4%; height:100%; position:absolute;}
+.tree-menu .botFrame{border-left:1px solid green;width:84.6%; height:100%;padding-left:10px;position:relative; left:15.4%; top:3px;}
+.tree-menu .saveBtn{margin-top: 50px;}
+.tree-menu #Service_title{margin-left: 10px;margin-top: 10px;font-weight: bold;}
+/* add by zhangqiang end */

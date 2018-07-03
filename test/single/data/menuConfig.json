@@ -1,0 +1,1789 @@
+{
+  "busiCode": null,
+  "opId": null,
+  "phone": null,
+  "returnCode": "0",
+  "returnMessage": null,
+  "bean": {},
+  "beans": [
+    {
+      "menuId": "000101",
+      "secondMenu": [
+        {
+          "menuId": "000101001",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000101001001",
+              "abbreviation": "zzjgwh",
+              "url": "https://192.168.100.36:8843/ngmtt/index.html#js/common/orgaMg/orgaMg",
+              "menuName": "组织机构维护",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000101001002",
+              "abbreviation": "gzzwh",
+              "url": "https://192.168.100.36:8843/ngmtt/index.html#js/common/groupMg/groupInfo",
+              "menuName": "工作组维护",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "组织管理",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000101002",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000101002001",
+              "abbreviation": "ryxxwh",
+              "url": "https://192.168.100.36:8843/ngmtt/index.html#js/common/staffMg/StaffAuthMg",
+              "menuName": "人员信息维护",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000101002002",
+              "abbreviation": "ygghcx",
+              "url": "https://192.168.100.36:8843/ngmtt/index.html#js/common/staffMg/StaffCodeQry",
+              "menuName": "员工工号查询",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "人员管理",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000101003",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000101003001",
+              "abbreviation": "gnqxwh",
+              "url": "https://192.168.100.36:8843/ngmtt/index.html#js/common/functionAuthMg/functionAuthMg",
+              "menuName": "功能权限维护",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000101003002",
+              "abbreviation": "jswh",
+              "url": "https://192.168.100.36:8843/ngmtt/index.html#js/common/roleMg/RoleManage",
+              "menuName": "角色维护",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000101003004",
+              "abbreviation": "sjqxwh",
+              "url": "https://192.168.100.36:8843/ngmtt/index.html#js/common/dataAuthMg/DataAuthMg",
+              "menuName": "数据权限维护",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000101003005",
+              "abbreviation": "yyjrqx",
+              "url": "https://[FrameServerHost]/ngmtt/index.html#js/common/oauth/oauthClient",
+              "menuName": "应用接入权限",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "权限管理",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000101004",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000101004001",
+              "abbreviation": "dlrzcx",
+              "url": "https://192.168.100.36:8843/ngmtt/index.html#js/common/loginLog/loginlog",
+              "menuName": "登录日志查询",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000101004002",
+              "abbreviation": "ywrzcx",
+              "url": "https://192.168.100.36:8843/ngmtt/index.html#js/common/operateLogMg/operateLogMg",
+              "menuName": "业务日志查询",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000101004004",
+              "abbreviation": "zxyhlb",
+              "url": "https://192.168.100.36:8843/ngmtt/index.html#js/common/onlineStaff/onlineStaff",
+              "menuName": "在线用户列表",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "业务日志管理",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000101005",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000101005001",
+              "abbreviation": "cdxwh",
+              "url": "https://192.168.100.36:8843/ngmtt/index.html#js/common/menuMaintain/menuMaintain",
+              "menuName": "菜单项维护",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000101005002",
+              "abbreviation": "xtcswh",
+              "url": "https://192.168.100.36:8843/ngmtt/index.html#js/common/systemParam/systemParam",
+              "menuName": "系统参数维护",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000101005003",
+              "abbreviation": "sjzdwh",
+              "url": "https://192.168.100.36:8843/ngmtt/index.html#js/common/dataDict/dataDict",
+              "menuName": "数据字典维护",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000101005004",
+              "abbreviation": "gxqjhc",
+              "url": "https://192.168.100.36:8843/ngmtt/index.html#js/common/cacheMg/refreshCache",
+              "menuName": "更新全局缓存",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000101005006",
+              "abbreviation": "mklbwh",
+              "url": "https://192.168.100.36:8843/ngmtt/index.html#js/common/serviceModuleMg/moduleListMg",
+              "menuName": "模块列表维护",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000101005007",
+              "abbreviation": "xtlbwh",
+              "url": "https://192.168.100.36:8843/ngmtt/index.html#js/common/serviceModuleMg/serviceTypeMg",
+              "menuName": "系统列表维护",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000101005008",
+              "abbreviation": "zhglyw",
+              "url": "https://192.168.100.36:8843/ngmtt/index.html#js/common/serviceType/serviceType",
+              "menuName": "账号关联业务",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "系统维护",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000101006",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000101006001",
+              "abbreviation": "CTIzygl",
+              "url": "js/callHandle/CTIInfo/cti",
+              "menuName": "CTI资源管理",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000101006003",
+              "abbreviation": "jndlgldsgl",
+              "url": "js/skillCity/skillCity",
+              "menuName": "技能队列关联地市管理",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000101006004",
+              "abbreviation": "ywlxgl",
+              "url": "js/comMenu/serviceBindCTI/serviceBindCTI",
+              "menuName": "业务类型管理",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "平台维护",
+          "menuFlag": "1"
+        }
+      ],
+      "menuName": "统一配置台",
+      "menuFlag": "1"
+    },
+    {
+      "menuId": "000102",
+      "secondMenu": [
+        {
+          "menuId": "000102002",
+          "thirdMenu": [
+            {
+              "openModule": "Y",
+              "menuId": "000102002001",
+              "abbreviation": "gjsf",
+              "url": "",
+              "menuName": "挂机释放",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "Y",
+              "menuId": "000102002005",
+              "abbreviation": "qxjy",
+              "url": "js/comMenu/callHold/callHold",
+              "menuName": "取消静音",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "F",
+              "menuId": "000102002006",
+              "abbreviation": "ksjy",
+              "url": "js/comMenu/callHold/callHold",
+              "menuName": "开始静音",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "F",
+              "menuId": "000102002007",
+              "abbreviation": "ecbh",
+              "url": "js/comMenu/secCallOut/secCallOutDeal",
+              "menuName": "二次拨号",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "F",
+              "menuId": "000102002010",
+              "abbreviation": "wbqz",
+              "url": "js/comMenu/callOutHelp/callOutHelpDeal",
+              "menuName": "外部求助",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "F",
+              "menuId": "000102002011",
+              "abbreviation": "sfth",
+              "url": "js/comMenu/isConference/conference",
+              "menuName": "三方通话",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "Y",
+              "menuId": "000102002012",
+              "abbreviation": "hc",
+              "url": "js/comMenu/transitInfo/transitInfo",
+              "menuName": "呼出",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "F",
+              "menuId": "000102002013",
+              "abbreviation": "thbc",
+              "url": "js/comMenu/callHold/callHold",
+              "menuName": "通话保持",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "F",
+              "menuId": "000102002015",
+              "abbreviation": "tzsfth",
+              "url": "js/comMenu/isConference/unConferenceDeal",
+              "menuName": "停止三方通话",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "F",
+              "menuId": "000102002018",
+              "abbreviation": "hjzc",
+              "url": "js/callHandle/transferCall?width=600&height=270",
+              "menuName": "呼叫转出",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "F",
+              "menuId": "000102002020",
+              "abbreviation": "qxqz",
+              "url": "js/comMenu/interHelp/cancelInterHelp",
+              "menuName": "取消求助",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "F",
+              "menuId": "000102002021",
+              "abbreviation": "hfth",
+              "url": "js/comMenu/callHold/callHold",
+              "menuName": "恢复通话",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "语音呼叫操作",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "0001020022",
+          "thirdMenu": [
+            {
+              "openModule": "P",
+              "menuId": "0001020022002",
+              "abbreviation": "tbivrsj",
+              "url": "js/comMenu/comprehensiveCommunication/automaticProcess/syncIvrFlow?width=640&heigth=450",
+              "menuName": "同步ivr数据",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "同步ivr数据",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000102003",
+          "thirdMenu": [
+            {
+              "openModule": "P",
+              "menuId": "000102003001",
+              "abbreviation": "zsjn",
+              "url": "js/callHandle/CTIInit/main/ResetSkill?width=840&heigth=580",
+              "menuName": "重设技能",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "F",
+              "menuId": "000102003002",
+              "abbreviation": "wl",
+              "url": "js\\comMenu\\isRing\\NoRing",
+              "menuName": "无铃",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "F",
+              "menuId": "000102003003",
+              "abbreviation": "yl",
+              "url": "js\\comMenu\\isRing\\Ring",
+              "menuName": "有铃",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000102003004",
+              "abbreviation": "zdhhssz",
+              "url": "js/comMenu/maxConcurrent/maxConcurrent",
+              "menuName": "最大会话数设置",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "F",
+              "menuId": "000102003005",
+              "abbreviation": "zltyc",
+              "url": "",
+              "menuName": "整理态延长",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "座席设置",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000102005",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000102005003",
+              "abbreviation": "hjrzcx",
+              "url": "https://[FrameServerHost]/ngcslog/src/module/log/callLog.html",
+              "menuName": "呼叫日志查询",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000102005004",
+              "abbreviation": "glrzcx",
+              "url": "https://[FrameServerHost]/ngcslog/src/module/log/mgLog.html",
+              "menuName": "管理日志查询",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "接续日志查询",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000102006",
+          "thirdMenu": [
+            {
+              "openModule": "Y",
+              "menuId": "000102006001",
+              "abbreviation": "zsk",
+              "url": "",
+              "menuName": "知识库",
+              "menuFlag": "0"
+            }
+          ],
+          "menuName": "知识库",
+          "menuFlag": "0"
+        },
+        {
+          "menuId": "000102007",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000102007001",
+              "abbreviation": "khsjypz",
+              "url": "js/clientInfo/dataSourch/ConfigDataSource",
+              "menuName": "客户数据源配置",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000102007002",
+              "abbreviation": "khxxxpz",
+              "url": "js/clientInfo/dataItem/ConfigDataItem",
+              "menuName": "客户信息项配置",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000102007003",
+              "abbreviation": "khxxlpz",
+              "url": "js/clientInfo/informationBar/ConfigInfoBar",
+              "menuName": "客户信息栏配置",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "客户信息配置",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000102008",
+          "thirdMenu": [
+            {
+              "openModule": "F",
+              "menuId": "000102008002",
+              "abbreviation": "zlt",
+              "url": "tidyStatus",
+              "menuName": "整理态",
+              "menuFlag": "0"
+            },
+            {
+              "openModule": "F",
+              "menuId": "000102008003",
+              "abbreviation": "sx",
+              "url": "free",
+              "menuName": "示闲",
+              "menuFlag": "0"
+            },
+            {
+              "openModule": "P",
+              "menuId": "000102008004",
+              "abbreviation": "zhjx",
+              "url": "js/comMenu/comprehensiveCommunication/automaticProcess/transfer?width=1200&height=600",
+              "menuName": "综合接续",
+              "menuFlag": "0"
+            },
+            {
+              "openModule": "P",
+              "menuId": "000102008005",
+              "abbreviation": "mmyz",
+              "url": "js/comMenu/cipherCheck/cipherCheck?width=480&height=190",
+              "menuName": "密码验证",
+              "menuFlag": "0"
+            },
+            {
+              "openModule": "F",
+              "menuId": "000102008006",
+              "abbreviation": "wh",
+              "url": "callOut",
+              "menuName": "外呼",
+              "menuFlag": "0"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000102008007",
+              "abbreviation": "fsdx",
+              "url": "https://192.168.100.36:8843/ngbusi_gx/src/module/others/sms/sendSms.html",
+              "menuName": "发送短信",
+              "menuFlag": "0"
+            },
+            {
+              "openModule": "F",
+              "menuId": "000102008008",
+              "abbreviation": "jshh",
+              "url": "callEnd",
+              "menuName": "结束会话",
+              "menuFlag": "0"
+            },
+            {
+              "openModule": "F",
+              "menuId": "000102008010",
+              "abbreviation": "xx",
+              "url": "rest",
+              "menuName": "休息",
+              "menuFlag": "0"
+            },
+            {
+              "openModule": "F",
+              "menuId": "000102008011",
+              "abbreviation": "thbc",
+              "url": "callHold",
+              "menuName": "通话保持",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "F",
+              "menuId": "000102008012",
+              "abbreviation": "ksjy",
+              "url": "startMute",
+              "menuName": "开始静音",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "P",
+              "menuId": "000102008013",
+              "abbreviation": "zjzx",
+              "url": "js/comMenu/comprehensiveCommunication/transferAgent/transferAgent?width=900&height=600",
+              "menuName": "转接专席",
+              "menuFlag": "0"
+            },
+            {
+              "openModule": "F",
+              "menuId": "000102008015",
+              "abbreviation": "qxjy",
+              "url": "",
+              "menuName": "取消静音",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "测试接续分组2",
+          "menuFlag": "0"
+        },
+        {
+          "menuId": "000102009",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000102009001",
+              "abbreviation": "slqq",
+              "url": "https://192.168.100.36:8843/ngwf_gx/src/module/sr/accept/requestAccept.html",
+              "menuName": "受理请求",
+              "menuFlag": "0"
+            }
+          ],
+          "menuName": "测试接续分组1",
+          "menuFlag": "0"
+        },
+        {
+          "menuId": "000102011",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000102011001",
+              "abbreviation": "lsjl",
+              "url": "js/comMenu/comprehensiveCommunication/sendNotes/querySendNotes",
+              "menuName": "历史记录",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "发送通知",
+          "menuFlag": "0"
+        }
+      ],
+      "menuName": "接续管理",
+      "menuFlag": "1"
+    },
+    {
+      "menuId": "000103",
+      "secondMenu": [
+        {
+          "menuId": "000103001",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000103001001",
+              "abbreviation": "jccx",
+              "url": "https://[FrameServerHost]/ngcct/src/module/contact/contactList.html",
+              "menuName": "接触查询",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000103001002",
+              "abbreviation": "jccx",
+              "url": "https://[FrameServerHost]/ngcct/src/module/contact/staffContact.html",
+              "menuName": "坐席当天接触",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000103001005",
+              "abbreviation": "kymnym",
+              "url": "https://192.168.96.110:8444/Test/index.jsp",
+              "menuName": "跨域模拟页面",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "P",
+              "menuId": "000103001006",
+              "abbreviation": "csym",
+              "url": "js/comMenu/transferInfo/transferInfo?width=480&height=190",
+              "menuName": "测试页面",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "客户接触管理",
+          "menuFlag": "1"
+        }
+      ],
+      "menuName": "客户接触",
+      "menuFlag": "1"
+    },
+    {
+      "menuId": "000104",
+      "secondMenu": [
+        {
+          "menuId": "000104001",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000104001001",
+              "abbreviation": "khbqkwh",
+              "url": "https://[FrameServerHost]/ngmm/src/module/media/tag/manageTag.html",
+              "menuName": "客户标签库维护",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000104001002",
+              "abbreviation": "ywswh",
+              "url": "https://[FrameServerHost]/ngmm/src/module/media/serviceTree/serviceTree.html",
+              "menuName": "业务树维护",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000104001003",
+              "abbreviation": "tpkwh",
+              "url": "https://[FrameServerHost]/ngmm/src/module/media/pictureMg/PictureMg.html",
+              "menuName": "图片库维护",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000104001004",
+              "abbreviation": "kjhfsz",
+              "url": "https://[FrameServerHost]/ngmm/src/module/common/repliesOption/repliesOption.html",
+              "menuName": "快捷回复设置",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "多媒体配置",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000104002",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000104002001",
+              "abbreviation": "lxrgl",
+              "url": "https://[FrameServerHost]/ngmm/src/module/media/activeSendMsg/activeSendMsg.html",
+              "menuName": "联系人管理",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "联系人管理",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000104003",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000104003001",
+              "abbreviation": "jrcpz",
+              "url": "https://[FrameServerHost]/ngmm/src/module/common/dailyTime/ChnlPeizhi.html",
+              "menuName": "接入侧配置",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "接入侧配置",
+          "menuFlag": "1"
+        }
+      ],
+      "menuName": "多媒体",
+      "menuFlag": "1"
+    },
+    {
+      "menuId": "000105",
+      "secondMenu": [
+        {
+          "menuId": "000105001",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000105001002",
+              "abbreviation": "fwqqcx",
+              "url": "http://192.168.100.36:11001/ngwf/#js/workflow/serviceRequest",
+              "menuName": "服务请求查询",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000105001003",
+              "abbreviation": "wwfwqqcx",
+              "url": "http://192.168.100.36:11001/ngwf/#js/workflow/serviceRequestUnFinished",
+              "menuName": "未完服务请求查询",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "受理请求及查询",
+          "menuFlag": "1"
+        },
+        {
+          "openModule": "",
+          "menuId": "000105004",
+          "abbreviation": "gxgzl",
+          "url": "",
+          "menuName": "广西工作流",
+          "menuFlag": "1"
+        },
+        {
+          "openModule": "",
+          "menuId": "000105005",
+          "abbreviation": "gzl（yjpt）",
+          "url": "",
+          "menuName": "工作流（一级平台）",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000105006",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000105006001",
+              "abbreviation": "xydk",
+              "url": "https://192.168.100.36:8843/ngwf_gx/src/module/bir/handle/IndustryPort.html",
+              "menuName": "行业端口",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000105006002",
+              "abbreviation": "sxxfdxhmgl",
+              "url": "https://192.168.100.36:8843/ngwf_gx/src/module/bir/handle/badInfoSmsLimitList.html",
+              "menuName": "受限下发短信号码管理",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000105006003",
+              "abbreviation": "blxxsl",
+              "url": "https://192.168.100.36:8843/ngwf_gx/src/module/bir/handle/badInfoMange.html",
+              "menuName": "不良信息受理",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000105006004",
+              "abbreviation": "drljxx",
+              "url": "https://192.168.100.36:8843/ngwf_gx/src/module/bir/handle/importJunksmsInfo.html",
+              "menuName": "导入垃圾信息",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000105006005",
+              "abbreviation": "satzfh",
+              "url": "https://192.168.100.36:8843/ngwf_gx/src/module/bir/handle/suspectedCrimes.html",
+              "menuName": "涉案拓展封号",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "不良信息",
+          "menuFlag": "1"
+        }
+      ],
+      "menuName": "工作流",
+      "menuFlag": "1"
+    },
+    {
+      "menuId": "000106",
+      "secondMenu": [
+        {
+          "menuId": "000106001",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000106001001",
+              "abbreviation": "gglb",
+              "url": "https://192.168.100.36:8843/nganoce/src/module/anoce/anoceList.html",
+              "menuName": "公告列表",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000106001002",
+              "abbreviation": "gggl",
+              "url": "https://192.168.100.36:8843/nganoce/src/module/anoce/anoceManage.html",
+              "menuName": "公告管理",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "公告管理",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000106002",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000106002001",
+              "abbreviation": "bqgl",
+              "url": "https://192.168.100.36:8843/nganoce/src/module/note/note.html",
+              "menuName": "便签管理",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000106002002",
+              "abbreviation": "bqjk",
+              "url": "https://192.168.100.36:8843/nganoce/src/module/note/noteMonitor.html",
+              "menuName": "便签监控",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "便签管理",
+          "menuFlag": "1"
+        }
+      ],
+      "menuName": "公告便笺",
+      "menuFlag": "1"
+    },
+    {
+      "menuId": "000108",
+      "secondMenu": [
+        {
+          "menuId": "000108001",
+          "thirdMenu": [
+            {
+              "openModule": "Y",
+              "menuId": "000108001002",
+              "abbreviation": "jsq",
+              "url": "js/common/counter/counter",
+              "menuName": "计算器",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000108001003",
+              "abbreviation": "jczhsd",
+              "url": "https://192.168.100.36:8843/ngmtt/index.html#js/communication/huawei/audio/counter/counter",
+              "menuName": "解除账号锁定",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000108001006",
+              "abbreviation": "sd",
+              "url": "js/communication/huawei/audio/lock/Lock",
+              "menuName": "锁定",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000108001007",
+              "abbreviation": "grmmxg",
+              "url": "https://192.168.100.36:8843/ngmtt/index.html#js/common/passwordHelp/passwordHelp",
+              "menuName": "个人密码修改",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "Y",
+              "menuId": "000108001008",
+              "abbreviation": "kjhfsz",
+              "url": "",
+              "menuName": "快捷回复设置",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "常用功能",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000108002",
+          "thirdMenu": [
+            {
+              "openModule": "Y",
+              "menuId": "000108002001",
+              "abbreviation": "scj",
+              "url": "js/favorites/favorites",
+              "menuName": "收藏夹",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "收藏夹",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000108003",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000108003001",
+              "abbreviation": "yggrpz",
+              "url": "https://192.168.100.36:8843/ngmtt/index.html#js/common/staffCfg/StaffCfg",
+              "menuName": "员工个人配置",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000108003002",
+              "abbreviation": "azjspz",
+              "url": "https://192.168.100.36:8843/ngmtt/index.html#js/common/sbuttonMg/BasisRoleCfg",
+              "menuName": "按照角色配置",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000108003003",
+              "abbreviation": "pzxwh",
+              "url": "https://192.168.100.36:8843/ngmtt/index.html#js/common/configMaintenance/shortcutbutton",
+              "menuName": "配置项维护",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000108003004",
+              "abbreviation": "jslbpz",
+              "url": "https://192.168.100.36:8843/ngmtt/index.html#js/common/roleTypeCfgMg/roleTypeCfg",
+              "menuName": "角色类别配置",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000108003005",
+              "abbreviation": "grlbpz",
+              "url": "https://192.168.100.36:8843/ngmtt/index.html#js/common/staffTypeCfgMg/staffTypeCfg",
+              "menuName": "个人类别配置",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "快捷按钮配置",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000108004",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000108004001",
+              "abbreviation": "zsk",
+              "url": "http://192.168.100.36:8843/aikbs/kbs/uiguangxi/listCreate.jsp",
+              "menuName": "知识库",
+              "menuFlag": "0"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000108004002",
+              "abbreviation": "gg",
+              "url": "https://192.168.100.36:8843/nganoce/src/module/anoce/anoceList.html",
+              "menuName": "公告",
+              "menuFlag": "0"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000108004003",
+              "abbreviation": "bq",
+              "url": "https://192.168.100.36:8843/nganoce/src/module/note/note.html",
+              "menuName": "便签",
+              "menuFlag": "0"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000108004004",
+              "abbreviation": "scj",
+              "url": "https://192.168.100.36:8843/ngbusi_gx/src/module/others/favorites/favorites.html",
+              "menuName": "收藏夹",
+              "menuFlag": "0"
+            },
+            {
+              "openModule": "F",
+              "menuId": "000108004005",
+              "abbreviation": "gj",
+              "url": "",
+              "menuName": "工具",
+              "menuFlag": "0"
+            }
+          ],
+          "menuName": "测试个人工具栏",
+          "menuFlag": "0"
+        }
+      ],
+      "menuName": "常用操作",
+      "menuFlag": "1"
+    },
+    {
+      "menuId": "000109",
+      "secondMenu": [
+        {
+          "menuId": "000109001",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000109001001",
+              "abbreviation": "khxx",
+              "url": "http://192.168.93.202:8090/ngba/#js/globalAbility/pc/clientBusinessInfo",
+              "menuName": "客户信息",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "互联网查询",
+          "menuFlag": "0"
+        }
+      ],
+      "menuName": "互联网",
+      "menuFlag": "1"
+    },
+    {
+      "menuId": "000110",
+      "secondMenu": [
+        {
+          "menuId": "000110001",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000110001001",
+              "abbreviation": "",
+              "url": "https://[FrameServerHost]/qualityfront/module/quality/checkObj.html",
+              "menuName": "考评对象",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000110001002",
+              "abbreviation": "",
+              "url": "https://[FrameServerHost]/qualityfront/module/quality/checkType.html",
+              "menuName": "考评类别",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000110001003",
+              "abbreviation": "",
+              "url": "https://[FrameServerHost]/qualityfront/module/quality/ScoreManager.html",
+              "menuName": "考评项",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000110001004",
+              "abbreviation": "",
+              "url": "https://[FrameServerHost]/qualityfront/module/quality/SocreTmptManager.html",
+              "menuName": "考评模板",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000110001005",
+              "abbreviation": "",
+              "url": "https://[FrameServerHost]/qualityfront/module/quality/extractTactics.html",
+              "menuName": "抽取策略模板",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000110001006",
+              "abbreviation": "",
+              "url": "https://[FrameServerHost]/qualityfront/module/quality/queryQuaPlan.html",
+              "menuName": "质检计划管理",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "质检基础数据管理",
+          "menuFlag": "1"
+        }
+      ],
+      "menuName": "服务质量综合管理",
+      "menuFlag": "1"
+    },
+    {
+      "openModule": "Y",
+      "menuId": "000115",
+      "abbreviation": "ywsl",
+      "url": "1",
+      "menuName": "业务受理",
+      "menuFlag": "1"
+    },
+    {
+      "menuId": "000213",
+      "secondMenu": [
+        {
+          "menuId": "000213001",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000213001001",
+              "abbreviation": "xzyytx",
+              "url": "https://[FrameServerHost]/nglocal/src/html/remind/addRemind.html",
+              "menuName": "新增预约提醒",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000213001002",
+              "abbreviation": "yytxcx",
+              "url": "https://[FrameServerHost]/nglocal/src/html/remind/listRemind.html",
+              "menuName": "预约提醒查询",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000213001003",
+              "abbreviation": "dcrzcx",
+              "url": "https://[FrameServerHost]/nglocal/src/html/contact/dialogRecord.html",
+              "menuName": "导出日志查询",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000213001004",
+              "abbreviation": "zjsbhfcx",
+              "url": "https://[FrameServerHost]/nglocal/src/html/allQuery/returnVisitFail.html",
+              "menuName": "转接失败回访查询",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000213001005",
+              "abbreviation": "gzst",
+              "url": "https://[FrameServerHost]/nglocal/src/html/allQuery/workView.html",
+              "menuName": "工作视图",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "综合查询",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000213002",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000213002001",
+              "abbreviation": "qqcx",
+              "url": "https://[FrameServerHost]/nglocal/src/html/serviceReq/reqQuery.html",
+              "menuName": "请求查询",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000213002002",
+              "abbreviation": "rdfwlb",
+              "url": "https://[FrameServerHost]/nglocal/src/html/serviceReq/hotsrtype/index.html",
+              "menuName": "热点服务类别",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000213002003",
+              "abbreviation": "cjfwqq",
+              "url": "https://[FrameServerHost]/nglocal/src/html/serviceReq/CreateServiceReq.html",
+              "menuName": "创建服务请求",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000213002005",
+              "abbreviation": "ydcx",
+              "url": "https://[FrameServerHost]/nglocal/src/html/serviceReq/TransactionQuery.html",
+              "menuName": "异动查询",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000213002006",
+              "abbreviation": "clrzcx",
+              "url": "https://[FrameServerHost]/nglocal/src/html/serviceReq/ProcessingLog.html",
+              "menuName": "处理日志查询",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000213002008",
+              "abbreviation": "fwqqlbgl",
+              "url": "https://[FrameServerHost]/nglocal/src/html/serviceReq/conf/index.html",
+              "menuName": "服务请求类别关联",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000213002009",
+              "abbreviation": "rdfwpz",
+              "url": "https://[FrameServerHost]/nglocal/src/html/serviceReq/hotServiceSet.html",
+              "menuName": "热点服务配置",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "服务请求",
+          "menuFlag": "1"
+        }
+      ],
+      "menuName": "接续个性化",
+      "menuFlag": "1"
+    },
+    {
+      "menuId": "000218",
+      "secondMenu": [
+        {
+          "menuId": "000218001",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000218001001",
+              "abbreviation": "tcsylcx",
+              "url": "https://[FrameServerHost]/ngbusi/src/module/business/queryMargin/queryMargin.html",
+              "menuName": "套餐剩余量查询",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000218001002",
+              "abbreviation": "gryhzdcx",
+              "url": "https://[FrameServerHost]/ngbusi/src/module/business/selfBillQuery.html",
+              "menuName": "个人用户账单查询",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "账单查询",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000218002",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000218002001",
+              "abbreviation": "yhyecx",
+              "url": "https://[FrameServerHost]/ngbusi/src/module/business/surplusQuery/surplusQuery.html",
+              "menuName": "用户余额查询",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "余额查询",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000218003",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000218003001",
+              "abbreviation": "GPRShdcx",
+              "url": "https://[FrameServerHost]/ngbusi/src/module/business/gprsQuery/gprsQuery.html",
+              "menuName": "GPRS话单查询",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000218003002",
+              "abbreviation": "hdmxcx",
+              "url": "https://[FrameServerHost]/ngbusi/src/module/business/cdrDetailQuery.html",
+              "menuName": "话单明细查询",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000218003003",
+              "abbreviation": "mwhdcx",
+              "url": "https://[FrameServerHost]/ngbusi/src/module/business/monnetbsQuery/wmonnetbsQuery.html",
+              "menuName": "梦网话单查询",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000218003004",
+              "abbreviation": "WLANhdcx",
+              "url": "https://[FrameServerHost]/ngbusi/src/module/business/monnetbsQuery/wlanCallQuery.html",
+              "menuName": "WLAN话单查询",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000218003005",
+              "abbreviation": "dcxxdcx",
+              "url": "https://[FrameServerHost]/ngbusi/src/module/business/queryMmsBill.html",
+              "menuName": "短彩信详单查询",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000218003006",
+              "abbreviation": "swxdcx",
+              "url": "https://[FrameServerHost]/ngbusi/src/module/business/internetSearch.html",
+              "menuName": "上网详单查询",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000218003007",
+              "abbreviation": "tcjgdfxdcx",
+              "url": "https://[FrameServerHost]/ngbusi/src/module/business/packageFeeDetailQuery.html",
+              "menuName": "套餐及固定费详单查询",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000218003008",
+              "abbreviation": "thxdcx",
+              "url": "https://[FrameServerHost]/ngbusi/src/module/business/voiceCallDetailQuery.html",
+              "menuName": "通话详单查询",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "话单查询",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000218004",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000218004001",
+              "abbreviation": "SIMkjmcx",
+              "url": "https://[FrameServerHost]/ngbusi/src/module/business/simPinQuery.html",
+              "menuName": "SIM卡解码查询",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "卡类查询",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000218005",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000218005001",
+              "abbreviation": "dsfywkfjlxdcx",
+              "url": "https://[FrameServerHost]/ngbusi/src/module/business/cadChargeDetailQuery.html",
+              "menuName": "代收费业务扣费记录详单查询",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "SP信息查询",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000218006",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000218006001",
+              "abbreviation": "t/kj",
+              "url": "https://[FrameServerHost]/ngbusi/src/module/business/stopBoot.html",
+              "menuName": "停/开机",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "业务受理",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000218007",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000218007001",
+              "abbreviation": "zzywtycxtd",
+              "url": "https://[FrameServerHost]/ngbusi/src/module/business/busiQueryAndUnsub.html",
+              "menuName": "增值业务统一查询退订",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000218007002",
+              "abbreviation": "mwywcxtd",
+              "url": "https://[FrameServerHost]/ngbusi/src/module/business/monnetbsQuery/monnetbsQuery.html",
+              "menuName": "梦网业务查询退订",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "梦网业务处理",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000218008",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000218008001",
+              "abbreviation": "jxsy",
+              "url": "https://[FrameServerHost]/ngbusi/src/module/business/connection/homePage.html",
+              "menuName": "接续首页",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "接续管理",
+          "menuFlag": "1"
+        }
+      ],
+      "menuName": "河北业务受理",
+      "menuFlag": "1"
+    },
+    {
+      "menuId": "000222",
+      "secondMenu": [
+        {
+          "menuId": "000222001",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000222001001",
+              "abbreviation": "fwqqlxpz",
+              "url": "https://192.168.100.36:8843/ngwf/src/module/commonsv/srServiceRequestType.html",
+              "menuName": "服务请求类型配置",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000222001002",
+              "abbreviation": "zryypz",
+              "url": "https://192.168.100.36:8843/ngwf/src/module/commonsv/srCfgReason.html",
+              "menuName": "责任原因配置",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000222001003",
+              "abbreviation": "czlxpz",
+              "url": "https://192.168.100.36:8843/ngwf/src/module/commonsv/srCfgCodeOperate.html",
+              "menuName": "操作类型配置",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000222001004",
+              "abbreviation": "gdsxpz",
+              "url": "https://192.168.100.36:8843/ngwf/src/module/commonsv/srCfgTmlmtRule.html",
+              "menuName": "工单时限配置",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000222001005",
+              "abbreviation": "gdtxpz",
+              "url": "https://192.168.100.36:8843/ngwf/src/module/commonsv/SrNotifyTemplate.html",
+              "menuName": "工单提醒配置",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000222001006",
+              "abbreviation": "gdmbpz",
+              "url": "https://192.168.100.36:8843/ngwf/src/module/commonsv/srCfgTpl.html",
+              "menuName": "工单模板配置",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000222001007",
+              "abbreviation": "gdymxxpz",
+              "url": "https://192.168.100.36:8843/ngwf/src/module/commonsv/srPageInfo.html",
+              "menuName": "工单页面信息配置",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000222001008",
+              "abbreviation": "zdlxpz",
+              "url": "https://192.168.100.36:8843/ngwf/src/module/commonsv/srAccTerm.html",
+              "menuName": "终端类型配置",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000222001009",
+              "abbreviation": "gdsxztpz",
+              "url": "https://192.168.100.36:8843/ngwf/src/module/commonsv/srCfgTmlmtState.html",
+              "menuName": "工单时限状态配置",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000222001010",
+              "abbreviation": "exkfdyyspz",
+              "url": "https://192.168.100.36:8843/ngwf/src/module/commonsv/srCfgCsslElem.html",
+              "menuName": "二线客服独有要素配置",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000222001011",
+              "abbreviation": "ryjdpz",
+              "url": "https://192.168.100.36:8843/ngwf/src/module/commonsv/srCfgPersonAssign.html",
+              "menuName": "人员接单配置",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000222001012",
+              "abbreviation": "gdsxjtsjpz",
+              "url": "https://192.168.100.36:8843/ngwf/src/module/commonsv/srCfgCodeStaticTree.html",
+              "menuName": "工单树形静态数据配置",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "通用配置",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000222002",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000222002001",
+              "abbreviation": "fwqqglpz",
+              "url": "https://192.168.100.36:8843/ngwf/src/module/commonsv/srFlowRelationData.html",
+              "menuName": "服务请求关联配置",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "服务请求",
+          "menuFlag": "1"
+        }
+      ],
+      "menuName": "一级平台通用配置",
+      "menuFlag": "1"
+    },
+    {
+      "menuId": "000224",
+      "secondMenu": [
+        {
+          "menuId": "000224001",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000224001002",
+              "abbreviation": "dbsy",
+              "url": "https://192.168.100.36:8843/ngwf_he/src/module/workflow/query/waitHandle.html ",
+              "menuName": "待办事宜",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000224001004",
+              "abbreviation": "dbq",
+              "url": "https://192.168.100.36:8843/ngwf_he/src/module/workflow/query/waitHandlePool.html",
+              "menuName": "待办区",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000224001005",
+              "abbreviation": "gdzp",
+              "url": "https://192.168.100.36:8843/ngwf_he/src/module/workflow/orderAppoint/orderAppoint.html",
+              "menuName": "工单指派",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000224001006",
+              "abbreviation": "pltsgdcl",
+              "url": "https://192.168.100.36:8843/ngwf_he/src/module/workflow/acceptorder/flowDealPage.html",
+              "menuName": "批量投诉工单处理",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000224001007",
+              "abbreviation": "pltsgd（tq）",
+              "url": "https://192.168.100.36:8843/ngwf_he/src/module/workflow/batchExtract/batchExtract.html",
+              "menuName": "批量投诉工单（提取）",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "工单管理",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000224002",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000224002001",
+              "abbreviation": "dbjk",
+              "url": "https://192.168.100.36:8843/ngwf_he/src/module/workflow/query/agentmonitoring.html",
+              "menuName": "待办监控",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000224002002",
+              "abbreviation": "dygdc",
+              "url": "https://192.168.100.36:8843/ngwf_he/src/module/workflow/query/waitRead.html",
+              "menuName": "待阅工单池",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000224002003",
+              "abbreviation": "zdgdc",
+              "url": "https://192.168.100.36:8843/ngwf_he/src/module/workflow/query/shockorder.html",
+              "menuName": "震荡工单池",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "待阅工单池",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000224003",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000224003001",
+              "abbreviation": "lcmbpz",
+              "url": "https://192.168.100.36:8843/ngwf_he/src/module/workflow/flowTemplate/flowTemplate.html",
+              "menuName": "流程模板配置",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000224003002",
+              "abbreviation": "csrypz",
+              "url": "https://192.168.100.36:8843/ngwf_he/src/module/workflow/outlayer/sendccconfig.html",
+              "menuName": "抄送人员配置",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "系统管理配置",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000224006",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000224006001",
+              "abbreviation": "jd",
+              "url": "https://192.168.100.36:8843/ngwf_he/src/module/workflow/oneservicecomplain/createOrderMain.html",
+              "menuName": "建单",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "受理工单",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000224007",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000224007001",
+              "abbreviation": "zdryfdgl",
+              "url": "https://192.168.100.36:8843/ngwf_he/src/module/workflow/wfAllocate/allocatePersonList.html",
+              "menuName": "自动人员分单管理",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000224007002",
+              "abbreviation": "zdfdxtgl",
+              "url": "https://192.168.100.36:8843/ngwf_he/src/module/workflow/workTimeConf/workTimeConf.html",
+              "menuName": "自动分单系统管理",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000224007003",
+              "abbreviation": "zdfdryjk",
+              "url": "https://192.168.100.36:8843/ngwf_he/src/module/workflow/wfAllocate/allocationMonitorList.html",
+              "menuName": "自动分单人员监控",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000224007004",
+              "abbreviation": "rydltctj",
+              "url": "",
+              "menuName": "人员登录退出统计",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000224007005",
+              "abbreviation": "zdfdglpz",
+              "url": "https://192.168.100.36:8843/ngwf_he/src/module/workflow/wfAllocate/notAllocateTypeList.html",
+              "menuName": "自动分单过滤配置",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000224007006",
+              "abbreviation": "zdfdglpzrz",
+              "url": "https://192.168.100.36:8843/ngwf_he/src/module/workflow/wfAllocate/notAllocateTypeLogList.html",
+              "menuName": "自动分单过滤配置日志",
+              "menuFlag": "1"
+            },
+            {
+              "openModule": "N",
+              "menuId": "000224007007",
+              "abbreviation": "nqfhzzdfdqk",
+              "url": "https://192.168.100.36:8843/ngwf_he/src/module/workflow/wfAllocate/allocateGroupMonitorList.html",
+              "menuName": "南区复合组自动分单情况",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "分单管理",
+          "menuFlag": "1"
+        },
+        {
+          "menuId": "000224008",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "000224008001",
+              "abbreviation": "blgdcx",
+              "url": "https://192.168.100.36:8843/ngwf_he/src/module/workflow/query/badworkorder.html",
+              "menuName": "不良工单查询",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "不良工单",
+          "menuFlag": "1"
+        }
+      ],
+      "menuName": "河北工作流",
+      "menuFlag": "1"
+    },
+    {
+      "menuId": "018001",
+      "secondMenu": [
+        {
+          "menuId": "018001001",
+          "thirdMenu": [
+            {
+              "openModule": "N",
+              "menuId": "018001001001",
+              "abbreviation": "zhcxcs",
+              "url": "https://192.168.100.36:8843/ngmtt/index.html#js/common/loginLog/loginlog",
+              "menuName": "综合查询测试",
+              "menuFlag": "1"
+            }
+          ],
+          "menuName": "综合查询",
+          "menuFlag": "1"
+        }
+      ],
+      "menuName": "综合查询",
+      "menuFlag": "1"
+    }
+  ],
+  "object": null
+}

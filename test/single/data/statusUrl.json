@@ -1,0 +1,13 @@
+{
+  "busiCode": null,
+  "opId": null,
+  "phone": null,
+  "returnCode": "0",
+  "returnMessage": null,
+  "bean": {
+    "logoutURL": "https://192.168.100.36:8843/ngmtt/front/sh/logout!index?uid=l0001",
+    "loginURL": "https://192.168.100.36:8843/ngmtt/login.html"
+  },
+  "beans": [],
+  "object": null
+}

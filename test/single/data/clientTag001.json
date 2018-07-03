@@ -1,0 +1,18 @@
+{
+        "returnCode": "0",
+        "returnMessage": "",
+        "beans":[ 
+            {
+               "tagId":"2016122804",
+               "tagName":"视频"    
+            },
+            {
+               "tagId":"2016122805",
+               "tagName":"VIP"    
+            },
+            {
+               "tagId":"2016122806",
+               "tagName":"黄金会员"    
+            }
+        ]
+    }

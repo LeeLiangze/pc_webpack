@@ -1,0 +1,33 @@
+{
+    "returnCode":"0",
+    "returnMessage":"",
+    "bean":{
+        "total":"14"
+    },
+    "beans":[
+        {
+            "id":"1",
+            "name":"黄华林",
+            "value":"13612345611",
+            "address":"郑州"
+        },
+        {
+            "id":"2",
+            "name":"刘志伟",
+            "value":"13612345612",
+            "address":"北京"
+        },
+        {
+            "id":"3",
+            "name":"张勇",
+            "value":"13612345613",
+            "address":"上海"
+        },
+        {
+            "id":"4",
+            "name":"张亚伟",
+            "value":"13612342358",
+            "address":"深圳"
+        }
+    ]
+}

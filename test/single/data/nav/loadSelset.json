@@ -1,0 +1,15 @@
+{
+  "busiCode": null,
+  "opId": null,
+  "phone": null,
+  "returnCode": "0",
+  "returnMessage": null,
+  "bean": {
+    "staffId": "jiangleilei",
+    "viewMode": "01",
+    "skinId": "01",
+    "toolbarMode": "01"
+  },
+  "beans": [],
+  "object": null
+}

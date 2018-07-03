@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>前端基础框架</title>
+    <link rel="stylesheet" href="/css/style.min.css" />
+</head>
+<body>
+<input type="button" value="showEditor" class="btnShowEditor" />
+<input type="button" value="获取内容" class="btnget" />
+<input type="button" value="修改内容" class="btnset" />
+
+
+<div class="editorContainer">
+    <div class="editor0"></div>
+</div>
+<script>
+    //解决ie下console.log()报错问题
+    window.console = window.console || (function(){
+                var c = {};
+                c.log = c.warn = c.debug = c.info = c.error = c.time = c.dir = c.profile = c.clear = c.exception = c.trace = c.assert = function(){};
+                return c;
+            })();
+</script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+.ConfigInfoBar .ConfigDataItem_zTree{
+	
+	border-right: 1px solid green;
+    width: 240px;
+    height: 100%;
+    position: absolute;
+S    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ConfigInfoBar .bar_zTree{
+    white-space: nowrap;
+    overflow: scroll;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+    height: 94%;
+    width: 240px;
+}
+.ConfigInfoBar .bar_ul{
+	   width: 74%;
+    height: 100%;
+    padding-top: 60px;
+    position: relative;
+    left: 20%;
+}
+.ConfigInfoBar  .bar_ul li span{
+	display:inline-block;
+	width:100px;
+	text-align:right;
+}
+.ConfigInfoBar .bar_ul li{
+	 margin:13px;
+	 height: 30px
+}
+.ConfigInfoBar input{
+	 margin-right: 60px; 
+    width: 160px;
+}
+.ConfigInfoBar select{
+	width: 160px;
+	 margin-right: 60px; 
+    
+}
+.ConfigInfoBar .bar_left{
+	margin-right: 20px;
+}
+.ConfigInfoBar .bar_right{
+	margin-right: 20px;
+}
+.ConfigInfoBar .bar_genre{
+	float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #3A8BE0;
+}
+.ConfigInfoBar .bar_dataItem{
+	float: left;
+    margin-left: 18px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #3A8BE0;
+}
+.ConfigInfoBar .bar_submit {
+	float: right;
+    width: 40px;
+    text-align: center;
+    background-color: #3A8BE0;
+	margin-top: 70px;   
+}
+.ConfigInfoBar .bar_reset {
+	float: right;
+    width: 40px;
+    text-align: center;
+    background-color: #3A8BE0;
+	margin-top: 70px;   
+}
+.ConfigInfoBar .bar_delete {
+	float: right;
+    width: 40px;
+    text-align: center;
+    background-color: #3A8BE0;
+	margin-top: 70px;   
+}

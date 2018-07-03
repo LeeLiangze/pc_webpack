@@ -1,0 +1,12 @@
+{
+  "busiCode": null,
+  "opId": null,
+  "phone": null,
+  "returnCode": "-9999",
+  "returnMessage": "参数不正确！没有staffId",
+  "bean": {
+    "sengMessflag": false
+  },
+  "beans": [],
+  "object": null
+}

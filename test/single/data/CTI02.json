@@ -1,0 +1,28 @@
+{
+  "busiCode": null,
+  "opId": null,
+  "phone": null,
+  "returnCode": "0",
+  "returnMessage": null,
+  "bean": {},
+  "beans": [
+    {
+      "isSkillOptional": "1",
+      "autoArrage": "1",
+      "outgoingNo": "10086,10085",
+      "defaultURL": "http://192.168.100.36:9990/remote_debug_ngcs/src/assets/img/login/cust_info.html",
+      "staffId": "jiangleilei",
+      "maxArrageTime": "120",
+      "loginStatus": "3",
+      "arrageDuration": "20",
+      "serviceTypeId": "10086otck",
+      "voiceFlag": "1",
+      "serviceTypeName": "86融合座席",
+      "defaultMode": "2",
+      "queryTouchType": "0",
+      "name": "86融合座席",
+      "signIn": false
+    }
+  ],
+  "object": null
+}

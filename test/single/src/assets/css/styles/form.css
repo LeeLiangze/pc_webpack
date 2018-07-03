@@ -1,0 +1,88 @@
+@charset "UTF-8";
+    
+/*表单基础*/
+
+input.t-form-normal,
+select.t-form-normal,
+textarea.t-form-normal {
+    padding: 3px;
+    width: 100%;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+input.t-form-normal:hover,
+select.t-form-normal:hover,
+textarea.t-form-normal:hover {
+    transition: border linear .3s;
+    -moz-transition: border linear .3s;
+    -webkit-transition: border linear .3s;
+    border: 1px solid #4496F0;
+}
+
+input.t-form-normal:focus,
+select.t-form-normal:focus,
+textarea.t-form-normal:focus {
+border-color: #66afe9;
+outline: 0;
+-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+input.t-form-normal {
+    height: 26px;
+    margin-top: 5px;
+    border: 1px solid #DDD;
+}
+
+input.t-form-normal[type="checkbox"],
+input.t-form-normal[type="radio"],
+input.t-form-check,
+input.t-form-radio {
+    border: none;
+    padding: auto;
+    width: auto;
+    height: auto;
+    top: 10px;
+}
+
+textarea.t-form-normal {
+    border: 1px solid #DDD;
+    margin-top: 6px;
+    line-height: 22px;
+    resize: none;
+}
+/*禁用控制*/
+
+input[disabled],
+input[readonly],
+textarea[disabled],
+textarea[readonly],
+select[disabled] {
+    border: 1px solid #DDD;
+    background-color: #F5F5F5;
+    color: #ACA899;
+}
+/*颜色控制*/
+
+input.error,
+select.error,
+textarea.error {
+    border: 1px solid #dd808e;
+    color: #d83030;
+    background: #fff2f4;
+}
+/*表单内图标控制*/
+
+.bg-date {
+    background: #FFF url(imgs/mini-icons.png) no-repeat right 4px;
+}
+
+.bg-tree {
+    background: #FFF url(imgs/mini-icons.png) no-repeat right -27px;
+}
+
+.bg-select {
+    background: #FFF url(imgs/mini-icons.png) no-repeat right -57px;
+}
+

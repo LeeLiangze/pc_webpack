@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>前端基础框架</title>
+    <link rel="stylesheet" href="/css/style.min.css" />
+</head>
+<body>
+<div class="container"></div>
+<button class="disable">禁用</button>
+<button class="disablenum">禁用1,2,3</button>
+<button class="enable">启用</button>
+<button class="get">获取勾选项</button>
+<button class="set">勾选'执行外呼任务'</button>
+<button class="clear">清空</button>
+<button class="checkAll">全选</button>
+<button class="destroy">销毁</button>
+<script>
+    //解决ie下console.log()报错问题
+    window.console = window.console || (function(){
+                var c = {};
+                c.log = c.warn = c.debug = c.info = c.error = c.time = c.dir = c.profile = c.clear = c.exception = c.trace = c.assert = function(){};
+                return c;
+            })();
+</script>
+</body>
+</html>

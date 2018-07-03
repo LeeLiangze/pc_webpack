@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+#add_vdn_title {
+	width: 100%;
+	margin-bottom: 20px;
+	font-size: 12px;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#add_vdn_title tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	
+}
+
+#add_vdn_title tr td {
+	height: 40px;
+}
+.add_vdn_id, .add_vdn_name{
+	background: transparent;
+	border: 1px solid #DDD;
+	height: 25px;
+}
+.sipServer{
+	background: transparent;
+	border: 1px solid #DDD;
+	height: 25px;
+	width:220px;
+}
+
+.add_vdn_del {
+	display: inline-block;
+	border-radius: 3px;
+	border: 1px solid #DDD;
+	padding: 0 14px;
+	cursor: pointer;
+	position: relative;
+	white-space: nowrap;
+	height: 26px;
+	font-size: 12px;
+	line-height: 26px;
+}
+
+.add_vdn_del:HOVER {
+	background: #F9F9F9;
+    border-color: #CCC;
+    color: #333;
+}
+
+.font1{
+    color:#aaaaaa;
+}
+.font2
+   {
+    color:black;
+}
+
+.buton {
+     display: inline-block;
+     height: 28px;
+     line-height: 30px;
+     border-radius: 3px;    
+     border: 1px solid #DDD;
+     padding: 0 14px;
+     font-size: 14px;
+     cursor: pointer;
+     position: relative;
+     white-space: nowrap;
+     margin-left: 12px;
+     margin-right: 0;
+     background: #339dd9;
+     border-color: #208bc8;
+     color: #fff !important;
+     }
+     
+     
+     
+     
+     
+ .ctiLabel {
+    display: inline-block;
+    width: 70px;
+    margin-right:5px;
+    text-align:right;
+}
+
+.selectProvice {
+    width: 150px;
+}
+
+.jf-search-btns-p {
+    display: inline-block;
+    margin-top: 10px;
+}
+     
+ .jf-form-item li div {
+    width: 40%;
+    display: inline-block;
+}   
+
+#add_vdn_save{
+	background: #3A8BE0;
+    border-color: #4A81C4;
+    color: #fff;
+}
+
+a.btn-blue {
+	border-top: none;
+    border-bottom: none;
+}
+     

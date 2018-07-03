@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+/*
+ *Created by lishouming on 2016/12/15.
+ *
+ * */
+.clientDetail{
+	width:198px;
+	top:118px;
+	border:1px solid #e6e6e6;
+	background-color:white ;
+}
+.queueContainer{
+	position: relative;
+}
+.queueContainer .queueControl{
+	height: 41px;
+	line-height: 41px;
+	padding: 0px 25px;
+	text-align: center;
+	border-bottom:1px solid #E6E6E6;
+}
+/*鐟滅増鎸告稊蹇旀綇鐟欏嫮鍩夐柡锟介幆鐗堝闯闁告艾楠搁顔芥償閺冨倹鐣遍柡宥呭槻缁憋拷*/
+/*.queueItem .queueControl{
+	height: 41px;
+	padding:15px 6px;
+	text-align: center;
+	border-bottom:1px solid #E6E6E6;
+}*/
+.queueContainer .queueControl a{
+	text-decoration: none;
+	font-size: 13px;
+	color:#0085d0;
+	float: left;
+	outline: 0;
+	/*闁猴拷閹増宕抽柡宥呭槻缁憋拷*/
+	/*margin-bottom: 10px;*/
+}
+.queueContainer .queueControl a:hover{
+	color:red;
+}
+.queueContainer .queueControl i{
+	display: inline-block;
+	/*鐎归潻绠掔粩鐔煎冀韫囨梹鏆悹褍鍢查幃妤�鈽夐崼婵勪杭*/
+	/*display: none;*/
+	height: 17px;
+	float: left;
+	border-left: 1px solid #E6E6E6;
+	margin:  10px  20px;
+}
+
+.queueContainer .queueLeft i{
+	font-style: normal;
+	font-size: 14px;
+    color:#333;
+}
+.queueContainer .queueLeft .rightbtn{
+	display: none;
+}
+/*鐎归潻绠掔粩鐔煎冀韫囨梹鏆悹褔鏀遍悧鍗烆嚕*/
+/*.queueItem .queueLeft .leftbtn{
+	display: none;
+}*/
+/*闂冪喎鍨崠鐑樻暪鐠э拷  閹恒儳鐢婚弶鈥虫躬婢舵挳鍎撮弽宄扮础*/
+body.internet-hor .queueChangeLeftTop{
+	width: 63px;
+	padding-top: 5px;
+	top: 228px;
+}
+.queueChangeLeftTop .queueList .conversation{
+	padding-left: 13px;
+}
+body.internet-hor .mainLeftTop{
+	left: 64px;
+}
+body.internet-hor .queueContainer .queueControlLeftTop{
+	height: 78px;
+	padding: 0;
+
+}
+body.internet-hor .queueContainer .queueControlLeftTop i{
+	display: none;
+}
+body.internet-hor .queueContainer .queueControlLeftTop a{
+	font-size: 12px;
+	height: 12px;
+	margin-top: 15px;
+	line-height: 12px;
+	margin-left: 10px;
+}
+body.internet-hor .clientInfoLeftTop .queueHead{
+	display: none;
+}
+body.internet-hor .clientInfoLeftTop .queueHeadOther{
+	display: block;
+	float: left;
+	width: 41px;
+	background-color: #fff;
+	z-index: 1000;
+	border: 1px solid #e6e6e6;
+	border-top: none;
+}
+body.internet-hor .clientInfoLeftTop .customer_info{
+	margin-top: -1px;
+	margin-left: 0;
+}
+/*闂冪喎鍨崠鐑樻暪鐠э拷  閹恒儳鐢婚弶鈥虫躬瀹革箓鍎撮弽宄扮础*/
+body.internet-ver .mainLeftLeft{
+	left: 128px;
+}
+body.internet-ver .queueChangeLeftLeft{
+	width: 63px;
+	padding-top: 5px;
+	top: 178px;
+}
+body.internet-ver .queueChangeLeftLeft .queueList .conversation{
+	padding-left: 13px;
+}
+body.internet-ver .queueContainer .queueControlLeftLeft{
+	height: 78px;
+	padding: 0;
+
+}
+body.internet-ver .queueContainer .queueControlLeftLeft i{
+	display: none;
+}
+body.internet-ver .queueContainer .queueControlLeftLeft a{
+	font-size: 12px;
+	height: 12px;
+	margin-top: 15px;
+	line-height: 12px;
+	margin-left: 10px;
+}
+body.internet-ver .clientInfoLeftLeft .queueHead{
+	display: none;
+}
+body.internet-ver .clientInfoLeftLeft .queueHeadOther{
+	display: block;
+	float: left;
+	width: 41px;
+	background-color: #fff;
+	z-index: 1000;
+	border: 1px solid #e6e6e6;
+	border-top: none;
+}
+body.internet-ver .clientInfoLeftLeft .customer_info{
+	margin-top: -1px;
+	margin-left: 0;
+}
+.queueList{
+	width: 235px;
+	overflow-y: auto;
+}

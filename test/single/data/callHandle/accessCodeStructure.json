@@ -1,0 +1,26 @@
+{
+  "busiCode": null,
+  "opId": null,
+  "phone": null,
+  "returnCode": "0",
+  "returnMessage": "成功",
+  "bean": {
+    "cateGoryId": "102004",
+    "itemName": "转自动流程是否由accessCode和transferCode拼接而成",
+    "moduleId": "102",
+    "description": "0：转出被叫号码仅由Transfer Code组成，1：转出被叫号码由Access Code和Transfer Code组成",
+    "value": "0",
+    "itemId": "102004001"
+  },
+  "beans": [
+    {
+      "cateGoryId": "102004",
+      "itemName": "转自动流程是否由accessCode和transferCode拼接而成",
+      "moduleId": "102",
+      "description": "0：转出被叫号码仅由Transfer Code组成，1：转出被叫号码由Access Code和Transfer Code组成",
+      "value": "0",
+      "itemId": "102004001"
+    }
+  ],
+  "object": null
+}

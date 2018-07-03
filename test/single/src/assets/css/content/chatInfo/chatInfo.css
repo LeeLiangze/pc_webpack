@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+.chat-info{
+    float: left;
+    width: 100%;
+}
+
+.chat-info .info-menu .menu-item li {
+    list-style: none;
+    float: left;
+    font-size:14px;
+    color:#707070;
+    padding-top: 16px;
+    padding-bottom: 12px;
+}
+
+.chat-info .info-menu .menu-item a {
+    float: left;
+    font-size:14px;
+    color:#707070;
+    text-decoration: blink
+}
+.chat-info .info-menu .menu-item div{
+    float: left;
+    width: 112px;
+    text-align: center;
+
+
+}
+.chat-info .info-menu .menu-item {
+    float: left;
+    width:1000px;
+    margin-left: 36px;
+    position:absolute;
+}
+
+.chat-info .info-menu{
+    height:50px;
+    float: left;
+    width: 100%;
+    border-bottom: 2px solid #eaeef1;
+}
+
+.chat-info .info-menu .menu-left{
+    margin-top: 8px;
+    float: left;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.chat-info .info-menu .menu-right{
+    margin-top: 8px;
+    float: right;
+    position: absolute;
+    right:0;
+    top:0;
+}
+.chat-info .info-menu .menu-left img{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 4px;
+    margin-bottom:6px;
+}
+.chat-info .info-menu .menu-right img{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-top: 4px;
+    margin-bottom:6px;
+}
+
+.chat-info .info-content{
+    margin-top:54px;
+}
+

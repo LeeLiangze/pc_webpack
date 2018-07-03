@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+.addInformation .bar_submit {
+	float: right;
+    width: 40px;
+    text-align: center;
+    background-color: #3A8BE0;
+	margin-top: 40px;   
+}
+.addInformation .bar_reset {
+	float: right;
+    width: 40px;
+    text-align: center;
+    background-color: #3A8BE0;
+	margin-top: 40px;   
+}
+
+.addInformation .Information_ul{
+	 height: 100%;
+    padding-top: 10px;
+    position: relative;
+    left: 10%;
+    width: 85%;
+}
+.addInformation  .Information_ul li span{
+	display:inline-block;
+	width:100px;
+	text-align:right;
+}
+.addInformation .Information_ul li{
+	 margin:13px;
+	 height: 30px
+}
+.addInformation input{
+	 margin-right: 60px; 
+    width: 160px;
+}
+.addInformation select{
+	width: 160px;
+	 margin-right: 60px; 
+    
+}
+.addInformation .bar_left{
+	margin-right: 18px;
+}
+.addInformation .bar_right{
+	margin-right: 18px;
+}

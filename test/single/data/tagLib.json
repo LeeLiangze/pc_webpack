@@ -1,0 +1,30 @@
+{
+        "returnCode": "0",
+        "returnMessage": "",
+        "beans":[ 
+            {
+               "tagId":"2016122804",
+               "tagName":"视频"    
+            },
+            {
+               "tagId":"2016122805",
+               "tagName":"VIP"    
+            },
+            {
+               "tagId":"2016122806",
+               "tagName":"钻石客户"    
+            },
+             {
+               "tagId":"2016122807",
+               "tagName":"铂金客户"    
+            },
+            {
+               "tagId":"2016122808",
+               "tagName":"超级VIP"    
+            },
+            {
+               "tagId":"2016122809",
+               "tagName":"白银客户"    
+            }
+        ]
+    }

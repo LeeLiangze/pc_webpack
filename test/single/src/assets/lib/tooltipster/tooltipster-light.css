@@ -1,0 +1,17 @@
+.tooltipster-light {
+	border-radius: 3px; 
+	border: 1px solid #CCC;
+	background: #FAFAFA;
+	color: #666;
+	margin-top: 12px;
+}
+.tooltipster-light .tooltipster-content {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 8px 10px;
+}
+
+.tooltipster-arrow {
+	top: 1px;
+}

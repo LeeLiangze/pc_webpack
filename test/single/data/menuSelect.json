@@ -1,0 +1,31 @@
+{
+    "returnCode": "0",
+    "returnMessage": null,
+    "beans":[
+                {
+                    "menuId":"200000",
+                    "menuName":"全部菜单",
+                    "url":"js/example/system/allMenu",
+                    "openMode":"createTab"
+                },
+                {
+                    "menuId":"200000",
+                    "menuName":"服务请求",
+                    "url":"js/example/system/userInfo",
+                    "openMode":"createTab"
+                },
+                {
+                    "menuId":"200001",
+                    "menuName":"知识库",
+                    "url":"js/example/system/btnAuthority",
+                    "openMode":"createTab"
+                },
+                {
+                    "menuId":"200002",
+                    "menuName":"公告便签",
+                    "url":"js/example/commonExample",
+                    "openMode":"createTab"
+                }
+            ]
+
+}

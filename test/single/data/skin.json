@@ -1,0 +1,29 @@
+{
+  "busiCode": null,
+  "opId": null,
+  "phone": null,
+  "returnCode": "0",
+  "returnMessage": null,
+  "bean": {},
+  "beans": [
+    {
+      "skinName": "默认",
+      "argeSeqno": "1",
+      "thumbnlPath": "src/assets/img/nav/pfsz-mr.png",
+      "skinId": "01"
+    },
+    {
+      "skinName": "绿色",
+      "argeSeqno": "2",
+      "thumbnlPath": "src/assets/img/nav/pfsz-ls.png",
+      "skinId": "02"
+    },
+    {
+      "skinName": "黑金",
+      "argeSeqno": "3",
+      "thumbnlPath": "src/assets/img/nav/pfsz-hj.png",
+      "skinId": "03"
+    }
+  ],
+  "object": null
+}

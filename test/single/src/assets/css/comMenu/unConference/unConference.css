@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* 鍋滄涓夋柟閫氳瘽鐨勬牱寮� */
+
+.unConferencebtnDiv {
+	margin: 0;
+	padding: 0;	    
+    vertical-align: middle;
+    margin-top: 31px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 9px;
+}
+
+.unConferencebtnDiv > ul {
+    text-align: center;
+    overflow: hidden;
+}
+
+.unConferencebtnDiv > ul > li input {
+    width: 141px;
+    margin-right: 10px;
+}
+
+.unConferencebtnDiv > ul > li.liShow {
+    display: inline;
+}
+
+.unConferencebtnDiv li.enable input {
+    background: #0085D0;
+    color: white;
+    cursor: pointer;
+    height: 38px;
+}
+
+/* 鎸夐挳 */
+.unConferencebtnDiv .t-btn { display: inline-block; height: 34px; line-height: 34px; padding: 0 26px; font-size: 12px; border: 1px solid #0085d0; border-radius: 3px; background: #fff; text-decoration: none; cursor: pointer; white-space: nowrap; outline: none; color: #0085d0; }
+.unConferencebtnDiv .t-btn:hover { background: #e5f3fa; }
+.unConferencebtnDiv .t-btn:active { background: #eaeef1;}
+
+/*灏哄鍙婇摼鎺ユ牱寮�*/
+.unConferencebtnDiv .t-btn-sm { height: 28px; line-height: 28px; padding: 0 20px; }
+
+/* 钃濊壊鎸夐挳 */
+.unConferencebtnDiv .t-btn-blue { background: #0085d0; border-color: #0085d0; color: #fff; }
+.unConferencebtnDiv .t-btn-blue:hover { background: #1a91d4; border-color: #1a91d4;}
+.unConferencebtnDiv .t-btn-blue:active { background: #0077ba;  border-color: #0077ba;}

@@ -1,0 +1,311 @@
+@charset "UTF-8";
+
+.chatTree .chatBox_tree .contentArea{
+	padding: 0px;
+	height: 410px;
+}
+.chatTree{
+	right: 11%;
+	bottom: 0.8%;
+	width:21%;
+	height:455px;
+	position:fixed;
+	border:1px solid #eaeaea;
+	border-top: none;
+	background:#fff;
+	/* overflow: auto; */
+	box-shadow: 3px 4px 9px 1px #cbc9c9;
+	padding-top: 5px;
+	}
+.uiTabBody .chatTree .chatBox_search{
+	width: 18px;
+	height: 17px;
+	position: absolute;
+	right: 36px;
+	top: 15px;
+	color: #4D4D4D;
+	line-height: 24px;
+	text-align: center;
+	background: url(../../../img/comMenu/search.png) no-repeat;
+	}
+.chatTree .chatBox_error{
+	position: absolute;
+	bottom: 2px;
+	right: 21px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 14px;
+	color: #319DDF;
+	text-decoration: underline;
+	}
+.chatTree .chatBox_close{
+	position: relative;
+	_position: absolute;
+	float: right;
+	top: 7px;
+	right: 7px;
+	_height: 26px;
+	padding: 0 4px;
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 1;color: #000;
+	text-shadow: 0 1px 0 #FFF;
+	opacity: .2;
+	filter: alpha(opacity=20);
+	cursor: pointer;
+	background: transparent;
+	_background: #FFF;
+	border: 0;
+	-webkit-appearance: none;
+	}
+.chatTree .chatBox_close:hover,.chatTree .chatBox_close:focus{
+	color: #000000;
+	text-decoration: none;
+	cursor: pointer;
+	outline: 0;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	}
+.chatTree .J_item_click {
+
+}
+.ztree li span.demoIcon{
+	padding:0 2px 0 10px;
+}
+.ztree li span.button.icon01{
+	margin:0; background: url(../../../img/businessTree/collected.png) no-repeat scroll 0 0 transparent;
+	vertical-align:top;
+	*vertical-align:middle;
+}
+.ztree li span.button.icon02{
+	margin:0;
+	background: url(../../../img/businessTree/nocollect.png) no-repeat scroll 0 0 transparent;
+	vertical-align:top;
+	*vertical-align:middle;
+}
+.ztree li span.button.icon03{
+	margin:0;
+	background: url(../../../img/businessTree/through.png) no-repeat scroll 0 0 transparent;
+	vertical-align:top;
+	*vertical-align:middle;
+}
+.treeBox .searchData{
+	border: 1px #dfe3e5 solid;
+	display: none;
+	height: 24px;
+	line-height:24px;
+	width: 80%;
+	color: #4D4D4D;
+	margin: 5px 10px;
+}
+.chatTree .businessTree .tabControl{
+	position: relative;
+}
+.chatTree .businessTree .tabControl .headContent{
+	position: relative;
+	height: 40px;
+	overflow: hidden;
+}
+.chatTree .businessTree .tabControl .treeContent{
+	position: relative;
+	height: 350px;
+	overflow:auto;
+}
+.chatTree .businessTree .treeUl{
+	background-color:#fff;
+	text-align:center;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	right:0;
+	padding-left: 12px;
+}
+.chatTree .businessTree .treeUl .treeLi{
+	float:left;
+	width: 74px;
+	margin: 10px 0 4px 10px;
+	height: 20px;
+	line-height: 20px;
+	margin-left: 0;
+}
+.chatTree .businessTree .treeUl .treeLi a{
+	display: block;
+	margin: 0 10px;
+	color:#a3a3a3;
+	text-decoration: none;
+}
+.chatTree .businessTree .treeUl .treeLi .active span{
+	border-bottom: 2.5px solid #359ed9;
+	color: #000;
+	font-weight: bold;
+	padding:0 2px 5px 2px;
+}
+.chatTree .businessTree .swithLeft{
+	position: absolute;
+	top: 6px;
+	left: 8px;
+	font-size: 20px;
+	color: #92bad0;
+	display:none;
+	text-decoration: none;
+}
+.chatTree .businessTree .swithRight{
+	position: absolute;
+	right: 8px;
+	top: 6px;
+	font-size: 20px;
+	color: #92bad0;
+	display:none;
+	text-decoration: none;
+}
+.ui-menu {
+    width: 90px;
+ }
+.collectBox .collectTab{
+	height: 410px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	position: relative;
+}
+.collectBox .collectTab .collectUl{
+	position: relative;
+}
+.collectBox .collectTab .collectUl li{
+	width: 100%;
+	margin-bottom: 5px;
+	font-size: 12px;
+	padding: 4px;
+	height: 28px;
+	line-height: 28px;
+	border-bottom: 1px solid #ccc;
+	text-align: left;
+	left:0;
+}
+.collectBox .collectTab .collectUl li:hover{
+	background-color: #e9f5ff;
+}
+.collectBox .collectTab .collectUl .test{
+	background:#66afe0;
+}
+.collectBox .collectTab .collectUl .current{
+	background:#f6f6f6;
+}
+/*涓氬姟鏍戞敹钘忓す*/
+.sn-tab .sn-tab-items > li a{
+	margin: 0 10px;
+	height: 37px;
+}
+.sn-tab .sn-tab-items > li a:hover{
+	border: none;
+	margin: 0 10px;
+}
+.sn-tab .sn-tab-items > li{
+	padding: 0 5px;
+	margin: 0;
+	border: none;
+    border-top: 2px solid #dfe3e5;
+    border-right: 1px solid #dfe3e5;
+    border-left: 1px solid #dfe3e5;
+    height: 37px;
+}
+.sn-tab .sn-tab-items > li.active{
+	border-top: 2px solid #359ed9;
+	height: 37px;
+}
+.sn-tab .sn-tab-items > li.active a{
+	border: none;
+	height: 37px;
+
+}
+/*鍙抽敭鑿滃崟*/
+.ui-widget{
+	z-index: 9999;
+}
+.ui-dialog-body {
+
+    text-align: center;
+}
+.errorCorrection .jf-form.columns-1 .jf-form-item > li > label {
+    width: 28%;
+}
+.errorCorrection .jf-form-item > li > label {
+    display: block;
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    color: #666;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.errorCorrection .jf-form.columns-1 .jf-form-item > li > div {
+    width: 66%;
+}
+.errorCorrection .jf-form-item > li > div {
+    display: block;
+    float: left;
+    height: 36px;
+    color: #333;
+    text-align: left;
+    position: relative;
+    left: 2%;
+}
+.errorCorrection .jf-form-item > li > div input {
+    height: 26px;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    z-index: 2;
+    background: transparent;
+    border: 1px solid #DDD;
+}
+.errorCorrection .jf-form-item > li > div input, .jf-form-item > li > div select, .jf-form-item > li > div textarea {
+    padding: 3px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.errorCorrection .jf-form-item > li > div select {
+    border: 1px solid #DDD;
+    height: 26px;
+    margin-top: 5px;
+    border-radius: 0;
+    background: #FFF;
+}
+.errorCorrection .jf-form-item > li > div textarea {
+    border: 1px solid #DDD;
+    margin-top: 6px;
+    line-height: 22px;
+    height: 110px;
+    resize: none;
+}
+.errorCorrection .jf-search-btns {
+    padding: 6px 10px;
+    margin-top: 10px;
+    vertical-align: middle;
+    border-bottom: 1px solid #d7e4ea;
+
+}
+.errorCorrection .ui-dialog-content {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    text-align: left;
+    overflow-y: auto;
+}
+.errorCorrection .jf-search-btns a.btn-blue{
+	margin-top: 90px;
+	margin-left: 48%;
+}
+.errorCorrection div.jf-form div.jf-search-btns{
+	margin-top: 0;
+}
+#chatBox_tree .businessTree .ztree li span.button{
+	display: inline-block;
+	margin-top: 3px;
+}
+#chatBox_tree .ztree li a.curSelectedNode{
+	height: 21px;
+}
+
+

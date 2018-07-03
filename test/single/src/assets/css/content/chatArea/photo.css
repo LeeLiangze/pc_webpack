@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+.chat-photo {
+    width: 800px;
+    height: 600px;
+}
+
+.chat-photo .chat-img {
+    text-align: center;
+    width: 800px;
+    height: 100%;
+    overflow: auto;
+}
+
+.chat-photo .chat-img img {
+    vertical-align: middle;
+    zoom: "100%";
+}
+
+.chat-photo .zoom{
+    text-align:center;
+}
+
+.chat-photo .pre-pic img{
+    position: absolute;
+    width: 50px;
+    top: 50%;
+    margin-top: -36px;
+    left: 2%;
+    height: 50px;
+}
+
+.chat-photo .next-pic img{
+    position: absolute;
+    width: 50px;
+    top: 50%;
+    margin-top: -36px;
+    right: 2%;
+    height: 50px;
+}
+.chat-photo .zoom{
+    height: 50px;
+    position: fixed;
+    left: 50%;
+    width: 100px;
+    margin-left: -50px;
+    bottom: -6%;
+    bottom:8%\0;
+}
+.chat-photo .zoom .zoom-out{
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    margin-left: 0px\0;
+    bottom: -6%;
+}
+.chat-photo .zoom .zoom-in{
+    text-align: center;
+    height: 40px;
+    position: absolute;
+    bottom: -6%;
+}

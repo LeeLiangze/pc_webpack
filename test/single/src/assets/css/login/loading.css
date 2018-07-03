@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+#loadingSpan{
+    width: 556px;
+    height: 342px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+#mainDiv {
+	background-color:#F6F6F6;
+	height:100% ;
+	width:100%;
+	position:absolute;
+}

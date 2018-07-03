@@ -1,0 +1,39 @@
+.sn-detailPanel { 
+    padding: 0; 
+    margin: 0;
+    width: 100%;
+    display: table;
+    font-size: 14px;
+}
+.sn-detailPanel h3 {
+    margin: 0;
+    padding: 5px 0;
+}
+.sn-detailPanel .detailList{ 
+    padding:0;
+    margin:0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.sn-detailPanel .detailList li {
+    padding: 8px 0; 
+    margin: 0; 
+    float:left;
+    font-size: 14px;
+}
+.sn-detailPanel .detailList li label {
+    display: inline-block;
+    width:30%;
+    text-align: right;
+}
+.sn-detailPanel .detailList li a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.sn-detailPanel .detailList li .canClick {
+    cursor: pointer;
+}
+.sn-detailPanel .detailList li .custom a {
+    margin-left: 10px;
+}

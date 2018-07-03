@@ -1,0 +1,28 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.btn-bar {
+    padding: 20px;
+}
+
+.btn-bar p > button+button {
+    margin-left: 10px;
+}
+
+.box-bar {
+    overflow: hidden;
+    padding: 50px 100px;
+}
+
+.box-bar .box {
+    float: left;
+    width: auto;
+    height: 300px;
+    padding: 20px;
+    margin-left: 50px;
+    border: 1px solid #ccc;
+    color: blue;
+}

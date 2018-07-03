@@ -1,0 +1,364 @@
+@charset "UTF-8";
+
+#mainDiv{
+	width:100%;
+	height:100%;
+	position: relative;
+}
+/*宸︿晶涓氬姟鏍� 灏忛敭鐩樻暣浣�*/
+#mainDiv .ra-left{
+	width:21.302%;
+	height:100%;
+	position: absolute;
+	left: 0;
+	border-right:1px solid #d0d6d9;
+}
+/*鎼滅储妗嗗灞�*/
+#mainDiv .ra-left #searchInputDiv{
+	width:88.89%;
+	height:4.32%;
+	line-height:4.32%;
+	padding-left:11.11%;
+	background: #F9FAFC;
+	border-bottom:1px solid #d0d6d9;
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.10);
+}
+/*Input妗�*/
+#mainDiv .ra-left #searchInputDiv #searchInput{
+	display: inline-block;
+	border:0;
+	height:93.75%;
+	background: #F9FAFC;
+	width:100%;
+	font-size: 12px;
+	line-height: 93.75%;
+}
+/*鎼滅储鍥炬爣*/
+#mainDiv .ra-left #searchInputDiv .icon-chaxun{
+	position: absolute;
+	right:5%;
+	top:0.6%;
+	width:11.25%;
+	height:2.5%;
+	z-index: 2;
+	cursor: pointer;
+}
+/*涓氬姟鏍�*/
+#mainDiv .ra-left #ST_zTree{
+	height:56.29%;
+	/*褰撳皬閿洏鏀惰捣鍚庨珮搴﹀彉澶�*/
+	/*height:87.29%;*/
+	width:88.89%;
+	padding-left:11.11%;
+	padding-top: 0;
+	padding-bottom: 0;
+	/*绔栧悜鏄剧ず 妯悜鑷姩*/
+	overflow-y: scroll;
+	overflow-x: auto;
+	border-bottom:1px solid #d0d6d9;
+}
+#mainDiv .ra-left #margin{
+	width:100%;
+	height:3.03%;
+}
+/*鏀惰捣鐨勫皬閿洏*/
+#mainDiv .ra-left #pinYinSearchs{
+	width:100%;
+	height: 4.05%;
+	border-top:1px solid #d0d6d9;
+	background-color: #F9FAFC;
+	position: absolute;
+	bottom:0.5%;
+}
+#mainDiv .ra-left #pinYinSearchs  #pinyinBar{
+	width:100%;
+	height: 100%;
+	line-height: 232%;
+	text-align: center;
+	font-size: 12px;
+	color: #0085D0;
+	cursor: pointer;
+	font-weight: bold;
+}
+/*灞曞紑鐨勫皬閿洏*/
+#mainDiv .ra-left #pinYinSearch{
+	width:100%;
+	height:35%;
+	border-top:1px solid #d0d6d9;
+	background-color: #F9FAFC;
+}
+#mainDiv .ra-left #pinYinSearch #searchKeyboardTitle{
+	height:11.97%;
+	line-height: 207.97%;
+	font-size:12px;
+	color:#ccc;
+	width:88.89%;
+	padding-left:11.11%;
+}
+/*灏忛敭鐩樻牱寮�*/
+#mainDiv .ra-left #pinYinSearch #searchKeyboardArea{
+	width:100%;
+	height:88.8%;
+	border-right: 0;
+	border-left:0;
+}
+#mainDiv .ra-left #pinYinSearch #searchKeyboardArea td{
+	border-right: 1px solid #D0D6D9;
+	border-top:1px solid #D0D6D9;
+	width:19.44%;
+	height:11.74%;
+	text-align: center;
+	line-height: 11.74%;
+}
+#mainDiv .ra-left #pinYinSearch #searchKeyboardArea td input{
+	border: 0;
+	width:91.67%;
+	height:92.59%;
+	background-color:#F9FAFC ;
+	color:#0085D0;
+	font-size:14px;
+	cursor: pointer;
+}
+/*鍙充晶鐨勮鎯呮*/
+#mainDiv .ra-right{
+	width:74.9%;
+	height:100%;
+	padding-right: 17px;
+	padding-left:1.66%;
+	position: absolute;
+	right:0;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	color:#333333;
+	font-size: 12px;
+}
+/*涓嬫媺閫夋牱寮�*/
+#mainDiv .ra-right .t-columns-4{
+	width:103%;
+	height:11.89%;
+	padding-top:1.87%;
+	margin-bottom: 2.6%;
+}
+#mainDiv .ra-right .t-columns-4 .t-columns-group{
+	width:100%;
+	height:100%;
+	overflow: hidden;
+	margin-right: 0;
+}
+#mainDiv .ra-right .t-columns-4 .t-columns-group li{
+	width:32.97%;
+	height: 47.73%;
+}
+#mainDiv .ra-right .t-columns-4 .t-columns-group li div{
+	width: 54.55%;
+	height: 100%;
+	display: inline-block;
+}
+#mainDiv .ra-right .t-columns-4 .t-columns-group li  label{
+	height: 100%;
+	line-height:248%;
+	font-weight: bold;
+}
+#mainDiv .ra-right .t-columns-4 .t-columns-group li div select{
+	height:100%;
+	margin: 0;
+}
+/*璁剧疆鐗规畩鐨勪袱涓殑涓嬫媺閫夊拰label*/
+#mainDiv .ra-right .t-columns-4 .t-columns-group #userClass label,#mainDiv .ra-right .t-columns-4 .t-columns-group #languageId label{
+	width:32.06%;
+	margin-right: 5.74%;
+}
+#mainDiv .ra-right .t-columns-4 .t-columns-group #cityCode label,#mainDiv .ra-right .t-columns-4 .t-columns-group #accessCode label{
+ 	width:37.32%;
+ 	margin-right: 5.74%;
+}
+#userClass div, #languageId div{
+	width:62.68%;
+}
+#userClass select, #languageId select{
+	width:100%;
+}
+/*绗簩琛屼箣闂存湁闂磋窛*/
+#mainDiv .ra-right .t-columns-4 .t-columns-group #accessCode{
+	margin-top: 3px;
+}
+/*涓氬姟鍔炵悊鐑偣 鍜ㄨ璇煶鐑偣  璇嶇粍鎼滅储*/
+#mainDiv .ra-right .hotMsg{
+	width:103%;
+	height:12.97%;
+	font-size: 12px;
+	margin-bottom: 3.15%;
+	position: relative;
+}
+/*鐑偣 鍜屼笂鏂归棿闅斾负11px(PSD)*/
+#mainDiv .ra-right .hotMsg label{
+	display: inline-block;
+	width:12.3%;
+	text-align: right;
+	margin-right: 1.9%;
+	position: absolute;
+	left:0;
+	top:11.46%;
+	font-weight: bold;
+}
+#mainDiv .ra-right .hotMsg>div,#mainDiv .ra-right .hotMsg .t-tablet-table-info{
+	display: inline-block;
+	width:79.44%;
+	height:91.67%;
+	padding: 0.63% 1.58%;
+	background-color: #f7f9fa;
+	position: absolute;
+	right:2.8%;
+	top:0;
+}
+#mainDiv .ra-right .hotMsg div .hotspotUl{
+	width:94.12%;
+	overflow: hidden;
+}
+#mainDiv .ra-right .hotMsg div  .moreHotMsg{
+	position: absolute;
+	right:3%;
+	bottom:8%;
+	cursor: pointer;
+}
+#mainDiv .ra-right .hotMsg div .hotspotUl li{
+	float: left;
+	height:20.45%;
+	padding:1.25% 0;
+	margin-right:4.17%;
+	line-height: 20.45%;
+	cursor: pointer;
+}
+#mainDiv .ra-right .hotMsg div .hotspotUl li .hotspotRadio .hotspotServiceRadio .hotspotVoiceRadio{
+	margin-right: 10px;
+	font-size: 0;
+	vertical-align: middle;
+}
+#mainDiv .ra-right #searchPhrase{
+	height:4.86%;
+}
+/*璇嶇粍鎼滅储 绔栫洿灞呬腑*/
+#mainDiv .ra-right #searchPhrase label{
+	top:36%;
+}
+#mainDiv .ra-right .hotMsg .t-tablet-table-info{
+	width:82.2%;
+	height:44.44%;
+	padding:0;
+	padding-top:1.58%;
+	padding-bottom:1.58%;
+	border:1px solid #D0D6D9;
+	vertical-align: middle;
+	color:#666666;
+}
+#mainDiv .ra-right .hotMsg .t-tablet-table-info td{
+	border-right: 1px solid #D0D6D9;
+	padding:0 17.6px;
+	cursor: pointer;
+}
+#mainDiv .ra-right .hotMsg .t-tablet-table-info td:hover{
+	color:#0085D0;
+}
+#mainDiv .ra-right .hotMsg .t-tablet-table-info .table-last{
+	border:0;
+}
+/*鍛煎彨杞Щ 鐭俊*/
+#mainDiv .ra-right .callBack{
+	height:15.81%;
+	padding-top:2.37%;
+	border-top: 1px solid #D0D6D9;
+	position: relative;
+}
+#mainDiv .ra-right .callBack label{
+	top:22.77%;
+}
+#mainDiv .ra-right .callBack .textareaDiv{
+	width:82.2%;
+	right:2.9%;
+	background-color: #FFFFFF;
+	height:67%;
+	padding: 0;
+	top:13.37%;
+	border: 1px solid #D0D6D9;
+}
+#mainDiv .ra-right .callBack .textareaDiv .textarea,#mainDiv .ra-right .message .textareaDiv .textarea,#mainDiv .ra-right .message .shortMsgTabs .uiTab textarea{
+	width:100%;
+	height:100%;
+	border:0;
+}
+#mainDiv .ra-right .callBack .t-columns-4{
+	height:22.22%;
+	position: absolute;
+	top:87%;
+	right:5.3%;
+	padding:0;
+	margin: 0;
+	background: #FFFFFF;
+}
+#mainDiv .ra-right .callBack .t-columns-4 .t-columns-group li{
+	height:100%;
+	width: 100%;
+	}
+	#mainDiv .ra-right .callBack .t-columns-4 .t-columns-group li  input{
+		vertical-align: middle;
+		margin-right: 10px;
+	}
+#mainDiv .ra-right .callBack .t-columns-4 .t-columns-group li a{
+	display: inline-block;
+	height:90%;
+	font-size: 12px;
+	line-height: 190%;
+}
+#mainDiv .ra-right .callBack .t-columns-4 .t-columns-group li .cancel{
+	border: 1px solid #0085D0;
+	color:#0085D0;
+	cursor: pointer;
+}
+/*鍙戦�佺煭淇�*/
+#mainDiv .ra-right .message{
+	height: 21.21%;
+	position: relative;
+}
+#mainDiv .ra-right .message .shortMsgTabs{
+	width:82.2%;
+	height:91.67%;
+	background:#fff;
+	position:absolute;
+	border:1px solid #d0d6d9;
+	padding: 0;
+}
+#mainDiv .ra-right .message .shortMsgTabs .uiTab{
+	margin-top: 0.9%;
+}
+/*澶撮儴鐨凾ab椤电殑鍒囨崲鍜屾牱寮�*/
+#mainDiv .ra-right .message .shortMsgTabs .uiTab .uiTabHead .uiTabItemHead{
+	cursor: pointer;
+}
+/*閫変腑鐨則ab閫夐」钃濊壊杈规*/
+#mainDiv .ra-right .message .shortMsgTabs .uiTab .uiTabHead .selected{
+	border-bottom: 1px solid #0085D0;
+}
+#mainDiv .ra-right .message .shortMsgTabs .uiTab .uiTabBody{
+	height:67.57%;
+}
+#mainDiv .ra-right .message .shortMsgTabs .uiTab .uiTabBody div{
+	height: 97.1%;
+} 
+#mainDiv .ra-right .message .shortMsgTabs .uiTab .uiTabHead .titleText{
+	font-size: 12px;
+}
+#mainDiv .ra-right .message .shortMsgTabs .uiTab .uiTabItemHead{
+	border: 0;
+}
+#mainDiv .ra-right .message .buttonDiv{
+	height:17.3%;
+	position:absolute;
+	left:11.3%;
+	top:107.3%;
+	background-color: #FFFFFF;
+}
+#mainDiv .ra-right .message .buttonDiv a{
+	height: 100%;
+	line-height: 180%;
+	font-size: 12px;
+}

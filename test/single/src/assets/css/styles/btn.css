@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* 按钮 */
+.t-btn { display: inline-block; padding: 6px 14px; font-size: 12px; line-height: 1; border-radius: 3px; border: 1px solid #DDD; background: #fff; text-decoration: none; cursor: pointer; position: relative; white-space: nowrap; outline: none; color: #333; }
+.t-btn:hover { background: #F9F9F9; border-color: #CCC; color: #333; }
+.t-btn:active { background: #EEE; border-color: #CCC; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2) inset; }
+
+/* 蓝色按钮 */
+.t-btn-blue { background: #339dd9; border-color: #2690cc; color: #fff; }
+.t-btn-blue:hover { background: #48a7dd; border-color: #339dd9; color: #fff; }
+.t-btn-blue:active { background: #2690cc; border-color: #2281b7; color: #fff; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2) inset; }
+
+/* 绿色按钮 */
+.t-btn-green { background: #51B148; border-color: #499f41; color: #fff; }
+.t-btn-green:hover { background: #60bb58; border-color: #51B148; color: #fff; }
+.t-btn-green:active { background: #499f41; border-color: #408d39; color: #fff; }
+
+/* 禁用按钮 */
+.t-btn-disabled { background: #F9F9F9; border-color: #E6E6E6; color: #AAA; cursor: not-allowed; }
+.t-btn-disabled:hover { background: #F9F9F9; border-color: #E6E6E6; color: #AAA; }
+.t-btn-disabled:active { box-shadow: none; }
+
+/*尺寸及链接样式*/  
+.t-btn-sm { padding: 4px 5px; }
+.t-btn-lg { font-size: 14px; padding: 12px 30px; padding: 13px 30px 11px 30px\9; }
+.t-btn-link { padding: 0px; border: none; text-decoration: none; cursor: pointer; position: relative; white-space: nowrap; outline: none; font-size: 12px; color: #347AC7; }

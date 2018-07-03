@@ -1,0 +1,54 @@
+{
+    "busiCode": null,
+    "opId": null,
+    "phone": null,
+    "returnCode": "0",
+    "returnMessage": null,
+
+    "bean": {"total":7 },
+    "beans": [
+        {
+            "serireNo": "111111111111111111",
+            "time": "2017-1-16 15:00",
+            "mediaType": 51,
+            "phoneNum":"15188996655"
+        },
+        {
+            "serireNo": "222",
+            "time": "2017-1-16 15:00",
+            "mediaType": 51,
+            "phoneNum":"15188996655"
+        },
+        {
+            "serireNo": "333",
+            "time": "2017-1-16 15:00",
+            "mediaType": 51,
+            "phoneNum":"15188996655"
+        },
+        {
+            "serireNo": "444",
+            "time": "2017-1-16 15:00",
+            "mediaType": 51,
+            "phoneNum":"15188996655"
+        },
+        {
+            "serireNo": "555",
+            "time": "2017-1-16 15:00",
+            "mediaType": 51,
+            "phoneNum":"15188996655"
+        },
+        {
+            "serireNo": "666",
+            "time": "2017-1-16 15:00",
+            "mediaType": 51,
+            "phoneNum":"15188996655"
+        },
+        {
+            "serireNo": "777",
+            "time": "2017-1-16 15:00",
+            "mediaType": 51,
+            "phoneNum":"15188996655"
+        }
+    ],
+    "object": null
+}

@@ -1,0 +1,3 @@
+/*add by lizhao error style*/
+.validate-error>input,.validate-error>select,.validate-error>textarea{border-color:#d18394!important; background: #fef3f4;color: #c9344b}
+.validate-error .iconfont{color:#d18394 }

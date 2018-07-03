@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/* 以下样式文件会不定期更新及覆盖。不可修改! 不可修改!! 不可修改!!!
+/* 新增或修改的样式，请添加到 business-outer.css 文件。
+/* 有任何问题请联系 tianwf@asiainfo.com 
+/* --------------------------------------------------------  */
+
+/* 重置 */
+@import url(ng-reset.css);
+
+/* 公用 */
+@import url(ng-common.css);
+
+/* 组件 */
+@import url(ng-components.css);
+
+.t-layout-lefttop select, .order-sector-top select, .t-free-form select, .my-workorder-co1 select { appearance:none; -moz-appearance:none; -webkit-appearance:none; border-radius: 0; height: 30px; box-sizing: border-box; border: 1px solid #DDD; padding: 3px; background:#FFF url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAEsCAYAAADZ63P3AAAEbklEQVR4AeyaA7B0RxCFU4hTduyUYpbiFGLbtm3r2bZt27Zt236dPpO9v/+tubv7wqmqU3OnB9/2dM/lHkNEeyqjjbu7u64sQmnEJg3A4MdZRSzS9Km9tyiN28SYx2UARe6RSZgAOnAyozaMwVgZgBig1wOtrg8gL/0A/fqneaClIUvq2FSA5r7RY/0A5cHeZ5H0qUJebhFJABTrP9nJq5j1hHGA5aUACqAACqAA/20ALkyns35nLaFE3VQAJvuFNc+iA5VeUkVfuwSIEhBzAPPfugYe8VrcOzwmIPDEHICY7Mge+Mt4IA84JAZWrGWU0jE4UvCMAHQHGQPtDwkeaQBLBBmAjS+cfBG8QwNqmSDDg0OCR5YJspHgWSLIRiUfZPMB/96dLM5F5gdZXvJB/t9ccBRAARRAARRAAXB5vJ+VhfIo7Q+wslGa8oHiweGJKfKMTaWVtXXi+vOHtD8HO9rRD/31AnI8YlLoYwdvcgyLp9V1AXna0PYU6o7h8aId/dBftwdLK6tkExQjJnGOSNQgT6BEHXa0o59uDwyQNxaXV8gqMEpM5hKZRAtcR4k67GhHP1OzCJC355eW6feASDHpFy5+KEUddrSbm6aAvDe3uES/+UdgclGiDrul9gEgH8wuLJJ7dAqhRN3SGw2Qh1l5KNWpQgEUQAEUQAEUQLs8nseyYrWwxg3qZHmxrjALgPdE03MLlFJYQbaB0fSjZ4iQlX8kxWQV0vC4uFW0Y52oG4CBta1dhDddLuEJVFrfIiYcmZymquYO8olNoy+d/KiwphEQa9YpsgBM/lttW5eYoKyhFROUs97AkrAuZT3Hymjq6qWvnP2poLoBfRxkX2ueOzO/SN+4BmiT2xnsF62srWn3n7cZbNadA8P0haMvDY5NwH6LDMAKa+4SnogBZQfY7RPzyygoKQv22APs4aGpORScnA17tAygzSYgisobxa9/hXWhIZB+kRkF+/7mw/JkXc66oWdolH7yCoV9VAYwjkwxZMgVK6trlMS/PCqzgH73i6AfPYIpIj2fYrKLaH5xGX1OW1hapl99wnHcLw0Y5Wzh40uw5nDfIyqZYEdWwQufuDTt3vQs3Mr/5isAfTKAbvzSmtZODHgKgWNFswp4iQCCvZCVzrqHddXQ+CT9xHA+HpMBeMJ95DlS8QC7dzRvLq+YVNizD7C7x2YXk/ef/TNlAJePTs0QviG09vRjkI3BfiXWHCmsPU1ip+PBD/ulo38I9vtkN5p9cW0TbyI/ausdJKSiYalOY53Nuo7lMTA6IWKSVFC2b7/IAo5j2WCHAoI87+INBQ+ggdFxiuVlxOTYG9s7OwBcoPdcdAogfSNjFJKSQz9zniMVkS0IqF98BrX3Ce/sscvNOV3fyIpgjbAGWH2sMVYy6w51RfujvTkWAAAAABjkbz2KfSWQQCAQCAQCgUAgEAiOQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgCP5UKKcvio6hAAAAAElFTkSuQmCC) no-repeat right -57px;}
+.t-layout-lefttop select option, .order-sector-top select option, .t-free-form select option, .my-workorder-co1 select option { line-height: 18px;}
+.t-layout-lefttop select { margin-left: 10px; margin-top: 7px; margin-right: 10px; }
+
+/* 左侧上下分离 */
+.type-config-wrap { padding: 0; }
+.type-config-top { height: 240px; overflow: auto; }
+.type-config-bottom { position: absolute; left: 0; bottom: 0; right: 0; top: 240px; }
+.type-config-bottom .left-title { border-top: 1px solid #d0d6d9; }
+.type-config-bottom-inner { position: absolute; left: 0; bottom: 0; right: 0; top: 41px; overflow: auto; padding: 10px; }
+.type-config-bottom-inner label { display: block; height: 26px; line-height: 26px; }
+
+.type-config-first{height: 240px; overflow: auto; }
+.type-config-second {}
+.type-config-second .left-title { border-top: 1px solid #d0d6d9; }
+.type-config-second-inner {overflow: auto; padding: 10px; }
+.type-config-second-inner label { display: block; height: 26px; line-height: 26px; }
+
+/* 宫格布局 */
+.order-monitor { width: 50%; height: 400px; float: left;}
+.order-monitor .t-panel { margin: 0 8px;}
+.order-monitor .t-panel-content { height: 330px; padding: 0; overflow: auto; }
+.order-monitor select { margin-left: 6px; }
+
+.order-monitor-totalinfo { height: 20px; background: #f7f9fa; line-height: 20px; padding: 6px 12px; }
+.order-monitor .t-panel-content.order-monitor-table { height: 310px; padding: 10px; }
+.order-monitor .t-panel-content.order-monitor-table .t-list-search { border: none; }
+
+/* 分组嵌套 */
+.t-free-form textarea { padding:3px 0; width:100%; box-sizing:border-box;outline: none;border: 1px solid #d0d6d9;-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);resize:none;height: 100px;}
+.service-top-search input[type="checkbox"], .service-top-search input[type="radio"],.t-free-form input[type="checkbox"], .t-free-form input[type="radio"] { height: auto; border: none; -webkit-box-shadow: none; box-shadow: none; }
+.phase_notice{ padding-left:200px;}
+.my-workorder-btn { padding-left: 2%; }
+.t-sendorder-box { padding:0 20px; width:70%; }
+/* 三列布局 */
+.three-rows { width: 33.3%; height: 600px; float: left;}
+.three-rows .t-panel { margin: 0 8px;}
+.three-rows .t-panel-content { height: 530px; padding: 0; overflow: auto; }
+.three-rows select { margin-left: 6px; }
+
+.three-rows-totalinfo { height: 20px; background: #f7f9fa; line-height: 20px; padding: 6px 12px; }
+.three-rows .t-panel-content.order-monitor-table { height: 310px; padding: 10px; }
+.three-rows .t-panel-content.order-monitor-table .t-list-search { border: none; }
+
+
+.order-monitor.width-all{width: 100%}
+
+.t-columns-group > li div input[type="checkbox"], .t-columns-group > li div input[type="radio"] { margin-top: 14px; }

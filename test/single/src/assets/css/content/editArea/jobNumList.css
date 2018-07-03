@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+.clearfix:after {
+  content:"";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+
+.jobNumList-wrap .jobNumList_button .btn {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+    margin-right: 10px;
+    border: 1px solid #DDD;
+    padding: 0 14px;
+    background: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    white-space: nowrap;
+    color: #333;
+}
+.jobNumList-wrap .jobNumList_button .btn-blue,.jobNumList-wrap .transferSelect .btn-blue {
+    background: #0088d1;
+    border-color: #208bc8;
+    color: #fff !important;
+}
+.jobNumList-wrap .jobNumList_button .btn.fr {
+    margin-left: 4px;
+    margin-right: 0;
+}
+.jobNumList-wrap{
+	font-size:12px;
+}
+.jobNumList-wrap .jobNumList-area{
+	margin:30px 0 10px 40px;
+}
+.jobNumList-wrap .jobNumList-area div{
+	display:inline-block;
+	margin-bottom:10px;
+	font-size:12px;
+}
+.jobNumList-wrap .jobNumList-area .ms-drop.bottom{
+	display:none;
+}
+.jobNumList-wrap .transferSelect > li{
+    display:inline-block;
+}
+.jobNumList-wrap .transferSelect > li.skillId_transfers{
+    margin-left:30px;
+}
+.jobNumList-wrap .transferSelect > li.status_transfer{
+    margin-left:34px;
+}
+.jobNumList-wrap .transferSelect > li.status_transfer .ms-choice{
+    height:30px;
+    line-height:30px;
+    font-size:12px;
+    border-radius:0;
+}
+.jobNumList-wrap .transferSelect > li.department_transfer{
+     margin-left:-6px; 
+}
+.jobNumList-wrap .transferSelect > li > div{
+    margin-left:10px;
+    position:relative;
+    text-align: left;
+    height:36px;
+}
+.jobNumList-wrap .transferSelect > li > label{
+    text-align: right;
+    width: 48px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color:#666;
+    line-height: 36px;
+}
+.jobNumList-wrap .transferSelect .cityId_skillQues > label{
+    text-align: right;
+    display: inline-block;
+    width: 0;
+    margin-left: -6px;
+}
+.jobNumList-wrap .transferSelect  .department_transfer > label{
+  width:60px;
+}
+.jobNumList-wrap .transferSelect li.sn-select select,
+.jobNumList-wrap .transferSelect li.sn-select input,
+.jobNumList-wrap .transferSelect li .leftWidth select,
+.jobNumList-wrap .transferSelect li .leftWidth input{
+    height:30px;
+    line-height: 30px;
+    width:100px;
+    font-size:12px;
+}
+.jobNumList-wrap .transferSelect li.sn-select select,
+.jobNumList-wrap .transferSelect li .leftWidth select{
+    padding:5px 0;
+}
+.jobNumList-wrap .transferSelect li .leftWidth input{
+    width:210px;
+    margin-left:-4px;
+    height:28px;
+}
+.jobNumList-wrap .transferSelect li.skillId_transfers select{
+    width:150px;
+}
+.jobNumList-wrap .transferSelect li .statusSelect{
+    width:150px;
+    margin-bottom:5px;
+}
+.jobNumList-wrap .transferSelect .leftWidth .select_department{
+    width:56px;
+}
+.jobNumList-wrap .transferSelect li.orgId_transfers input{
+    width:150px;
+    height:30px;
+    border: 1px solid #a9a9a9;
+    box-shadow: none;
+}
+.jobNumList-wrap .list_jobNum {
+    height: 255px;
+    width:760px;
+    overflow: auto;
+    margin:0 40px;
+    border:1px solid #d7e0e6;
+}
+
+.jobNumList-wrap .jobNumList-tool{
+
+}
+.jobNumList-wrap .jobNumList-tool li{
+	float:left;
+}
+.jobNumList-wrap .remark_jobNumList{
+	width:60%;
+}
+.jobNumList-wrap .transferId_jobNum{
+	width:36%;
+	margin-left:20px;
+	margin-top:10px;
+}
+.jobNumList-wrap .remark_jobNumList label{
+	float:left;
+	margin-right:20px;
+}
+.jobNumList-wrap .remark_jobNumList textarea{
+	width:80%;
+	height:80px;
+	resize: none;
+	padding:8px;
+}
+.jobNumList-wrap .jobNumList_ps{
+	padding-top:20px;
+	margin-left:40px;
+	margin-bottom:10px;
+}
+.jobNumList-wrap .jobNumList-button-wrap{
+	width:100%;
+	border-top:1px solid #ccc;
+  text-align:center;
+}
+.jobNumList-wrap .jobNumList_button{
+   position: relative;
+   width: 248px;
+   left: 50%;
+   margin-left: -124px; 
+    margin-top:10px;
+    height:40px;
+}
+.jobNumList-wrap .jobNumList_button button{
+    height:40px;
+    line-height:40px;
+    width:120px;
+    text-align:center;
+    font-size: 14px;
+	float:left;
+}
+
+.jobNumList-wrap .jobNumList_button .btnClear{
+	color:#2398d7;
+}
+.jobNumList-wrap .sn-selectTree > .has-formlayer> .formlayer.formlayer-has-btns {
+    width: 140%;
+	overflow:hidden;
+}
+.jobNumList-wrap .sn-selectTree > .has-formlayer> .formlayer > .formlayer-content {
+    width: 130%;
+}
+.jobNumList-wrap .sn-selectTree>.has-formlayer input[name="sn-name-text"] {
+    position:relative;
+    bottom:6px\0;
+}
+.btn_jobNumList{
+	background: #8A9198;
+    border-color: #4A81C4;
+    color: #fff;
+}
+.btn_jobNumList:hover {
+    background: #8B8B8B;
+    border-color: #CCC;
+    color: #333;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>前端基础框架</title>
+    <link rel="stylesheet" href="/css/style.min.css" />
+</head>
+<body>
+<div>
+    <div  id="select1"></div>
+    <div  id="select2"></div>
+    <button class="btn btn-blue fr js-enable"> 启用下拉框</button>
+    <button class="btn btn-blue fr js-disabled"> 禁用下拉框</button>
+    <button class="btn btn-blue fr js-disabled-single"> 禁用黄华林</button>
+    <button class="btn btn-blue fr js-enable-single"> 启用黄华林</button>
+    <button class="btn btn-blue fr js-setValue"> 设置下拉框选中项为：黄华林</button>
+    <button class="btn btn-blue fr js-getSelected"> 获取下拉框选中项</button>
+    <button class="btn btn-blue fr js-reload"> 重载数据</button>
+</div>
+<script>
+    //解决ie下console.log()报错问题
+    window.console = window.console || (function(){
+                var c = {};
+                c.log = c.warn = c.debug = c.info = c.error = c.time = c.dir = c.profile = c.clear = c.exception = c.trace = c.assert = function(){};
+                return c;
+            })();
+</script>
+</body>
+</html>

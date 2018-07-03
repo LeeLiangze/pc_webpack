@@ -1,0 +1,98 @@
+@CHARSET "UTF-8";
+/*外面边框的样式*/
+.selectpick_div {
+	background-color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 500;
+	color: #333;
+	/* border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: solid 1px #CFCFCF;*/
+	line-height: 30px;
+	text-align: left;
+	padding-left: 5px;
+	overflow: hidden;
+	cursor: pointer;
+	overflow: hidden;
+	z-index: 9060;
+	margin: 5px auto auto 8px;
+}
+
+.selectpick_icon {
+	float: right;
+	background: url(../images/icon.png) no-repeat center;
+	margin-right: 5px;
+	height: 30px;
+	width: 9px;
+	cursor: pointer;
+}
+/*
+.selectpick_div:hover {
+	background-color: #F5F5F5;
+	border: solid 1px #ccc;
+}
+
+.selectpick_div:active {
+	-moz-box-shadow: 0 0 3px #0099CC;
+	-webkit-box-shadow: 0 0 3px #0099CC;
+	box-shadow: 0 0 3px #0099CC;
+	border: solid 1px #0099CC;
+}*/
+
+/*下拉框的主体*/
+.selectpick_options {
+	border: solid 1px #CFCFCF;
+	border-bottom: none;
+	position: absolute;
+	z-index: 9060;
+	font-size: 14px;
+	text-align: left;
+	display:none;
+}
+
+.selectpick_options ul {
+	list-style: none;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	z-index: 9060;
+	font-size: 14px;
+}
+
+.selectpick_options ul li {
+	border-bottom: solid 1px #CFCFCF;
+	padding-left: 5px;
+	display: block;
+	font-size: 14px;
+	z-index: 9060;
+	background-color: #fff;
+}
+.selectpick_options li:hover{
+	background-color:#339dd9;
+	color:#fff;
+}
+.selectpick_options ul li.selectpick_options_selected {
+	background-color:#339dd9;
+	color:#fff;
+	z-index: 9060;
+}
+/*设置为disabled的时候*/
+.selectpick_no_select {
+	cursor: default;
+	color: #9a9898;
+	background-color: #F5F5F5;
+}
+/*设置下拉框的不透明度*/
+.select_hide {
+	display:none;
+	-moz-opacity: 0;
+	opacity: 0;
+	-webkit-opacity: 0;
+	filter: alpha(opacity =0);
+}
+/*其他*/
+.selectpick_options li{cursor:pointer;}
+.selectpick_options li label{cursor:pointer;}
+
+.selectpick_div_box{margin:0 5px;display:inline-block; *zoom:1; *display:inline;position:relative;}

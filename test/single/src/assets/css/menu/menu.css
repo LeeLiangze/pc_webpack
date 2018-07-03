@@ -1,0 +1,449 @@
+@charset "UTF-8";
+
+.menu{
+    color: #ecf6fc;
+}
+.menu .menuSource,.menu .menuMain{
+    height: 35px;
+}
+.menuSource{
+	z-index:5;
+}
+.menuLeft, .menuRight{
+	cursor:pointer;
+	width:80px;
+	height:35px;
+}
+/*鎹㈣偆1.榛樿*/
+.default.menu .menuSource{ 
+    width: 200px;
+    height: 35px;
+    left: 0px;
+    font-size: 14px;
+    line-height: 35px;
+    position: absolute;
+    background-color: #8fc500;
+    cursor: pointer;
+}
+.default.menu .menuSource:hover{ 
+    background-color: #81af1b;
+}
+.default.menu .menuMain{
+    background-color: #0083d3;
+    color: #fff;
+}
+.menuSource{ 
+    background-color: red;
+}
+/*涓嬫媺鍥剧墖*/
+#menuXl{
+	cursor: pointer;
+}
+/*鎹㈣偆2.缁胯壊*/
+.green.menu .menuSource{ 
+    width: 200px;
+    height: 35px;
+    left: 0px;
+    font-size: 14px;
+    line-height: 35px;
+    position: absolute;
+    background-color: #89b32d;
+    cursor: pointer;
+}
+.green.menu .menuMain{
+    background-color: green;
+    color: #ecf6fc;
+}
+/*鎹㈣偆3.榛戦噾*/
+.black-golden.menu .menuSource{ 
+    width: 201px;
+    height: 35px;
+    left: 0px;
+    font-size: 14px;
+    line-height: 35px;
+    position: absolute;
+    background-color: #c09f2d;
+    cursor: pointer;
+}
+.black-golden.menu .menuMain{
+    background-color: #292f33;
+    color: #ecf6fc;
+}
+/*鎹㈣偆4.绮夎壊*/
+.pink.menu .menuSource{ 
+    background-color: pink;
+    width: 201px;
+    height: 35px;
+    left: 0px;
+    font-size: 14px;
+    line-height: 35px;
+    position: absolute;
+}
+.pink.menu .menuMain{
+    top: -25px;
+    position: absolute;
+    height: 62px;
+    background: url(../../img/menu/skin-pink.png) no-repeat 0 center;
+    background-size: cover;
+}
+.pink.menu .menuMain>div{
+    position: absolute;
+    top: 25px;
+}
+/*鎹㈣偆5.灞辨按杩烽浘*/
+.ssmw.menu .menuSource{ 
+    background-color: #939da3;
+    width: 200px;
+    height: 35px;
+    left: 0px;
+    font-size: 14px;
+    line-height: 35px;
+    position: absolute;
+}
+.ssmw.menu .menuMain{
+    z-index: -1;
+    top: -51px;
+    position: absolute;
+    height: 87px;
+    background: url(../../img/menu/skin-ssmw.png) no-repeat 0 center;
+    background-size: cover;
+    background-color: #656c70;
+}
+.ssmw.menu .menuMain>div{
+    position: absolute;
+    top: 50px;
+}
+.menuSource .icon-ymqiconcaidansuoyou{font-size: 13px;margin: 0 12px 0 -20px; }
+.menuSource img{margin: 0 10px 0 -20px; }
+/*1.榛樿娓愬彉鎹㈣偆*/
+.default .menuLeft{
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    background: url(../../img/menu/grad-left-blue.png) no-repeat center center;
+    /*background: no-repeat center center;*/
+
+}
+.default .menuRight{
+    position: absolute;
+    z-index: 2;
+    left:90%;
+    background: url(../../img/menu/grad-right-blue.png) no-repeat center center;
+    /*background: no-repeat center center;*/
+}
+/*2.缁胯壊娓愬彉鎹㈣偆*/
+.green .menuLeft{
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    background: url(../../img/menu/grad-left-green.png) no-repeat center center;
+    /*background: no-repeat center center;*/
+
+}
+.green .menuRight{
+    position: absolute;
+    z-index: 2;
+    left: 90%;
+    background: url(../../img/menu/grad-right-green.png) no-repeat center center;
+    /*background: no-repeat center center;*/
+}
+/*3.榛戦噾娓愬彉鎹㈣偆*/
+.black-golden .menuLeft{
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    background: url(../../img/menu/grad-left-bg.png) no-repeat center center;
+    /*background: no-repeat center center;*/
+
+}
+.black-golden .menuRight{
+    position: absolute;
+    z-index: 2;
+    left: 90%;
+    background: url(../../img/menu/grad-right-bg.png) no-repeat center center;
+    /*background: no-repeat center center;*/
+}
+.menuLeft img{
+    position: absolute;
+    left: 10px;
+    top: 11px;
+}
+.menuRight img{
+    position: absolute;
+    right: 10px;
+    top: 11px;
+}
+.menu .menuMain{
+    position: relative;
+    left: 200px;
+    right: 0;
+    padding: 0 6px;
+}
+.menuMain .menuConfig{
+    position: absolute;
+    left: 0;
+   /*  right: 200px; */
+   /*  width:1000px; */
+    height: 600px;
+    width:74%;
+    /* overflow: hidden; */
+}
+.menuVisible{ 
+    position: absolute;
+    /* left: 0;
+    right: 230px; */
+    height: 35px;
+   /*  overflow: hidden;  */   
+   /*  white-space:nowrap; */
+    font-size: 14px;
+    line-height: 35px;
+    text-align: left;}
+.menuVisible>li{ display: inline-block;
+/* padding: 0 10px; */
+cursor: pointer;
+min-width:102px;
+text-align:center;
+}
+/*鎹㈣偆鍦烘櫙鑿滃崟鐐瑰嚮*/
+.default .menuVisible >li.hov{ background-color: #0075be;}
+.green .menuVisible >li.hov{ background-color: #0a750a;}
+.black-golden .menuVisible >li.hov{ background-color: #474b4e;}
+
+/*.menuVisible>li:hover{ background-color: #0077ba;}*/
+.menuSearch{
+   /*  position: absolute; */
+    width: 200px;
+    height: 28px;
+    float:right;
+    margin-right:65px;
+    margin-top:3px;
+    padding: 0 10px;
+    font-size: 10px;
+    line-height: 28px;
+    background-color: white;
+    color: #222;
+    z-index:3;
+}
+.menuSearch .menuSelect{
+   /*  position: absolute; */
+    left: 0;
+    width: 80px;
+}
+.menuSearch .menuSelect .iconfont{
+    font-size: 10px;
+}
+.menuSearch .menuInput{
+    position: absolute;
+    margin-left: 80px;
+    width: 130px;
+    text-align: left;
+    top:3px;
+    z-index:9;
+}
+.menuSearch .menuSelect>select{    
+    background: transparent;
+    border: none;
+    height: 100%;
+    outline:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    -ms-appearance:none;
+}
+.menu-select>span{
+    display: inline-block;
+    width: 56px;
+    cursor: pointer;
+    font-size: 12px\0;
+}
+.search-options{
+    position: absolute;
+    right:205px;
+    z-index: 18;
+    border: 1px solid #0085d0;
+    /*鎹㈣偆鏃堕渶瑕佽�冭檻*/
+}
+.search-options>li{    
+    border-top: none;
+    background-color: #fff;
+    width: 74px;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 10px;
+    text-align: left;
+    cursor: pointer;
+    font-size: 12px\0;
+}
+/*鎹㈣偆鏃堕渶瑕佽�冭檻*/
+.search-options>li:hover{    
+    background-color: #e3f2fa;
+}
+#append{
+   /*  position: absolute;
+    top: 40px;
+    left: 0;
+    margin-top: -11px; */
+    z-index: 2;
+    width: 129px;
+    max-height: 400px;
+    background-color: white;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /*border: 1px solid #0085d0;*/
+    border-width: 1px;
+    border-style: solid;
+    /*鎹㈣偆鏃堕渶瑕佽�冭檻*/
+}
+#append::-webkit-scrollbar {
+    -webkit-appearance: none; 
+    width: 9px;
+    height: 12px;
+}
+#append::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #ccc;
+    border: 1px solid #d0d6d9;
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,0.5);
+}
+.item{    
+    border-top: none;
+    background-color: #fff;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 10px;
+    text-align: left;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/* #append li{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+} */
+/*鎹㈣偆鏃堕渶瑕佽�冭檻*/
+.addbg{    
+    background-color: #e3f2fa;
+}
+.noth{
+    border-top: none;
+    width: 118px;
+    padding-left: 20px;
+    margin-left:20px;
+    background: #fff;
+    text-align: left;
+    cursor: pointer;
+    position:relative;
+}
+.menuSearch .menuInput>input{
+    width: 100px;
+    border-style: none;
+    outline:none;
+    padding-left: 8px;
+    border-left: 1px solid #aaa;
+    font-size: 12px\0;
+    color: #ccc\0;
+}
+/*鎹㈣偆鏃堕渶瑕佽�冭檻*/
+.menuInput>a{
+  color: #0085d0;
+  text-decoration: none;
+}
+.menuInput img{
+    vertical-align: middle;
+}
+/*鑿滃崟*/
+.hideMenu{display:none;position:absolute;z-index:5;}
+.shortBox{overflow:hidden;display:none;}
+.shortBox .navLeftMenu{
+    float:left;width:200px;
+    padding:0;     
+    overflow-x: hidden;
+    max-height: 500px;
+    overflow-y: auto;
+}
+/*婊氬姩鏉＄編鍖�*/
+.shortBox .navLeftMenu::-webkit-scrollbar {
+    -webkit-appearance: none; 
+    width: 9px;
+}
+.shortBox .navLeftMenu::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid #d0d6d9;
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,0.5);
+}
+.shortBox .navRightMenu{float: left;width:602px; max-height:800px; overflow-y:auto; }
+.shortBox .navRightMenu .menuItem{display:none;}
+.shortBox .navRightMenu .menuItem.show{display:block;}
+.shortBox .navLeftMenu .search{padding: 7px 0px;border-bottom:1px solid #e1e1e1;}
+.shortBox .topNavMenu ul{margin-top:12px;}
+.shortBox .topNavMenu li{position:relative;text-indent:20px;font-size:12px;text-align:left;padding:4px 0;height:27px;line-height:27px;cursor:pointer;}
+.shortBox .topNavMenu li:hover{
+  background:#e5f3fa; }
+.shortBox .topNavMenu li.selected{
+  background:#e5f3fa; }  
+.shortBox .topNavMenu li img{
+    position: absolute;
+    right: 18px;
+    top: 12px;
+} 
+
+.shortBox h3.title{color:#007acb;font-size:18px;line-height:43px;text-indent:15px;font-weight:normal;}
+.shortBox .subMenu dl{margin-top:8px;overflow:hidden;}
+.shortBox .subMenu dl dt{width:126px;text-align:right;color:#666;font-size:12px;float:left;margin-top: 8px;cursor: default;}
+.shortBox .subMenu dl dd{margin-left:166px;}
+.shortBox .subMenu dl dd ul{overflow:hidden;}
+.shortBox .subMenu dl dd ul li{
+  border-right: 1px solid #e0e0e0;
+  margin: 8px 0 8px 0;
+  float:left;
+}
+.shortBox .subMenu dl dd ul li:last-child{
+  border-right: none;
+}
+.shortBox .subMenu dl dd ul li.first{margin-left:0px;}
+.shortBox .subMenu dl dd ul li.last{background:none;}
+.shortBox .subMenu dl dd ul li a{display:block;line-height:16px;height:16px;font-size:12px;color:#222;padding:0 8px;margin-right:5px;text-decoration: none;}
+.shortBox .subMenu dl dd ul .liMenu:hover a{color:#fff;background:#62c2eb;text-decoration: underline;}
+/*鍦烘櫙鑿滃崟浜岀骇鑿滃崟寮瑰嚭灞�*/
+.shortCut{
+    /* height: 111px; */
+    text-align: left;
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top:35px;
+    display: block;
+    z-index: 2;
+    color: black;
+    border:1px #8fc500 solid;
+    border-top: none;
+    background-color: white;
+    -ms-writing-mode: tb-lr;
+    -webkit-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+}
+.shortCut li{
+    display: inline-block;
+    margin: 6px 0;
+    border-right: 1px solid #e0e0e0;
+    cursor: pointer;
+    width:102px;
+    height:18px;
+    text-align:center;
+    overflow: hidden;
+    white-space:none;
+    text-overflow: ellipsis;
+    -ms-writing-mode: lr-tb;
+    -webkit-writing-mode: horizontal-tb;
+    writing-mode: horizontal-tb;
+}
+.shortCut li:hover{    color:#fff;background:#62c2eb;text-decoration: underline;
+}
+.shortCut li:last-child{
+  border-right: none;
+}
+ @media screen and (-webkit-min-device-pixel-ratio:0) {
+.shortCut li{float:left;margin: 8px 0;}
+} 

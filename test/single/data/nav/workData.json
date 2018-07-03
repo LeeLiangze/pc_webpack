@@ -1,0 +1,26 @@
+{
+  "busiCode": null,
+  "opId": null,
+  "phone": null,
+  "returnCode": "0",
+  "returnMessage": "成功",
+  "bean": {
+    "cateGoryId": "129002",
+    "itemName": "工作日志url",
+    "moduleId": "129",
+    "description": "工作日志url",
+    "value": "https://192.168.100.36:8843/ngmtt/index.html#js/common/loginLog/loginlog",
+    "itemId": "129002004"
+  },
+  "beans": [
+    {
+      "cateGoryId": "129002",
+      "itemName": "工作日志url",
+      "moduleId": "129",
+      "description": "工作日志url",
+      "value": "https://192.168.100.36:8843/ngmtt/index.html#js/common/loginLog/loginlog",
+      "itemId": "129002004"
+    }
+  ],
+  "object": null
+}

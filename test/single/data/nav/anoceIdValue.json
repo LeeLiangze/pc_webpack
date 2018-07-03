@@ -1,0 +1,26 @@
+{
+  "busiCode": null,
+  "opId": null,
+  "phone": null,
+  "returnCode": "0",
+  "returnMessage": "成功",
+  "bean": {
+    "cateGoryId": "129002",
+    "itemName": "公告按钮ID",
+    "moduleId": "129",
+    "description": "个人工具栏公告按钮ID",
+    "value": "000108004002",
+    "itemId": "129002001"
+  },
+  "beans": [
+    {
+      "cateGoryId": "129002",
+      "itemName": "公告按钮ID",
+      "moduleId": "129",
+      "description": "个人工具栏公告按钮ID",
+      "value": "000108004002",
+      "itemId": "129002001"
+    }
+  ],
+  "object": null
+}

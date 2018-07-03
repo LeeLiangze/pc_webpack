@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+/*tabs*/
+@font-face {font-family: "iconfont";
+    src: url('iconfont.eot?t=1482669065114'); /* IE9*/
+    src: url('iconfont.eot?t=1482669065114#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('iconfont.woff?t=1482669065114') format('woff'), /* chrome, firefox */
+    url('iconfont.ttf?t=1482669065114') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('iconfont.svg?t=1482669065114#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-guanbi:before {  }
+
+.main{
+    background-color: #ebeff2;
+}
+#tabs{position: relative;margin-top: -61px;}
+
+.uiTab {width:auto; height:100%; overflow: visible; zoom:1;
+    /*margin-top: 12px;*/
+}
+.uiTab .uiTabHeadOutWrap { zoom:1;
+    border-bottom:1px solid #c6c6c6;
+    position:relative; height:41px; overflow:visible;}
+.uiTab .uiTabHeadOutWrappo { position:absolute; }
+.uiTab .uiTabHeadOutWrappo { position:absolute; }
+.uiTab .headMarginWrap { margin-left:15px; margin-right:21px; /*80px*/ overflow:visible; height:42px; margin-bottom:-1px; }
+.uiTab .uiTabHeadOutWrap .headScrollWrap {
+    overflow: hidden;
+    zoom:1; width:100%; position:relative; height:42px; }
+.uiTab ul.uiTabHead {
+    position:static;
+    overflow: visible;
+    text-align: left;
+    margin:0; padding:0; list-style:none; height:42px; line-height:42px; -moz-user-select:none; width:5000px;}
+/** used for pointer to tab.position absolute in doc body*/
+.uiTab .uiTabHeadOutWrap .uiTabListDiv { position:absolute; right:0px; /*44px*/ top:0; height:31px; width:38px; display:none;z-index:8; }
+.uiTab .uiTabHeadOutWrap .uiTabListDiv .dropbtn { height:30px; width:20px; border:0; background:url(../../img/main/tab-more.png) no-repeat center center; cursor:pointer;
+    outline: none;
+}
+.uiTab.showDropBtn .uiTabHeadOutWrap .uiTabListDiv { display: block;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-width: 1px 1px 0;
+}
+.uiTab.showDropBtn .headMarginWrap { margin-right:40px; }
+.uiTabListArea { text-decoration:none; position:absolute;
+    border:1px solid #0083d3;
+    background: white;
+    /*padding:5px 3px; */
+    display: block; z-index:1000;
+    /*-moz-box-shadow: 3px 3px 3px 0 #6e6e6e; */
+    /*box-shadow:3px 3px 3px 0 #6e6e6e; */
+    -moz-outline: none; outline: none; right: 0;
+    top:31px; }
+.uiTabListArea:hover { text-decoration: none; }
+.uiTabListArea.hidden { display:none; }
+.uiTabListArea .uiTabListAreaWrap { text-decoration:none; display:block; outline:none; }
+.uiTabListArea ul { list-style:none; margin:0; padding:0; }
+.uiTabListArea li { cursor:pointer; padding:0 10px; display:block; font-size:12px; white-space: nowrap; text-overflow:ellipsis;
+    overflow:hidden;
+    float:left;
+    height: 35px;
+    line-height: 35px;
+    color: #666;
+}
+.uiTabListArea li:hover { background-color: #e3f2fa; }
+.uiTabListArea li a { color:#000; text-decoration:none; }
+.uiTabListArea li a:hover { text-decoration:none; }
+.uiTabListArea li.selected {
+    background-color: #0085d0;
+    color: #fff;
+    font-weight: bold;
+}
+.uiTabListArea li.selected a { color:#fff; }
+
+/** tab item*/
+.uiTab .uiTabItemHead {border:1px solid #ccc;
+    border-width:1px 1px 0;margin-top: 10px;
+    color:#666;font-size:12px;padding:0 20px;vertical-align:top;height:30px;line-height:30px;display:inline-block;*display:inline;*zoom:1;position:relative;background:white;}
+.uiTab .uiTabItemHead.closable {position:relative;}
+.uiTab .uiTabItemHead:hover{background-color: #e3f2fa;}
+
+/*tab item hover=== 选中显示样式*/
+.uiTab .uiTabHead .uiTabItemHead.selected {padding:4px 10px 0 12px;margin-top:6px;background-color:white;color:#222;font-size:14px;position:relative;bottom:-1px;height:30px}
+.uiTab .uiTabItemHead .uiTabClose { display: none;}
+.uiTab .uiTabItemHead.selected .uiTabItemInnerWrap .uiTabClose{background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAeCAYAAABNChwpAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyOEJBNDkwMjIxQzQxMUU3OUY1OEVFMTBGNDU1REQ5OSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyOEJBNDkwMzIxQzQxMUU3OUY1OEVFMTBGNDU1REQ5OSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjI4QkE0OTAwMjFDNDExRTc5RjU4RUUxMEY0NTVERDk5IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjI4QkE0OTAxMjFDNDExRTc5RjU4RUUxMEY0NTVERDk5Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Rw4gMgAAARlJREFUeNrsldENgjAQhqkTMAJOICPgBrhB2YBnX3jSV9jAMAFsABuoEzACboD/mdM0tcGiiZjYS77QHhf68/cKYhgGb85YeDOHE+AEOAG/I0AIIcFBL0AuAhXwH7n92QcVkE/1yIGcaqwU0JfwDqIBuTIPQA8ite52b3cKQU9XJRfpuVcI9VPMb9mBBLQsqERNYRLPDuRgyWKpPhm2q9p2C4T+L4CIkB/UskOb0QfAbnKIpyUWLyY1gckWBPUCDQIbG2F5R9jarrIwNB05EIOa7fUsHLgQGGcfHUPugYZ7gAiQS0cWpx4g1lyfIhe/vQWII8i+eQr0fa8M/RCxiNCwuDQIk9wT/uRj6P4FToAT4AQ4AX8p4CrAAN0WeOvPJPACAAAAAElFTkSuQmCC"); background-repeat: no-repeat;width: 12px; height: 20px; display: inline-block;cursor: pointer; margin-left: 20px;}
+.uiTab .uiTabItemHead.selected.over .uiTabClose{display: inline-block;margin-left: 20px;position: inherit;}
+.uiTab .uiTabItemHead .uiTabClose:hover{background-position: -12px 0px; }
+.uiTab .uiTabItemHead.over .uiTabClose
+    /*,.uiTab .uiTabItemHead:hover .uiTabClose*/
+{
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAeCAYAAABNChwpAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyOEJBNDkwMjIxQzQxMUU3OUY1OEVFMTBGNDU1REQ5OSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyOEJBNDkwMzIxQzQxMUU3OUY1OEVFMTBGNDU1REQ5OSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjI4QkE0OTAwMjFDNDExRTc5RjU4RUUxMEY0NTVERDk5IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjI4QkE0OTAxMjFDNDExRTc5RjU4RUUxMEY0NTVERDk5Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Rw4gMgAAARlJREFUeNrsldENgjAQhqkTMAJOICPgBrhB2YBnX3jSV9jAMAFsABuoEzACboD/mdM0tcGiiZjYS77QHhf68/cKYhgGb85YeDOHE+AEOAG/I0AIIcFBL0AuAhXwH7n92QcVkE/1yIGcaqwU0JfwDqIBuTIPQA8ite52b3cKQU9XJRfpuVcI9VPMb9mBBLQsqERNYRLPDuRgyWKpPhm2q9p2C4T+L4CIkB/UskOb0QfAbnKIpyUWLyY1gckWBPUCDQIbG2F5R9jarrIwNB05EIOa7fUsHLgQGGcfHUPugYZ7gAiQS0cWpx4g1lyfIhe/vQWII8i+eQr0fa8M/RCxiNCwuDQIk9wT/uRj6P4FToAT4AQ4AX8p4CrAAN0WeOvPJPACAAAAAElFTkSuQmCC"); background-repeat: no-repeat;width: 12px; height: 20px;
+    background-position: -12px 0px;
+    display: inline-block;
+    visibility:visible;
+    cursor: pointer;
+    position:absolute; top:0; right:1px;
+}
+
+/*业务开发需要，请暂时不要修改此处的高度，如有需要，请与张秉哲联系*/
+.uiTab .uiTabBody { z-index:1; background:#fff;}
+.uiTab .uiTabItemBody { display:none; /**overflow:auto;**/ height:100%; }
+.uiTab .uiTabItemBody.selected { display:block;position: relative }
+.uiTabIframe{ width: 100%; height: 100%; }
+
+
+/* page_loading */
+.page_loading { width:100px; height:32px; background:#FFF; margin:0 auto; margin-top:160px;}
+.page_loading img { float:left; margin-right:6px;}
+.page_loading span { display:block; float:left; line-height:32px; font-size:15px; color:#888;}
+.page_loading:after { content: " "; display: block; height: 0; clear: both; visibility: hidden;}

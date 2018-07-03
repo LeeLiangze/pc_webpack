@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>前端基础框架</title>
+    <link rel="stylesheet" href="/css/style.min.css" />
+</head>
+<body>
+<button class="normal">normal</button>
+<button class="tips">tips</button>
+<button class="confirm">confirm</button>
+<button class="show">显示</button>
+<button class="showModal">显示模态对话框</button>
+<button class="close">关闭</button>
+<button class="get">获得normal示例</button>
+<button class="getCurrent">获得当前对话框示例</button>
+<button class="remove">销毁对话框</button>
+<button class="content">设置对话框内容</button>
+<button class="title">设置对话框标题</button>
+<button class="width">设置对话框的宽</button>
+<button class="height">设置对话框的高</button>
+<button class="focus">获取焦点</button>
+<button class="blur">失去焦点</button>
+<button class="add">注册事件</button>
+<button class="delete">解绑事件</button>
+<div id="box"></div>
+<script>
+    //解决ie下console.log()报错问题
+    window.console = window.console || (function(){
+                var c = {};
+                c.log = c.warn = c.debug = c.info = c.error = c.time = c.dir = c.profile = c.clear = c.exception = c.trace = c.assert = function(){};
+                return c;
+            })();
+</script>
+</body>
+</html>

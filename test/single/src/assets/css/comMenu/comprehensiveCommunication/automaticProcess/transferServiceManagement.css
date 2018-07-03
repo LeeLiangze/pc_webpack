@@ -1,0 +1,476 @@
+#mainDiv{
+	width:100%;
+	height:100%;
+	position: relative;
+}
+/*左侧业务树 小键盘整体*/
+#mainDiv .ra-left{
+	width:21.302%;
+	height:100%;
+	position: absolute;
+	left: 0;
+	border-right:1px solid #d0d6d9;
+}
+/*搜索框外层*/
+#mainDiv .ra-left #searchInputDiv{
+	width:88.89%;
+	height:4.32%;
+	line-height:4.32%;
+	padding-left:11.11%;
+	background: #F9FAFC;
+	border-bottom:1px solid #d0d6d9;
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.10);
+	/****/
+	overflow: hidden;
+}
+/*Input框*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#mainDiv .ra-left #searchInputDiv #searchInput{
+	height:70%;
+	outline:none;
+	}
+#mainDiv .ra-right .hotMsg div .hotspotUl li input{
+	vertical-align: middle;
+	padding-bottom:0;
+	}
+} 
+#mainDiv .ra-left #searchInputDiv #searchInput{
+	display: inline-block;
+	border:0;
+	/**height:93.75%;**/
+	background: #F9FAFC;
+	/**width:100%;**/
+	font-size: 12px;
+	/**line-height: 93.75%;**/
+	/****/
+	width: 105%;
+	margin-top: 2%;
+}
+/*搜索图标*/
+#mainDiv .ra-left #searchInputDiv .icon-chaxun{
+	position: absolute;
+	right:5%;
+	top:0.6%;
+	/**width:11.25%;
+	height:2.5%;**/
+	width:20px;
+	z-index: 2;
+	cursor: pointer;
+}
+/*业务树*/
+#mainDiv .ra-left #ST_zTree{
+	/*height:56.29%;*/
+	/*当小键盘收起后高度变大*/
+	height:87.29%;
+	width:86.89%;
+	padding-left:11.11%;
+	padding-top: 0;
+	padding-bottom: 0;
+	/*竖向显示 横向自动*/
+	overflow-y: scroll;
+	overflow-x: auto;
+	border-bottom:1px solid #d0d6d9;
+}
+#mainDiv .ra-left #margin{
+	width:100%;
+	height:3.03%;
+}
+/*收起的小键盘*/
+#mainDiv .ra-left #pinYinSearchs{
+	width:100%;
+	height: 4.05%;
+	border-top:1px solid #d0d6d9;
+	background-color: #F9FAFC;
+	position: absolute;
+	bottom:0.5%;
+}
+#mainDiv .ra-left #pinYinSearchs  #pinyinBar{
+	width:100%;
+	height: 100%;
+	line-height: 232%;
+	text-align: center;
+	font-size: 12px;
+	color: #0085D0;
+	cursor: pointer;
+	font-weight: bold;
+}
+/*展开的小键盘*/
+#mainDiv .ra-left #pinYinSearch{
+	width:100%;
+	height:35%;
+	border-top:1px solid #d0d6d9;
+	background-color: #F9FAFC;
+}
+#mainDiv .ra-left #pinYinSearch #searchKeyboardTitle{
+	height:11.97%;
+	line-height: 207.97%;
+	font-size:12px;
+	color:#ccc;
+	width:88.89%;
+	padding-left:11.11%;
+}
+/*小键盘样式*/
+#mainDiv .ra-left #pinYinSearch #searchKeyboardArea{
+	width:100%;
+	height:88.8%;
+	border-right: 0;
+	border-left:0;
+}
+#mainDiv .ra-left #pinYinSearch #searchKeyboardArea td{
+	border-right: 1px solid #D0D6D9;
+	border-top:1px solid #D0D6D9;
+	width:19.44%;
+	height:11.74%;
+	text-align: center;
+	line-height: 11.74%;
+}
+#mainDiv .ra-left #pinYinSearch #searchKeyboardArea td input{
+	border: 0;
+	width:91.67%;
+	height:92.59%;
+	background-color:#F9FAFC ;
+	color:#0085D0;
+	font-size:14px;
+	cursor: pointer;
+}
+/*右侧的详情框*/
+#mainDiv .ra-right{
+	width:74.9%;
+	height:100%;
+	padding-right: 17px;
+	padding-left:1.66%;
+	position: absolute;
+	right:0;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	color:#333333;
+	font-size: 12px;
+}
+/*下拉选样式*/
+#mainDiv .ra-right .t-columns-4{
+	width:103%;
+	height:11.89%;
+	padding-top:1.87%;
+	margin-bottom: 2.6%;
+}
+#mainDiv .ra-right .t-columns-4 .t-columns-group{
+	width:100%;
+	height:100%;
+	overflow: hidden;
+	margin-right: 0;
+}
+#mainDiv .ra-right .t-columns-4 .t-columns-group li{
+	width:32.97%;
+	height: 47.73%;
+	position:relative;
+}
+#mainDiv .ra-right .t-columns-4 .t-columns-group li img{
+	position:absolute;
+	width:12px;
+	top:14px;
+}
+#mainDiv .ra-right .t-columns-4 .t-columns-group li div{
+	width: 54.55%;
+	height: 100%;
+	display: inline-block;
+}
+#mainDiv .ra-right .t-columns-4 .t-columns-group li  label{
+	height: 100%;
+	line-height:248%;
+	font-weight: bold;
+}
+/* #mainDiv .ra-right .t-columns-4 .t-columns-group #cityCode img{
+	right:14px;
+}
+#mainDiv .ra-right .t-columns-4 .t-columns-group #userClass img{
+	right:27px;
+}
+#mainDiv .ra-right .t-columns-4 .t-columns-group #languageId img{
+	right:26px;
+}
+#mainDiv .ra-right .t-columns-4 .t-columns-group #accessCode img{
+	right:14px;
+}*/
+
+#mainDiv .ra-right .t-columns-4 .t-columns-group li div select{
+	margin: 0;
+} 
+/*设置特殊的两个的下拉选和label*/
+#mainDiv .ra-right .t-columns-4 .t-columns-group #userClass label,#mainDiv .ra-right .t-columns-4 .t-columns-group #languageId label{
+	width:32.06%;
+	margin-right: 2.74%;
+	margin-top:1%;
+}
+#mainDiv .ra-right .t-columns-4 .t-columns-group #cityCode label,#mainDiv .ra-right .t-columns-4 .t-columns-group #accessCode label{
+ 	width:37.32%;
+ 	margin-right: 2.74%;
+ 	margin-top:1%;
+}
+#userClass div, #languageId div{
+	width:62.68%;
+}
+#userClass select, #languageId select{
+	width:100%;
+}
+/*第二行之间有间距*/
+#mainDiv .ra-right .t-columns-4 .t-columns-group #accessCode{
+	margin-top: 3px;
+}
+/*业务办理热点 咨询语音热点  词组搜索*/
+#mainDiv .ra-right .hotMsg{
+	width:103%;
+	height:12.97%;
+	font-size: 12px;
+	/**margin-bottom: 3.15%;**/
+	position: relative;
+}
+#mainDiv .ra-right #businessHot{
+	padding-bottom: 4.15%;
+}
+#mainDiv .ra-right #voiceHot{
+	padding-bottom: 4.15%;
+}
+#mainDiv .ra-right .callBack{
+	margin-bottom:4.15%;
+}
+/*热点 和上方间隔为11px(PSD)*/
+#mainDiv .ra-right .hotMsg label{
+	display: inline-block;
+	width:12.3%;
+	text-align: right;
+	margin-right: 1.9%;
+	position: absolute;
+	left:0;
+	top:11.46%;
+	font-weight: bold;
+}
+#mainDiv .ra-right .hotMsg>div,#mainDiv .ra-right .hotMsg .t-tablet-table-info{
+	display: inline-block;
+	width:79.44%;
+	/**height:91.67%;**/
+	padding: 0.63% 1.58%;
+	background-color: #f7f9fa;
+	position: absolute;
+	right:2.8%;
+	top:0;
+}
+#mainDiv .ra-right #businessHot>div{
+	padding:0.63% 0%;
+	width:83%;
+}
+#mainDiv .ra-right #voiceHot>div{
+	padding:0.63% 0%;
+	width:83%;
+}
+#mainDiv .ra-right .hotMsg div .hotspotUl{
+	width:94.12%;
+	overflow: hidden;
+}
+#mainDiv .ra-right .hotMsg div  .moreHotMsg{
+	position: absolute;
+	right:3%;
+	bottom:8%;
+	cursor: pointer;
+}
+#mainDiv .ra-right .hotMsg div .hotspotUl li{
+	float: left;
+	/**height:20.45%;
+	padding:1.25% 0.5%;**/
+	margin-right:4.17%;
+	/**line-height: 20.45%;**/
+	cursor: pointer;
+	/****/
+	height:37.45%;
+	line-height: 37.45%;
+	padding:1% 0.5%;
+}
+
+#mainDiv .ra-right .hotMsg div .hotspotUl li input{
+	vertical-align: middle;
+	padding-bottom:3px;
+}
+#mainDiv .ra-right .hotMsg div .hotspotUl li span{
+	margin-left:4px;
+}
+#mainDiv .ra-right .hotMsg div .hotspotUl li .hotspotRadio .hotspotServiceRadio .hotspotVoiceRadio{
+	margin-right: 10px;
+	font-size: 0;
+	vertical-align: middle;
+}
+#mainDiv .ra-right #searchPhrase{
+	height:4.86%;
+	padding-left:0%;
+	padding-right:0%;
+}
+/*词组搜索 竖直居中*/
+#mainDiv .ra-right #searchPhrase label{
+	top:36%;
+}
+
+#phrase span{
+	display: inline-block;
+    width: 12%;
+    text-align: center;
+    border-right: 1px solid #D0D6D9;
+    margin-bottom: 6px;
+    margin-right: 0px;
+}
+#mainDiv .ra-right .hotMsg .t-tablet-table-info{
+	width:82.2%;
+	height:44.44%;
+	padding:0;
+	padding-top:1.58%;
+	padding-bottom:1.58%;
+	border:1px solid #D0D6D9;
+	vertical-align: middle;
+	color:#666666;
+}
+#mainDiv .ra-right .hotMsg .t-tablet-table-info td{
+	border-right: 1px solid #D0D6D9;
+	padding:0 17.6px;
+	cursor: pointer;
+}
+#mainDiv .ra-right .hotMsg .t-tablet-table-info td:hover{
+	color:#0085D0;
+}
+#mainDiv .ra-right .hotMsg .t-tablet-table-info .table-last{
+	border:0;
+}
+/*呼叫转移 短信*/
+#mainDiv .ra-right .callBack{
+	height:15.81%;
+	padding-top:2.37%;
+	border-top: 1px solid #D0D6D9;
+	position: relative;
+}
+#mainDiv .ra-right .callBack label{
+	top:22.77%;
+}
+#mainDiv .ra-right .callBack .textareaDiv{
+	width:82.2%;
+	right:2.9%;
+	background-color: #FFFFFF;
+	height:67%;
+	padding: 0;
+	top:13.37%;
+	border: 1px solid #D0D6D9;
+	/*滚动条*/
+	overflow:auto;
+}
+#mainDiv .ra-right .callBack .textareaDiv .textarea,#mainDiv .ra-right .message .textareaDiv .textarea,#mainDiv .ra-right .message .shortMsgTabs .uiTab textarea{
+	width:100%;
+	height:100%;
+	border:0;
+}
+#mainDiv .ra-right .callBack .t-columns-4{
+	height:22.22%;
+	position: absolute;
+	top:87%;
+	right:5.3%;
+	padding:0;
+	margin: 0;
+	background: #FFFFFF;
+}
+#mainDiv .ra-right .callBack .t-columns-4 .t-columns-group li{
+	height:100%;
+	width: 100%;
+	}
+	#mainDiv .ra-right .callBack .t-columns-4 .t-columns-group li  input{
+		vertical-align: middle;
+		margin-right: 10px;
+	}
+#mainDiv .ra-right .callBack .t-columns-4 .t-columns-group li a{
+	display: inline-block;
+	height:90%;
+	font-size: 12px;
+	line-height: 190%;
+}
+#mainDiv .ra-right .callBack .t-columns-4 .t-columns-group li .cancel{
+	border: 1px solid #0085D0;
+	color:#0085D0;
+	cursor: pointer;
+}
+/*发送短信*/
+#mainDiv .ra-right .message{
+	height: 21.21%;
+	position: relative;
+}
+#mainDiv .ra-right .message .shortMsgTabs{
+	width:82.2%;
+	height:91.67%;
+	background:#fff;
+	position:absolute;
+	border:1px solid #d0d6d9;
+	padding: 0;
+}
+#mainDiv .ra-right .message .shortMsgTabs .uiTab .uiTabHeadOutWrap{
+	height:35px;
+}
+#mainDiv .ra-right .message .shortMsgTabs .uiTab .uiTabItemHead{
+	margin:0;
+}
+/*头部的Tab页的切换和样式*/
+#mainDiv .ra-right .message .shortMsgTabs .uiTab .uiTabHead .uiTabItemHead{
+	cursor: pointer;
+}
+/*选中的tab选项蓝色边框*/
+#mainDiv .ra-right .message .shortMsgTabs .uiTab .uiTabHead .selected{
+	border-bottom: 1px solid #0085D0;
+}
+#mainDiv .ra-right .message .shortMsgTabs .uiTab .uiTabBody{
+	height:67.57%;
+}
+#mainDiv .ra-right .message .shortMsgTabs .uiTab .uiTabBody div{
+	height: 97.1%;
+} 
+#mainDiv .ra-right .message .shortMsgTabs .uiTab .uiTabHead .titleText{
+	font-size: 12px;
+}
+#mainDiv .ra-right .message .shortMsgTabs .uiTab .uiTabItemHead{
+	border: 0;
+}
+#mainDiv .ra-right .message .buttonDiv{
+	height:17.3%;
+	position:absolute;
+	left:11.3%;
+	top:107.3%;
+	background-color: #FFFFFF;
+}
+#mainDiv .ra-right .message .buttonDiv a{
+	height: 100%;
+	line-height: 180%;
+	font-size: 12px;
+}
+.textareaDiv>.filePathHightLight{
+	background:#3A8BE0;
+	color:white;
+}
+.hotspotLi{
+	position:relative;
+}
+.hotspotLi .checkedLogo{
+	width:19px;
+	height:19px;
+	position:absolute;
+	left:1px;
+	top:4px;
+	z-index:2;
+	display:none;
+}
+ #searchPhrase #phrase{
+	border: 1px solid #D0D6D9;
+    margin-top:1px;
+    padding:0.63% 0;
+    width:83%;
+}
+.shortMsgTabs{
+	padding-top:0;
+	padding-bottom:0;
+}
+.shortMsgTabs .uiTabHead{
+	width:100%;
+	height:35px;
+}
+.shortMsgTabs .uiTabHead .uiTabItemHead{
+	margin-top:0;
+} 

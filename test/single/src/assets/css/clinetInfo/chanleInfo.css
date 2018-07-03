@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+#addChanle {width:100%}
+#chanelList {width:100%}
+#chanelInfo {width:100%;display: inline-block;}
+#chanelInfo div{display: inline-block;width: 50%;color: #333;text-align: center;}
+#chanel {width:30%;text-align:center} 
+#chanleDiv  td input {
+	height: 26px;
+	border: 1px solid #DDD;
+	padding: 3px;
+	width: 67%;
+	margin-top: 6px;
+	margin-left: 2%;
+	box-sizing: border-box;
+	outline: none;
+	color: #333;
+	font-size: 14px;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#chanleDiv {
+    padding: 20px;
+}
+#saveChanel {
+    margin: 0 auto;
+    text-align: center;
+    height: 28px;
+    margin-top: 4px;
+    background: #0085D0;
+}

@@ -1,0 +1,297 @@
+{
+  "busiCode": null,
+  "opId": null,
+  "phone": null,
+  "returnCode": "0",
+  "returnMessage": null,
+  "bean": {},
+  "beans": [
+    {
+      "logoURL": "src/assets/img/mediaIcon/webchat/ic-mailbox.png",
+      "channelName": "手机客服",
+      "sendurl": "01",
+      "channelId": "000010010",
+      "iscansend": "1",
+      "servicetypeid": "10086otck",
+      "description": "邮箱",
+      "mediaTypeId": "01"
+    },
+    {
+      "channelName": "短信",
+      "sendurl": "00",
+      "channelId": "020002",
+      "iscansend": "1",
+      "servicetypeid": "10086otck",
+      "description": "短信",
+      "mediaTypeId": "02"
+    },
+    {
+      "logoURL": "src/assets/img/mediaIcon/weixin/tx-wx.png",
+      "channelName": "中国移动10086微信",
+      "sendurl": "01",
+      "channelId": "030007",
+      "iscansend": "0",
+      "servicetypeid": "10086otck",
+      "description": "微信",
+      "mediaTypeId": "03"
+    },
+    {
+      "logoURL": "src/assets/img/mediaIcon/webchat/tx-4g.png",
+      "channelName": "4G管家",
+      "sendurl": "00",
+      "channelId": "080007",
+      "iscansend": "0",
+      "servicetypeid": "10086otck",
+      "description": "4G管家",
+      "mediaTypeId": "01"
+    },
+    {
+      "logoURL": "src/assets/img/mediaIcon/webchat/video_live.jpg",
+      "channelName": "视频直播APP",
+      "sendurl": "",
+      "channelId": "080012",
+      "iscansend": "1",
+      "servicetypeid": "",
+      "description": "视频直播APP",
+      "mediaTypeId": "01"
+    },
+    {
+      "channelName": "招标网API",
+      "sendurl": "",
+      "channelId": "080015",
+      "iscansend": "1",
+      "servicetypeid": "",
+      "description": "招标网API",
+      "mediaTypeId": "03"
+    },
+    {
+      "logoURL": "",
+      "channelName": "中国移动10086微博",
+      "sendurl": "",
+      "channelId": "090009",
+      "iscansend": "1",
+      "servicetypeid": "",
+      "description": "新浪微博",
+      "mediaTypeId": "09"
+    },
+    {
+      "logoURL": "src/assets/img/mediaIcon/weibo/tx-wb.png",
+      "channelName": "CMOS在线",
+      "sendurl": "",
+      "channelId": "099909",
+      "iscansend": "1",
+      "servicetypeid": "",
+      "description": "CMOS在线",
+      "mediaTypeId": "09"
+    },
+    {
+      "channelName": "中国移动微博",
+      "sendurl": "",
+      "channelId": "09a009",
+      "iscansend": "1",
+      "servicetypeid": "",
+      "description": "新浪微博",
+      "mediaTypeId": "09"
+    },
+    {
+      "channelName": "139 邮箱账单",
+      "sendurl": "",
+      "channelId": "100101",
+      "iscansend": "1",
+      "servicetypeid": "",
+      "description": "139 邮箱账单",
+      "mediaTypeId": "01"
+    },
+    {
+      "channelName": "139 邮箱账单手机版",
+      "sendurl": "",
+      "channelId": "100107",
+      "iscansend": "1",
+      "servicetypeid": "",
+      "description": "139 邮箱账单",
+      "mediaTypeId": "01"
+    },
+    {
+      "channelName": "电子发票",
+      "sendurl": "",
+      "channelId": "100201",
+      "iscansend": "1",
+      "servicetypeid": "",
+      "description": "电子发票",
+      "mediaTypeId": "01"
+    },
+    {
+      "channelName": "电子发票手机版",
+      "sendurl": "",
+      "channelId": "100207",
+      "iscansend": "1",
+      "servicetypeid": "",
+      "description": "电子发票",
+      "mediaTypeId": "01"
+    },
+    {
+      "channelName": "邮箱协同",
+      "sendurl": "",
+      "channelId": "100301",
+      "iscansend": "1",
+      "servicetypeid": "",
+      "description": "邮箱协同",
+      "mediaTypeId": "01"
+    },
+    {
+      "channelName": "邮箱协同手机版",
+      "sendurl": "",
+      "channelId": "100307",
+      "iscansend": "1",
+      "servicetypeid": "",
+      "description": "邮箱协同",
+      "mediaTypeId": "01"
+    },
+    {
+      "channelName": "10085",
+      "sendurl": "",
+      "channelId": "110001",
+      "iscansend": "1",
+      "servicetypeid": "",
+      "description": "10085",
+      "mediaTypeId": "01"
+    },
+    {
+      "channelName": "10085商城B用户",
+      "sendurl": "",
+      "channelId": "110007",
+      "iscansend": "1",
+      "servicetypeid": "",
+      "description": "10085",
+      "mediaTypeId": "01"
+    },
+    {
+      "channelName": "10085商城C用户",
+      "sendurl": "",
+      "channelId": "110407",
+      "iscansend": "1",
+      "servicetypeid": "",
+      "description": "10085",
+      "mediaTypeId": "01"
+    },
+    {
+      "channelName": "河南网厅",
+      "sendurl": "",
+      "channelId": "371010001",
+      "iscansend": "1",
+      "servicetypeid": "",
+      "description": "河南网厅",
+      "mediaTypeId": "01"
+    },
+    {
+      "channelName": "河南官微",
+      "sendurl": "",
+      "channelId": "371030007",
+      "iscansend": "1",
+      "servicetypeid": "",
+      "description": "河南官微",
+      "mediaTypeId": "01"
+    },
+    {
+      "channelName": "河南WAP掌厅",
+      "sendurl": "",
+      "channelId": "371080007",
+      "iscansend": "1",
+      "servicetypeid": "",
+      "description": "河南WAP掌厅",
+      "mediaTypeId": "01"
+    },
+    {
+      "channelName": "吉林网厅",
+      "sendurl": "",
+      "channelId": "431010001",
+      "iscansend": "1",
+      "servicetypeid": "",
+      "description": "吉林网厅",
+      "mediaTypeId": "01"
+    },
+    {
+      "logoURL": "src/assets/img/mediaIcon/yuyin/tx-yy.png",
+      "channelName": "语音",
+      "sendurl": "",
+      "channelId": "5",
+      "iscansend": "1",
+      "servicetypeid": "",
+      "description": "语音",
+      "mediaTypeId": "5"
+    },
+    {
+      "channelName": "招标网",
+      "sendurl": "",
+      "channelId": "500012",
+      "iscansend": "1",
+      "servicetypeid": "",
+      "description": "招标网",
+      "mediaTypeId": "01"
+    },
+    {
+      "channelName": "福建网厅",
+      "sendurl": "",
+      "channelId": "591010001",
+      "iscansend": "1",
+      "servicetypeid": "",
+      "description": "福建网厅",
+      "mediaTypeId": "01"
+    },
+    {
+      "channelName": "福建APP",
+      "sendurl": "",
+      "channelId": "591080007",
+      "iscansend": "1",
+      "servicetypeid": "",
+      "description": "福建APP",
+      "mediaTypeId": "01"
+    },
+    {
+      "channelName": "湖南网厅",
+      "sendurl": "",
+      "channelId": "731010001",
+      "iscansend": "1",
+      "servicetypeid": "",
+      "description": "湖南网厅",
+      "mediaTypeId": "01"
+    },
+    {
+      "channelName": "湖南WAP掌厅",
+      "sendurl": "",
+      "channelId": "731050007",
+      "iscansend": "1",
+      "servicetypeid": "",
+      "description": "湖南WAP掌厅",
+      "mediaTypeId": "01"
+    },
+    {
+      "channelName": "广西网厅",
+      "sendurl": "",
+      "channelId": "771010001",
+      "iscansend": "1",
+      "servicetypeid": "",
+      "description": "广西网厅",
+      "mediaTypeId": "01"
+    },
+    {
+      "channelName": "广西APP掌厅",
+      "sendurl": "",
+      "channelId": "771080007",
+      "iscansend": "1",
+      "servicetypeid": "",
+      "description": "广西APP掌厅",
+      "mediaTypeId": "01"
+    },
+    {
+      "channelName": "海南网厅",
+      "sendurl": "",
+      "channelId": "898010001",
+      "iscansend": "1",
+      "servicetypeid": "",
+      "description": "海南网厅",
+      "mediaTypeId": "01"
+    }
+  ],
+  "object": null
+}

@@ -1,0 +1,82 @@
+{
+    "busiCode": null,
+    "opId": null,
+    "phone": null,
+    "returnCode": "0",
+    "returnMessage": null,
+    "bean": {},
+    "beans": [
+        {
+            "cancelFlag": "0",
+                    "channelId": "971920007",
+                    "content": "更多消息1",
+                    "logTime":"2017-01-17 10:31:19",
+                    "mediaTypeId": "01",
+                    "msgType":"001",
+                    "originalCreateTime":"2017-01-17 10:31:18",
+                    "originalId":"0",
+                    "requestAffix":"0",
+                    "senderFlag":"0",
+                    "sourceId":"170117103118313224466",
+                    "staffId":"zhangyuntian"
+        },
+        {
+            "cancelFlag": "0",
+                    "channelId": "971920007",
+                    "content": "更多消息2",
+                    "logTime":"2017-01-17 10:31:19",
+                    "mediaTypeId": "01",
+                    "msgType":"001",
+                    "originalCreateTime":"2017-01-17 10:31:18",
+                    "originalId":"0",
+                    "requestAffix":"0",
+                    "senderFlag":"2",
+                    "sourceId":"170117103118313224466",
+                    "staffId":"zhangyuntian"
+        },
+        {
+            "cancelFlag": "0",
+                    "channelId": "971920007",
+                    "content": "更多消息3",
+                    "logTime":"2017-01-17 10:31:19",
+                    "mediaTypeId": "01",
+                    "msgType":"001",
+                    "originalCreateTime":"2017-01-17 10:31:18",
+                    "originalId":"0",
+                    "requestAffix":"0",
+                    "senderFlag":"0",
+                    "sourceId":"170117103118313224466",
+                    "staffId":"zhangyuntian"
+        },
+        {
+            "cancelFlag": "0",
+                    "channelId": "971920007",
+                    "content": "更多消息4",
+                    "logTime":"2017-01-17 10:31:19",
+                    "mediaTypeId": "01",
+                    "msgType":"001",
+                    "originalCreateTime":"2017-01-17 10:31:18",
+                    "originalId":"0",
+                    "requestAffix":"0",
+                    "senderFlag":"2",
+                    "sourceId":"170117103118313224466",
+                    "staffId":"zhangyuntian"
+        },
+        {
+            "cancelFlag": "0",
+                    "channelId": "971920007",
+                    "content": "更多消息5",
+                    "logTime":"2017-01-17 10:31:19",
+                    "mediaTypeId": "01",
+                    "msgType":"001",
+                    "originalCreateTime":"2017-01-17 10:31:18",
+                    "originalId":"0",
+                    "requestAffix":"0",
+                    "senderFlag":"0",
+                    "sourceId":"170117103118313224466",
+                    "staffId":"zhangyuntian"
+        }
+
+    ],
+    "object": null
+}

@@ -1,0 +1,137 @@
+{
+		  "returnCode":"0",
+		  "returnMessage":"",
+		  "beans":
+			  [
+		           {
+		        	  "phoneNum":"18768867695",
+		        	  "nickName":"昵称",
+		        	 "mSerialNo":"100",
+		        	 "serialNo":"1001",
+		        	 "senderFlag":"0",
+		        	 "msgType":"001",
+		        	 "mediaTypeId":"01",
+		        	 "originalCreateTime":"2017.01.05 19:33:30",
+		        	 "content":"你好",
+		        	 "subject":"消息内容",
+		        	 "canelFlag":"0",
+		        	 "logoUrl":"src/assets/img/queueImg/tx-wx.png"
+		           },
+		           {
+		        	   "contactId":"10086",
+		        	   "nickName":"中国移动",
+		        	   "mserialNo":"100",
+		        	   "serialNo":"1001",
+		        	   "senderFlag":"1",
+		        	   "msgType":"001",
+		        	   "mediaTypeId":"01",
+		        	   "originalCreateTime":"2017.01.05 19:34:00",
+		        	   "content":"中国移动欢迎您",
+		        	   "subject":"欢迎语",
+		        	   "canelFlag":"0",
+		        		"logoUrl":"src/assets/img/queueImg/tx-4g.png"
+		           },
+		           {
+		        	   "contactId":"10086",
+		        	   "nickName":"中国移动",
+		        	   "mserialNo":"100",
+		        	   "serialNo":"1001",
+		        	   "senderFlag":"1",
+		        	   "msgType":"001",
+		        	   "mediaTypeId":"01",
+		        	   "originalCreateTime":"2017.01.05 19:34:02",
+		        	   "content":"有什么可以帮助到您的？",
+		        	   "subject":"欢迎语",
+		        	   "canelFlag":"0",
+		        	   "logoUrl":"src/assets/img/queueImg/tx-4g.png"
+		           },
+		           {
+		        	  "contactId":"18768867695",
+		         	  "nickName":"昵称",
+		         	 "mserialNo":"100",
+		         	 "serialNo":"1001",
+		         	 "senderFlag":"0",
+		         	 "msgType":"001",
+		         	"mediaTypeId":"01",
+		         	 "originalCreateTime":"2017.01.05 19:34:30",
+		         	 "content":"查流量",
+		         	 "subject":"消息内容",
+		         	 "canelFlag":"0",
+		         	"logoUrl":"src/assets/img/queueImg/tx-wx.png"
+		           },
+		           {
+		         	  "contactId":"18768867695",
+		          	  "nickName":"昵称",
+		          	 "mserialNo":"100",
+		          	 "serialNo":"1001",
+		          	 "senderFlag":"0",
+		          	 "msgType":"001",
+		          	"mediaTypeId":"01",
+		          	 "originalCreateTime":"2017.01.05 19:34:30",
+		          	 "content":"流量",
+		          	 "subject":"消息内容",
+		          	 "canelFlag":"0",
+		          	"logoUrl":"src/assets/img/queueImg/tx-wx.png"
+		            },
+		            {
+		         	   "contactId":"10086",
+		         	   "nickName":"中国移动",
+		         	   "mserialNo":"100",
+		         	   "serialNo":"1001",
+		         	   "senderFlag":"2",
+		         	   "msgType":"001",
+		         	  "mediaTypeId":"01",
+		         	   "originalCreateTime":"2017.01.05 19:35:01",
+		         	   "content":"您当月的流量详情如下",
+		         	   "requwstaffix":"src/assets/img/nav/pfsz-hxx-xz.png",
+		         	   "subject":"流量详情",
+		         	   "canelFlag":"0",
+		         	  "logoUrl":"src/assets/img/queueImg/tx-4g.png"
+		            },
+		            {
+		           	  "contactId":"18768867695",
+		            	  "nickName":"昵称",
+		            	 "mserialNo":"100",
+		            	 "serialNo":"1001",
+		            	 "senderFlag":"0",
+		            	 "msgType":"001",
+		            	 "mediaTypeId":"01",
+		            	 "originalCreateTime":"2017.01.05 19:35:30",
+		            	 "content":"话费详情",
+		            	 "subject":"消息内容",
+		            	 "canelFlag":"0",
+		            	"logoUrl":"src/assets/img/queueImg/tx-wx.png"
+		              },
+		              {
+		             	  "contactId":"18768867695",
+		              	  "nickName":"昵称",
+		              	 "mserialNo":"100",
+		              	 "serialNo":"1001",
+		              	 "senderFlag":"0",
+		              	 "msgType":"001",
+		              	"mediaTypeId":"01",
+		              	 "originalCreateTime":"2017.01.05 19:35:45",
+		              	 "content":"查询话费",
+		              	 "subject":"话费内容",
+		              	 "canelFlag":"0",
+		              	"logoUrl":"src/assets/img/queueImg/tx-wx.png"
+		                },
+		                {
+		             	   "contactId":"10086",
+		             	   "nickName":"中国移动",
+		             	   "mserialNo":"100",
+		             	   "serialNo":"1001",
+		             	   "senderFlag":"1",
+		             	   "msgType":"001",
+		             	  "mediaTypeId":"01",
+		             	   "originalCreateTime":"2017.01.05 19:34:55",
+		             	   "content":"话费详情为截至2016年12月31日,您当前的话费余额为10.00元",
+		             	   "subject":"话费详情",
+		             	   "canelFlag":"0",
+		             	   "logoUrl":"src/assets/img/queueImg/tx-4g.png"
+		                }
+		           ]
+}
+
+
+

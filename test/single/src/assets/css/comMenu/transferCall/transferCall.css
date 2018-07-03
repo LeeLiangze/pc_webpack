@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+.callout-box{
+	position: absolute;
+	left: -5px;
+	top: 0px;
+	right:0px;
+	bottom:0px;
+	margin:auto;
+	/* width: 800px;
+	height: 400px; */
+    background: url(../../../../tpl/communication/callHandle/transferOut/call-out-bg.png); 
+    /* background-size:800px 400px;	 */
+}
+.callout-box .float-left{
+	float: left;
+}
+.callout-box .clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.callout-box .clearfloat{zoom:1}
+.callout-box .call-number-panel{
+	width: 260px;
+	height: 235px;
+	/* margin-top: 41px;
+	padding: 0 39px; */
+	position: relative;
+}
+.callout-box .call-number-block{
+	position: absolute;
+	width: 1px;
+	height: 276px;
+	top: -12px;
+	right: 0;
+	background: #EAEEF1;
+}
+.callout-box .call-out-number-choice{
+	width: 260px;
+	height: 219px;
+	padding: 0 40px;
+	position: absolute;
+	left:250px;
+	padding-top: 10px\0;
+}
+.callout-box .call-number-num{
+	float: left;
+	width: 80px;
+	line-height: 58px;
+	color: #108DD3;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	height: 58px;
+	margin-top:5px;
+	background: url(../../../../tpl/communication/callHandle/transferOut/call-out-panel.png);
+}
+.callout-box .call-number-center{
+	margin: 0 10px;
+}
+.callout-box .call-number-bottom{
+	margin-top: 3px;
+	margin-bottom: 6px;
+}
+.callout-box .call-out-number-box{
+	width: 100%;
+	height: 36px;
+	font-size: 12px;
+	position: relative;
+	top:90px;
+}
+.callout-box .call-out-choice{
+	position: relative;
+	height: 36px;
+	width: 178px;
+	margin-bottom: 14px;
+	border: 1px solid #D0D6D9;
+}
+.callout-box .call-out-down{
+	position: absolute;
+	right: 10px;
+	top: 15px;
+}
+.callout-box .call-out-show-number{
+	margin-top: 12px;
+	text-indent: 10px;
+}
+.callout-box .call-out-name{
+	height: 36px;
+	line-height: 42px;
+	margin-right: 32px;
+}
+.callout-box.call-out-call,.callout-box .call-out-cancel{
+	cursor:pointer;
+	position: absolute;
+	width: 120px;
+	height: 56px;
+	background: url(../../../../tpl/communication/callHandle/transferOut/call-out-enter.png) no-repeat;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	bottom: 0;
+	margin-left: 20px\0;
+}
+.callout-box .call-out-call{
+	cursor:pointer;
+	position:absolute;
+	bottom:0;
+	left:12%;
+	top:80%;
+	width: 120px;
+	height: 56px;
+	background: url(../../../../tpl/communication/callHandle/transferOut/call-out-enter.png) no-repeat;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	margin-top:30px;
+}
+
+.callout-box .call-out-cancel{
+	right: -1%;
+	top:80%;
+	color: #0085D0;
+	margin-top:30px;
+	background: url(../../../../tpl/communication/callHandle/transferOut/call-out-cancel.png) no-repeat;
+}
+.callout-box .call-out-more-number{
+	width: 178px;
+	border: 1px solid #D0D6D9;
+	border-top: 0;
+	position: absolute;
+	background: white;
+	z-index: 1;
+	right: 0;
+	top: 54px;
+}
+.callout-box .call-out-number{
+	padding: 3px;
+	text-indent: 10px;
+}
+.callout-box .call-out-more-num{
+	top: 38px;
+}
+.callout-box .hid{
+	display: none;
+}
+.callout-box .call-out-show-number-panpel{
+	border: 0;
+	height: 36px;
+	width: 178px;
+	line-height: 36px;
+	margin-top: 0;
+}
+.callout-box .call-out-more-number-common{
+	top: 38px;
+}
+.callout-box .transferMode{
+	position:absolute;
+	top:70%;
+	top:60%\0;
+	left:17%;
+	
+}
+.callout-box select {
+	width: 200px;
+	height:35px;
+	margin-left:-4px;
+}
+#showInputNum{
+	width:300px;
+	height:40px;
+	margin-top:-8px;
+	
+}
+
+#showInputNum label{
+	float:left;
+	font-size:16px;
+	
+}
+
+.callout-box #showMainCallOutNum{
+	position:absolute;
+	left:45px;
+	padding:0px 0px 0px 10px;
+

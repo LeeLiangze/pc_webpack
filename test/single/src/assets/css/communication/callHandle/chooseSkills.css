@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+/*2017 1 21 by xxq*/
+*{
+	padding: 0;
+	margin: 0;
+}
+.ui-dialog-body{
+	padding:0;
+}
+.outSkill{	
+	width: 100%;
+	height: 100%;
+	background-color: rgba(153,153,153,0.3);
+	position: relative;
+}
+.outSkill .info{
+	width: 840px;
+	height: 580px;
+	background-color: white;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	border-radius: 5px;
+}
+.outSkill .top{
+	overflow: hidden;
+	margin-top: 15px;
+	width: 100%;
+	border-bottom: 2px solid #999999;
+	padding-bottom: 15px;
+}
+.outSkill .top .left{
+	float: left;
+	margin-left: 20px;
+}
+.outSkill .top .left1{
+	color: #222222;
+	font-size: 16px;
+	font-weight: bold;
+}
+.outSkill .top .left2{
+	color: #999999;
+	font-size: 12px;
+}
+.outSkill .top .right{
+	float: right;
+	font-size: 16px;
+	font-weight: bold;
+	color:  #999999;
+	cursor: pointer;
+	margin-right: 20px;
+}
+.outSkill .middle{
+	width: 100%;
+	height: 485px;
+	padding-top: 30px;
+	margin: auto;
+	overflow-y: scroll;
+	border-bottom: 1px solid #999999;
+}
+.outSkill .bottom{
+	width: 100%;
+	height: 60px;
+	margin-top:-4px;
+	background-color:rgba(247,249,250,1);
+}
+.outSkill .btns{
+	width: 310px;
+	margin: auto;
+	margin-top:4px;
+}
+.outSkill .btns span{
+	display: inline-block;
+	width: 138px;
+	height: 38px;
+	border: 1px solid #999999;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 38px;
+	letter-spacing: 5px;
+	color:#0085d0 ;
+	cursor: pointer;
+	margin-top: 10px;
+}
+.outSkill .btns span:hover{
+	background-color: rgb(0,133,208);
+	color: white;
+}
+.outSkill .btns span:active{
+	background-color: rgb(20,153,228);
+}
+ .outSkill .btn1{
+	background-color: white;
+} 
+.outSkill .btn2{
+	margin-left: 20px;
+	background-color: white;
+}
+.outSkill ul{
+	overflow:hidden;
+	margin-left: 35px;
+}
+.outSkill ul li{
+	list-style: none;
+	width: 240px;
+	height: 32px;
+	border: 1px solid #0085d0;
+	border-radius: 3px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.outSkill li .imgs, .allSelect{
+	display:block;
+	width: 17px;
+	height: 17px;
+	margin-top: 10px;
+	float: left;
+	margin-left: 10px;
+}
+ .outSkill li .TXT{
+	display:block;
+	font-size: 12px;
+	color: #222222;
+	float: left;
+	margin-left: 10px;
+	margin-top: 11px;
+	width:202px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+/*鍙戦�侀�氱煡宸﹀彸椤甸潰闂磋窛杩囧皬*/
+.jobNumNotifyDiv #sendNotesWindowvariable{
+		padding: 0 50px;
+}

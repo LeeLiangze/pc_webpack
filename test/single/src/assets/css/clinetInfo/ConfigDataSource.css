@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.ConfigDataSource .dataSource_zTree{
+	
+	border-right: 1px solid green;
+    width: 250px;
+    height: 100%;
+    position: absolute;
+S    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ConfigDataSource .ST_zTree{
+     white-space: nowrap;
+    overflow: scroll;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+    height: 90%;
+    width: 250px;
+}
+.ConfigDataSource .dataSource_list{
+	width: 75%;
+    height: 75%;
+    padding-top: 20px;
+    position: relative;
+    left: 21%;
+    top: 3px;
+    text-align: left
+}
+.ConfigDataSource .add_genre{
+	float: left;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #3A8BE0;
+}
+.ConfigDataSource .add_dataItem{
+	float: left;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #3A8BE0;
+}

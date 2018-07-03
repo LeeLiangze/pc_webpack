@@ -1,0 +1,38 @@
+{
+  "busiCode": null,
+  "opId": null,
+  "phone": null,
+  "returnCode": "0",
+  "returnMessage": null,
+  "bean": {
+    "flag": "0",
+    "accessCode": "4100"
+  },
+  "beans": [
+    {
+      "acceptFlag": "1",
+      "succflag": "1",
+      "serviceTypeId": "cipher",
+      "titleName": "服务密码验证",
+      "inputTitleName": "手机号码",
+      "ivrJnupNum": "4103",
+      "InfoConfigId": "5",
+      "openStyle": "1",
+      "ivrPressKey": "12132",
+      "specialId": "002"
+    },
+    {
+      "acceptFlag": "1",
+      "succflag": "1",
+      "serviceTypeId": "ownId",
+      "titleName": "身份验证",
+      "inputTitleName": "手机号码",
+      "ivrJnupNum": "4103",
+      "InfoConfigId": "6",
+      "openStyle": "1",
+      "ivrPressKey": "12123",
+      "specialId": "006"
+    }
+  ],
+  "object": null
+}

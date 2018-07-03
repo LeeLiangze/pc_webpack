@@ -1,0 +1,11 @@
+{
+	 "returnCode":"0",
+	 "returnMessage":"",
+	 "bean":
+	   {
+		 "limit":"5",
+		 "queryTouchType":"历史接触ID",
+		 "HISTORY_PAGENUM":"0",
+		 "HISTORY_TRAGESIZE":"5"
+	 }
+}

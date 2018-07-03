@@ -1,0 +1,12 @@
+{
+  "busiCode": null,
+  "opId": null,
+  "phone": null,
+  "returnCode": "0",
+  "returnMessage": "成功",
+  "bean": {
+    "total": "0"
+  },
+  "beans": [],
+  "object": null
+}

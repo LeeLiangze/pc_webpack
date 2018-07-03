@@ -1,0 +1,43 @@
+{
+  "busiCode": null,
+  "opId": null,
+  "phone": null,
+  "returnCode": "0",
+  "returnMessage": null,
+  "bean": {},
+  "beans": [
+    {
+      "custInfoFlag": "0",
+      "picUrl": "src/assets/img/nav/stms-yystA.png",
+      "serviceTypeId": "10086otck",
+      "viewDesc": "语音视图A",
+      "viewMode": "01",
+      "touchNwsclmFlag": "1"
+    },
+    {
+      "custInfoFlag": "0",
+      "picUrl": "src/assets/img/nav/stms-yystB.png",
+      "serviceTypeId": "10086otck",
+      "viewDesc": "语音视图B",
+      "viewMode": "02",
+      "touchNwsclmFlag": "1"
+    },
+    {
+      "custInfoFlag": "1",
+      "picUrl": "src/assets/img/nav/stms-hlwst.png",
+      "serviceTypeId": "10086otck",
+      "viewDesc": "融合视图",
+      "viewMode": "03",
+      "touchNwsclmFlag": "1"
+    },
+    {
+      "custInfoFlag": "0",
+      "picUrl": "src/assets/img/nav/stms-glyst.png",
+      "serviceTypeId": "10086otck",
+      "viewDesc": "管理员视图",
+      "viewMode": "04",
+      "touchNwsclmFlag": "0"
+    }
+  ],
+  "object": null
+}

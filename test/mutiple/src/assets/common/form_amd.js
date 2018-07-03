@@ -1,0 +1,1 @@
+define(["jquery"],function(){var e={serialize:function(e){var r=e.serializeArray(),n={};return _.each(r,function(e,r){n[e.name]=e.value}),n}};return e});

@@ -1,0 +1,458 @@
+@charset "UTF-8";
+/** {
+    margin: 0;
+    padding: 0;
+}*/
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+/* sn-list */
+
+.sn-list {
+    position: relative;
+}
+
+.sn-list table {
+    /*width: 100%;*/
+    /*table-layout: fixed;*/
+    font-size: 12px;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    background: #e8eff2;
+}
+.sn-list-content-locker table, .sn-list-header-locker table {
+    table-layout: fixed;
+}
+.sn-list table th, .sn-list table td { border: 1px solid #d7e0e6; }
+
+.sn-list table th,
+.sn-list table td {
+    min-width: 70px;
+    box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 32px;
+    text-align: left;
+    white-space: nowrap;
+    word-break: keep-all;
+}
+
+.sn-list table th {
+    border-bottom: 1px solid #d7e0e6;
+    color: #78909c;
+    font-weight: normal;
+    /*background: #e8eff2;*/
+}
+/*.sn-list .sn-list-header thead {
+    background: #e8eff2;
+}*/
+
+.sn-list table td {
+    border-bottom: 1px solid #eaeef1;
+    color: #222;
+    line-height: 16px;
+}
+
+.sn-list tfoot td.tooltip a {
+    color: #9aacbd;
+    text-decoration: none;
+}
+
+.sn-list tfoot td {
+    border: none;
+}
+
+.sn-list .evenTr td {
+    background-color: #f7f9fa;
+}
+
+.sn-list .oddTr td {
+    background-color: #fff;
+}
+
+.sn-list tbody>tr.hover>td {
+    background-color: #e9f5ff;
+}
+
+.sn-list tbody>tr.selected td {
+    background-color: #fff5cc;
+    /*使用e5f3fa根本无法区分背景色与选中项*/
+}
+
+.sn-list tbody>tr.selected:hover td {
+    background-color: #fff5cc;
+}
+
+.sn-list tbody>tr.info td {
+    background-color: #d5edf8;
+}
+
+.sn-list tbody>tr.info:hover td {
+    background-color: #bfe4f4;
+}
+
+.sn-list tbody>tr.success td {
+    background-color: #e6efc2;
+}
+
+.sn-list tbody>tr.success:hover td {
+    background-color: #deeaae;
+}
+
+.sn-list tbody>tr.error td {
+    background-color: #fbe3e4;
+}
+
+.sn-list tbody>tr.error:hover td {
+    background-color: #f8cdce;
+}
+
+.sn-list tbody>tr.warning td {
+    background-color: #fff6bf;
+}
+
+.sn-list tbody>tr.warning:hover td {
+    background-color: #fff2a6;
+}
+
+.sn-list tbody>tr .btnStyles>a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+/*footer*/
+
+.sn-list .sn-list-footer:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+/*buttons*/
+
+.sn-list .btns {
+    float: left;
+    padding: 0px;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 10px;
+    vertical-align: middle;
+    margin: 4px 0 15px;
+}
+
+.sn-list .btns .btn {
+    height: 22px;
+    outline: none;
+    font-size: 12px;
+    line-height: 22px;
+    color: #0085d0;
+    padding: 0 10px;
+    border: 1px solid #0085d0;
+    border-radius: 3px;
+    background: #FFF;
+}
+
+.sn-list .btns .btn:hover {
+    background: #e5f3fa;
+}
+
+.sn-list .btns .btn:active {
+    background: #eaeef1;
+}
+
+
+/* pagination */
+
+.sn-list-pagination {
+    float: right;
+    margin: 4px 0 10px;
+    text-align: right;
+    font-size: 12px;
+}
+
+.sn-list-pagination span,
+.sn-list-pagination a {
+    margin: 0 3px;
+    display: inline-block;
+    float: none !important;
+}
+
+.sn-list-pagination .current {
+    background: #FFF;
+    color: #0085d0;
+    border: 1px solid #0085d0;
+}
+
+.sn-list-pagination .current,
+.sn-list-pagination .disabled,
+.sn-list-pagination a {
+    padding: 0 8px;
+    line-height: 22px;
+    height: 22px;
+    text-decoration: none;
+}
+
+.sn-list-pagination .prev:before {
+    content: "＜";
+}
+
+.sn-list-pagination .next:before {
+    content: "＞";
+}
+
+.sn-list-pagination a {
+    color: #666;
+    background: #FFF;
+    border: 1px solid #d0d6d9;
+}
+
+.sn-list-pagination a:hover {
+    text-decoration: none;
+    color: #0085d0;
+    background-color: #FFF;
+    border: 1px solid #0085d0;
+}
+
+.sn-list-pagination .current span {
+    background: #FFF;
+    color: #0085d0;
+    border: 1px solid #0085d0;
+}
+
+.sn-list-pagination .disabled span {
+    color: #AAA;
+}
+
+.sn-list-pagination input,
+.sn-list-pagination select {
+    border: solid 1px #ddd;
+    width: 30px;
+    padding: 4px 0;
+}
+
+.sn-list .buttons>div {
+    display: inline-block;
+}
+
+.sn-list-pagination .total {
+    color: #999;
+}
+
+.sn-list-pagination .selectPerPage {
+    border-radius: 0;
+    width: 50px;
+}
+
+.sn-list-pagination .per-page em,
+.sn-list-pagination .input-box em {
+    color: #999;
+    font-style: normal;
+}
+
+.sn-list-pagination .per-page,
+.sn-list-pagination .input-box {
+    margin-left: 16px;
+}
+
+
+/* sn-list-loading */
+
+.sn-list-blockOverlay {
+    display: inline-block;
+    text-align: center;
+    background: #FFF;
+}
+
+.sn-list-result {
+    display: inline-block;
+}
+
+.sn-list-result span {
+    display: block;
+    line-height: 18px;
+    font-size: 12px;
+    color: #888;
+}
+
+.sn-list-loading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -6px 0 0 -38px;
+}
+
+.sn-list-loading span {
+    line-height: 18px;
+    font-size: 12px;
+    color: #888;
+}
+
+.sn-list-loading img {
+    float: left;
+    margin-right: 5px;
+}
+
+
+/* sn-tip-content */
+
+.sn-tip-content {
+    font-size: 12px;
+}
+
+.sn-tip-content>ul li {
+    list-style: none;
+    height: 24px;
+    line-height: 24px;
+    float: left;
+    color: #777;
+    margin-right: 20px;
+}
+
+.sn-tip-content>ul li>label {
+    display: inline-block;
+    text-align: right;
+}
+
+.sn-tip-content>ul li>span {
+    display: inline-block;
+}
+
+.sn-tip-content>ul li.width-all {
+    width: 100%;
+}
+
+.sn-tip-content>ul li.width-all>label {
+    width: auto;
+}
+
+.sn-tip-content>ul li.space-line {
+    width: 100%;
+    margin: 4px auto;
+    height: 1px;
+    border-bottom: 1px dotted #DDD;
+}
+
+
+/*列表提示样式 add 2016-1-30*/
+
+.sn-list-tip {
+    font-size: 12px;
+    color: #777;
+    line-height: 24px;
+    overflow: hidden;
+}
+
+.sn-list-tip .list-items {
+    border-top: 1px dotted #ddd;
+    padding: 10px 0;
+    margin-top: -1px;
+}
+
+.sn-list-tip .list-items h3 {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.sn-list-tip .list-level {
+    float: left;
+}
+
+.sn-list-tip .list-level label {
+    display: inline-block;
+    text-align: right;
+}
+
+
+/*locked*/
+
+.sn-list-table {
+    position: relative;
+    white-space: nowrap;
+}
+
+.sn-list-header {
+    white-space: nowrap;
+}
+
+.sn-list-header,
+.sn-list-table {
+    font-size: 0;
+}
+
+.sn-list-header-locker,
+.sn-list-header-wrap {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.sn-list-header-wrap {
+    width: 1px;
+    overflow: hidden;
+}
+
+.sn-list-content-locker,
+.sn-list-content {
+    height: 1px;
+    display: none;
+    vertical-align: top;
+}
+
+.sn-list-content-locker {
+    overflow: hidden;
+}
+
+.sn-list-content-locker table td input {
+    float: left;
+}
+
+.sn-list-content {
+    overflow: auto;
+    width: 1px;
+}
+
+.sn-list-show {
+    display: inline-block;
+}
+
+.sn-list-hide {
+    display: none;
+}
+
+.sn-list-display-block {
+    display: block;
+}
+
+.sn-list-content table,
+.sn-list-header-wrap table {
+    width: 100%;
+}
+
+
+/*pupup layer*/
+
+.sn-list-popupLayer .ui-dialog-body {
+    padding: 20px;
+    text-align: center;
+}

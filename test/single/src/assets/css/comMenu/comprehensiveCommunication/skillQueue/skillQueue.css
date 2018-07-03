@@ -1,0 +1,211 @@
+@CHARSET "UTF-8";
+ .list_skillQue{
+	height:255px; 
+	width:95%;
+	overflow:auto;
+	clear:both;
+	margin-top:20px;
+	margin-left:2.5%;
+	margin-right:2.5%;
+}
+
+.proAndCityDiv {
+	width:50%;
+	padding : 2.5%;
+	float:left;		
+}
+
+.boxes{
+	font-size:10px;
+	overflow:hidden;
+	 }
+.jf-right-wrap-bak-bak{
+	padding: 10px;
+    position: relative;
+    background: #FFF;
+}
+.liRight{
+	text-align:right;
+}
+
+.jf-right-wrap-bak{
+    position: relative;
+    background: #FFF;
+    font-size: 12px;
+    color: #222222;
+    width: 100%;
+}
+.textarea{
+	font-size:10px;
+	overflow:hidden;
+}
+	 
+.proAndCity > li {
+	float:left;
+}
+
+.labelLi {
+	padding-right:2.5%;
+}
+/*修改*/
+/*.separatorLi {
+	padding-left:1%;
+	padding-right:1%;
+}*/
+.separatorLi label{
+	width: 14px;
+	display: inline-block;
+}
+.commentDiv {
+	height:130px;
+	padding-left:2.5%;
+	padding-top:2.5%;
+	vertical-align:top;
+	width: 95%;
+}
+
+.commentDiv > ul > li {
+	float:left;
+}
+
+.commentDiv > ul > li > label {
+	float:left;
+	text-align:left;
+}
+
+.commentDiv > ul > li > div {
+	
+	float:left;
+	width:86%;
+}
+
+.commentDiv > ul > li > div > textarea {
+	width:100%;
+}
+
+.commentLi {
+	margin-right: 40px;
+	width:50%;
+}
+
+.commentLi > label {
+/*	width:16%;*/
+	margin-top:20px;
+	margin-right: 20px;
+	
+}
+
+.commentLi > div {
+	margin-top:10px;
+}
+hr{
+	border: none;
+	border-bottom: 1px solid #d0d6d9;
+}
+.radioLi {
+	/*padding-left:2.5%;*/
+	width:35%;
+	margin-top: 10px;
+}
+.radioLi > label {
+	text-align:center;
+	width:14%;
+	margin-top:10px;
+}
+
+.radioLi > input {
+	margin-top:13px;
+	margin-left:20px;
+	margin-right: 10px;
+	vertical-align: sub;
+}
+
+.buttonDiv {
+	padding-top: 2%;
+    padding-bottom: 2%;
+    background: #faf9fc;
+}
+
+.buttonDiv > ul {
+	text-align:center;
+	overflow : hidden;
+}
+
+.buttonDiv > ul > li.liShow {
+	display:inline;
+}
+
+.buttonDiv > ul > li input {
+	width:141px;
+	margin-right:20px;
+}
+
+li.liHide {
+	display:inline;
+	position:relative;
+	top:0;
+}
+
+.notifyDiv {
+	display:none;
+}
+
+#notesId_skillQue {
+	resize:none;
+	width: 100%;
+	height: 76px;
+	border: 1px solid #D0D6D9;
+}
+
+.buttonDiv li.disabled input {
+	background: #fff;
+    color: gray;
+    border: 1px solid lightgray;
+	cursor:auto;
+	height: 38px;
+}
+
+.buttonDiv li.enable input {
+	background: #0085D0;
+    color: white;
+    cursor:pointer;
+    height: 38px;
+}
+
+.labelLi label{
+	display: inline-block;
+	padding-top: 7px;
+}
+/*修改的*/
+#provinceId_skillQue select {
+	height: 36px;
+	width: 247px;
+	text-indent: 14px;
+	border: 1px solid #D0D6D9;
+/*    border-radius: 4px;*/
+}
+
+#cityId_skillQue select {
+		height: 36px;
+	width: 247px;
+	text-indent: 14px;
+	border: 1px solid #D0D6D9;
+/*    border-radius: 4px;*/
+}
+
+.labelLi {
+	padding-top:3px;
+}
+
+/* .show_waitingNum { */
+/* 	float:right; */
+/* 	padding-top: 1%; */
+/*     padding-right: 2.5%; */
+/* } */
+
+/* table.waitingTable {  width: 100%; margin-bottom: 20px; font-size: 12px; border-collapse: collapse; border-spacing: 0;} */
+/* table.waitingTable th { padding: 8px; background: #FFF; font-weight: bold; color: #666; border: 1px solid #DDD; text-align:center;} */
+/* table.waitingTable td { padding: 8px; border: 1px solid #DDD; line-height: 16px; text-align:center;} */
+/* .waitingTR { height:33px;} */
+/* .waitingTD { width:120px;} */
+/* .selectedTR{ background-color:#fff5cc;} */

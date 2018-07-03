@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+div.ui-dialog-content {
+    overflow: auto;
+}
+#viewHistory{
+	text-align: center;
+	overflow-x: hidden;
+	overflow-y:auto;
+}
+#viewHistory .revokeDiv{
+	color:white;
+	font-size:12px;
+	margin-bottom:5px;
+	margin-left:40%;
+}

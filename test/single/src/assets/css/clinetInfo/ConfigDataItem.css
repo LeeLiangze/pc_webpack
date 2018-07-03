@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+.ConfigDataItem .ConfigDataItem_zTree{
+	
+	border-right: 1px solid green;
+    width: 250px;
+    height: 100%;
+    position: absolute;
+S    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ConfigDataItem .ST_zTree{
+    white-space: nowrap;
+    overflow: scroll;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+    height: 90%;
+    width: 250px;
+}
+.ConfigDataItem .CDItem_ul{
+	   width: 74%;
+    height: 100%;
+    padding-top: 60px;
+    position: relative;
+    left: 20%;
+}
+.ConfigDataItem  .CDItem_ul li span{
+	display:inline-block;
+	width:100px;
+	text-align:right;
+}
+.ConfigDataItem .CDItem_ul li{
+	 margin:13px;
+	 height: 30px
+}
+.ConfigDataItem input{
+	 margin-right: 60px; 
+    width: 160px;
+}
+.ConfigDataItem select{
+	width: 160px;
+	 margin-right: 60px; 
+    
+}
+.ConfigDataItem .CDItem_left{
+	margin-right: 20px;
+}
+.ConfigDataItem .CDItem_right{
+	margin-right: 20px;
+}
+.ConfigDataItem .addCon_genre{
+	float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #3A8BE0;
+}
+.ConfigDataItem .addCon_dataItem{
+	float: left;
+    margin-left: 18px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #3A8BE0;
+}
+.ConfigDataItem .CDItem_submit {
+	float: right;
+    width: 40px;
+    text-align: center;
+    background-color: #3A8BE0;
+	margin-top: 70px;   
+}
+.ConfigDataItem .CDItem_reset {
+	float: right;
+    width: 40px;
+    text-align: center;
+    background-color: #3A8BE0;
+	margin-top: 70px;   
+}
+.ConfigDataItem .CDItem_delete {
+	float: right;
+    width: 40px;
+    text-align: center;
+    background-color: #3A8BE0;
+	margin-top: 70px;   
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>前端基础框架</title>
+    <link rel="stylesheet" href="/css/style.min.css" />
+</head>
+<body>
+<form  id="validatorContainer">
+    <div>
+        <label>手机号</label>
+        <input type="text" name="mobile" value=""/>
+        <label>开始时间</label>
+        <input type="text" name="time" value=""/>
+        <label>邮箱</label>
+        <input type="text" name="email" value=""/>
+        <label>品牌</label>
+        <input type="text" name="brand" value=""/>
+        <label>数字</label>
+        <input type="text" name="content" value=""/>
+        <span class="btn btn-success fileinput-button">
+                    <i class="glyphicon glyphicon-plus"></i>
+                    <span>请选择文件</span>
+            <!-- The file input field used as target for the file upload widget -->
+                    <input id="fileupload" type="file" name="files" multiple>
+                </span>
+
+        <input type="button" class="btnSearch" value="验证"/>
+    </div>
+</form>
+<script>
+    //解决ie下console.log()报错问题
+    window.console = window.console || (function(){
+                var c = {};
+                c.log = c.warn = c.debug = c.info = c.error = c.time = c.dir = c.profile = c.clear = c.exception = c.trace = c.assert = function(){};
+                return c;
+            })();
+</script>
+</body>
+</html>

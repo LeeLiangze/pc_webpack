@@ -1,0 +1,182 @@
+{
+
+        "returnCode": "0",
+        "returnMessage": "",
+        "beans": [
+        		
+				{
+				    "ITEMID": "basInfo",
+				    "ITEMNAME": "基本信息",
+				    "ORDERNUM": "1",
+				    "NODETYPE":"02",
+				    "SuperCode": "yyA"
+				},
+  	           {
+  	                "ITEMID": "castName",
+  	                "ITEMNAME": "客户姓名",
+  	                "ORDERNUM": "1",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "SuperCode": "basInfo"
+  	            },
+  	           {
+  	                "ITEMID": "assChannel",
+  	                "ITEMNAME": "关联渠道",
+  	                "ORDERNUM": "2",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "CUSTOMIZE",
+  	                "DISPLAYSCRIPT":"assChannel",
+  	                "SuperCode": "basInfo"
+  	            },
+  	           {
+  	                "ITEMID": "castLevel",
+  	                "ITEMNAME": "星级",
+  	                "ORDERNUM": "3",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "CUSTOMIZE",
+  	                "DISPLAYSCRIPT":"castLevel",
+  	                "SuperCode": "basInfo"
+  	            },
+  				 {
+  	                "ITEMID": "castState",
+  	                "ITEMNAME": "开关机",
+  	                "ORDERNUM": "4",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "SuperCode": "basInfo"
+  	            },
+  	           {
+  				    "ITEMID": "numInfo",
+  				    "ITEMNAME": "号码信息",
+  				    "ORDERNUM": "2",
+  				    "NODETYPE":"02",
+  				    "SuperCode": "yyA"
+  				},
+  	           {
+  	                "ITEMID": "callerNo",
+  	                "ITEMNAME": "主叫号码",
+  	                "ORDERNUM": "1",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "SuperCode": "numInfo"
+  	            },
+  	           {
+  	                "ITEMID": "calledNo",
+  	                "ITEMNAME": "被叫号码",
+  	                "ORDERNUM": "2",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "SuperCode": "numInfo"
+  	            },
+  	           {
+  	                "ITEMID": "subsNumber",
+  	                "ITEMNAME": "受理号码",
+  	                "ORDERNUM": "3",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "TEXT",
+  	                "SuperCode": "numInfo"
+  	            },
+  	           {
+  	                "ITEMID": "provNmView",
+  	                "ITEMNAME": "号码归属",
+  	                "ORDERNUM": "4",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "SuperCode": "numInfo"
+  	            },
+  				{
+  	                "ITEMID": "overdraft",
+  	                "ITEMNAME": "透支额度",
+  	                "ORDERNUM": "5",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "SuperCode": "numInfo"
+  	            },
+  	           {
+  				    "ITEMID": "packageInfo",
+  				    "ITEMNAME": "套餐信息",
+  				    "ORDERNUM": "3",
+  				    "NODETYPE":"02",
+  				    "SuperCode": "yyA"
+  				},
+  				{
+  	                "ITEMID": "curPlanName",
+  	                "ITEMNAME": "资费套餐",
+  	                "ORDERNUM": "1",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "CUSTOMIZE",
+  	                "DISPLAYSCRIPT":"curPlanName",
+  	                "SuperCode": "packageInfo"
+  	            },
+  	           {
+  				    "ITEMID": "orderInfo",
+  				    "ITEMNAME": "订单信息",
+  				    "ORDERNUM": "4",
+  				    "NODETYPE":"02",
+  				    "SuperCode": "yyA"
+  				},
+  	           {
+  	                "ITEMID": "operationState",
+  	                "ITEMNAME": "运行状态",
+  	                "ORDERNUM": "1",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "SuperCode": "orderInfo"
+  	            },
+        		 {
+  	                "ITEMID": "ListCustomer",
+  	                "ITEMNAME": "名单客户",
+  	                "ORDERNUM": "2",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "SuperCode": "orderInfo"
+  	            },
+  	            {
+  	                "ITEMID": "paymentMethod",
+  	                "ITEMNAME": "付款方式",
+  	                "ORDERNUM": "3",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "SuperCode": "orderInfo"
+  	            },
+        		{
+  	                "ITEMID": "custAscription",
+  	                "ITEMNAME": "客户归属",
+  	                "ORDERNUM": "4",
+  	                "NODETYPE":"03",
+  	                "DISPLAYTYPE": "LABLE",
+  	                "SuperCode": "orderInfo"
+  	            },
+                 {
+  				    "ITEMID": "numberLevel",
+  				    "ITEMNAME": "号码级别",
+  				    "ORDERNUM": "5",
+  				    "NODETYPE":"03",
+  				    "DISPLAYTYPE": "LABLE",
+  				    "SuperCode": "orderInfo"
+  				},
+                  {
+                      "ITEMID": "networkTime",
+                      "ITEMNAME": "入网时间",
+                      "ORDERNUM": "6",
+                      "NODETYPE":"03",
+                      "DISPLAYTYPE": "LABLE",
+                      "SuperCode": "orderInfo"
+                  },
+                  {
+  				    "ITEMID": "tagInfo",
+  				    "ITEMNAME": "标签信息",
+  				    "ORDERNUM": "5",
+  				    "NODETYPE":"02",
+  				    "SuperCode": "yyA"
+  				},
+  				{
+                      "ITEMID": "custTag",
+                      "ITEMNAME": "客户标签",
+                      "ORDERNUM": "1",
+                      "NODETYPE":"03",
+                      "DISPLAYTYPE": "CUSTOMIZE",
+  	                  "DISPLAYSCRIPT":"custTag",
+                      "SuperCode": "tagInfo"
+                  }]
+}
